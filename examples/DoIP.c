@@ -116,57 +116,100 @@ err_t doip_recv(void *arg, struct tcp_pcb *tpcb, struct pbuf *p, err_t err)
 			pbuf_free(p);
 		}
 		ret_err = err;
-	} else if (es->state == ES_ACCEPTED) {
-		/* first data chunk in p->payload */
-		es->state = ES_RECEIVED;
-		/* store reference to incoming pbuf (chain) */
-		es->p = p;
-		/* install send completion notifier */
-		tcp_sent(tpcb, doip_sent);
-		doip_send(tpcb, es);
-		ret_err = ERR_OK;
-	} else if (es->state == ES_RECEIVED) {
-		/* read some more data */
-		if (es->p == NULL) {
-			es->p = p;
+	} else if (es->state == ES_RECEIVED) { // ES_ACCEPTED 상태도 포함하여 처리
+	    if (es->p == NULL) {
+	        es->p = p;
+	        // ========================[ 코드 수정 시작 ]========================
 
-			volatile uint8 service_id = *(((uint8*)p->payload) + 12);
-			volatile uint16 data_id = *(((uint8*)p->payload) + 13) << 8 | *(((uint8*)p->payload) + 14);
+	            // 1. DoIP Generic Header를 먼저 파싱하여 메시지 종류(Payload Type)를 확인합니다.
+	            uint16 payload_type = (*(((uint8*)p->payload) + 2) << 8) | (*(((uint8*)p->payload) + 3));
 
-			uint8 respMsg[] =
-			{
-					0x03, /* Protocol Version */
-					0xFC, /* Inverse Protocol Version */
-					0x80, 0x01, /* DoIP Payload Type */
-					0x00, 0x00, 0x00, 0x09, /* DoIP Payload Length */
+	            // 2. Payload Type에 따라 분기하여 처리합니다.
+	            if (payload_type == 0x0005) // Routing Activation Request 수신 시
+	            {
+	                // 2-1. 'Routing Activation Response' 메시지를 생성합니다. (Payload Type: 0x0006)
+	                uint8 routingActivationResp[] = {
+	                        0x03,       // Protocol Version
+	                        0xFC,       // Inverse Protocol Version
+	                        0x00, 0x06, // Payload Type: Routing Activation Response
+	                        0x00, 0x00, 0x00, 0x09, // Payload Length: 9 Bytes
 
-					/* DoIP Payload */
-					0x02, 0x01, /* DoIP Src Addr */
-					0x02, 0x00, /* DoIP Target Addr */
-					0x62, 0x00, /* UDS */
-					0x00, 0x00, 0x00 /* Sensor Values */
-			};
+	                        /* DoIP Payload */
+	                        0x00, 0x00, // Client Logical Address (요청 메시지에서 가져올 예정)
+	                        0x02, 0x01, // DoIP Entity Logical Address (ECU의 주소, 예시)
+	                        0x10,       // Response Code: 0x10 (Activation successful)
+	                        0x00, 0x00, 0x00, 0x00  // Reserved
+	                };
 
-			uint16_t ADC_val;
-			if (service_id == 0x22) {
-			    if (data_id == 0x1) {
-					ADC_val = (uint16)Evadc_readVR();
-					respMsg[14] = 0x01;
-					respMsg[15] = ADC_val >> 8;
-					respMsg[16] = (uint8)ADC_val;
-				}else if (data_id == 0x2) {
-                    uint16 ADC_val = (uint16)Evadc_readPR();  // 포토레지스터 값 읽기
-                    respMsg[14] = 0x02;               // 응답에도 0x02 (같이 유지)
-                    respMsg[15] = ADC_val >> 8;
-                    respMsg[16] = (uint8)ADC_val;
-                }
-			}
+	                // 요청 메시지에서 Client 주소를 읽어와 응답 메시지에 채워줍니다.
+	                // (DoIP Header 8bytes 뒤에 Client 주소 2bytes가 위치)
+	                routingActivationResp[8] = *(((uint8*)p->payload) + 8);
+	                routingActivationResp[9] = *(((uint8*)p->payload) + 9);
 
-			es->p->len = 17;
-			memcpy(es->p->payload, respMsg, sizeof(respMsg));
+	                es->p->len = sizeof(routingActivationResp);
+	                memcpy(es->p->payload, routingActivationResp, sizeof(routingActivationResp));
 
-			tcp_sent(tpcb, doip_sent);
-			doip_send(tpcb, es);
+	                tcp_sent(tpcb, doip_sent);
+	                doip_send(tpcb, es);
+
+	            }
+	            else if (payload_type == 0x8001) // Diagnostic Message 수신 시
+	            {
+	                // 2-2. 기존의 UDS 메시지 처리 로직을 그대로 수행합니다.
+	                volatile uint8 service_id = *(((uint8*)p->payload) + 12);
+	                volatile uint16 data_id = (*(((uint8*)p->payload) + 13) << 8) | (*(((uint8*)p->payload) + 14));
+
+	                uint8 respMsg[] = {
+	                        0x03,       // Protocol Version
+	                        0xFC,       // Inverse Protocol Version
+	                        0x80, 0x01, // DoIP Payload Type: Diagnostic Message
+	                        0x00, 0x00, 0x00, 0x09, // DoIP Payload Length
+
+	                        /* DoIP Payload */
+	                        0x02, 0x01, // DoIP Src Addr (ECU 주소)
+	                        0x0E, 0x80, // DoIP Target Addr (Client 주소, 예시)
+	                        0x62,       // UDS Positive Response
+	                        0x00, 0x00, // DID
+	                        0x00, 0x00  // Sensor Value
+	                };
+
+	                // Target 주소를 요청의 Source 주소로 설정해주는 것이 더 정확합니다.
+	                respMsg[10] = *(((uint8*)p->payload) + 8);
+	                respMsg[11] = *(((uint8*)p->payload) + 9);
+
+	                uint16_t ADC_val;
+	                if (service_id == 0x22) {
+	                    if (data_id == 0x1) {
+	                        ADC_val = (uint16)Evadc_readVR();
+	                        respMsg[13] = 0x00;
+	                        respMsg[14] = 0x01;
+	                        respMsg[15] = ADC_val >> 8;
+	                        respMsg[16] = (uint8)ADC_val;
+	                    } else if (data_id == 0x2) {
+	                        ADC_val = (uint16)Evadc_readPR();
+	                        respMsg[13] = 0x00;
+	                        respMsg[14] = 0x02;
+	                        respMsg[15] = ADC_val >> 8;
+	                        respMsg[16] = (uint8)ADC_val;
+	                    }
+	                }
+
+	                // Diagnostic Message의 Payload는 SA(2) + TA(2) + UserData(...) 이므로 길이를 재조정합니다.
+	                // 여기서는 UDS 응답이 62 + DID(2) + Value(2) = 5바이트 이므로, 총 Payload는 9바이트입니다.
+	                es->p->len = 8 + 9; // Header + Payload
+	                memcpy(es->p->payload, respMsg, sizeof(respMsg));
+
+	                tcp_sent(tpcb, doip_sent);
+	                doip_send(tpcb, es);
+	            }
+	            else
+	            {
+	                // 2-3. 그 외 알 수 없는 타입의 메시지는 무시하거나 NACK(부정 응답) 처리 (여기서는 무시)
+	                pbuf_free(p); // 받은 패킷 버퍼 해제
+	                es->p = NULL;
+	            }
+	            // ========================[ 코드 수정 끝 ]========================
+
 		} else {
 			struct pbuf *ptr;
 

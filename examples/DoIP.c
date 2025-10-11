@@ -91,104 +91,63 @@ err_t doip_accept(void *arg, struct tcp_pcb *newpcb, err_t err)
 
 err_t doip_recv(void *arg, struct tcp_pcb *tpcb, struct pbuf *p, err_t err)
 {
-	struct doip_state *es;
-	err_t ret_err;
+    struct doip_state *es;
+    err_t ret_err = ERR_OK;
 
-	LWIP_ASSERT("arg != NULL", arg != NULL);
-//	LWIP_DEBUGF(ECHO_DEBUG, ("doip_recv\n"));
-	es = (struct doip_state*) arg;
-	if (p == NULL) {
-		/* remote host closed connection */
-		es->state = ES_CLOSING;
-		if (es->p == NULL) {
-			/* we're done sending, close it */
-			doip_close(tpcb, es);
-		} else {
-			/* we're not done yet */
-			tcp_sent(tpcb, doip_sent);
-			doip_send(tpcb, es);
-		}
-		ret_err = ERR_OK;
-	} else if (err != ERR_OK) {
-		/* cleanup, for unkown reason */
-		if (p != NULL) {
-			es->p = NULL;
-			pbuf_free(p);
-		}
-		ret_err = err;
-	} else if (es->state == ES_ACCEPTED) {
-		/* first data chunk in p->payload */
-		es->state = ES_RECEIVED;
-		/* store reference to incoming pbuf (chain) */
-		es->p = p;
-		/* install send completion notifier */
-		tcp_sent(tpcb, doip_sent);
-		doip_send(tpcb, es);
-		ret_err = ERR_OK;
-	} else if (es->state == ES_RECEIVED) {
-		/* read some more data */
-		if (es->p == NULL) {
-			es->p = p;
+    LWIP_ASSERT("arg != NULL", arg != NULL);
+    es = (struct doip_state*) arg;
 
-			volatile uint8 service_id = *(((uint8*)p->payload) + 12);
-			volatile uint16 data_id = *(((uint8*)p->payload) + 13) << 8 | *(((uint8*)p->payload) + 14);
+    if (p == NULL) {
+        // 연결 종료 처리
+        es->state = ES_CLOSING;
+        doip_close(tpcb, es);
+        return ERR_OK;
+    } else if (err != ERR_OK) {
+        // 오류 발생 시 버퍼 해제
+        if (p != NULL) { pbuf_free(p); }
+        return err;
+    }
 
-			uint8 respMsg[] =
-			{
-					0x03, /* Protocol Version */
-					0xFC, /* Inverse Protocol Version */
-					0x80, 0x01, /* DoIP Payload Type */
-					0x00, 0x00, 0x00, 0x09, /* DoIP Payload Length */
+    // 1. DoIP 페이로드 타입 확인
+    uint16_t payload_type = (*(((uint8*)p->payload) + 2) << 8) | *(((uint8*)p->payload) + 3);
 
-					/* DoIP Payload */
-					0x02, 0x01, /* DoIP Src Addr */
-					0x02, 0x00, /* DoIP Target Addr */
-					0x62, 0x00, /* UDS */
-					0x00, 0x00, 0x00 /* Sensor Values */
-			};
+    // 2. 페이로드 타입에 따라 분기하여 처리
+    if (payload_type == 0x0005) // Routing Activation Request
+    {
+        // 라우팅 활성화 긍정 응답 메시지 생성
+        uint8 resp_payload[] = {
+            0x02, 0xFD, 0x00, 0x06, 0x00, 0x00, 0x00, 0x05, // DoIP Header
+            0x0E, 0x80, 0x02, 0x01, 0x10,                 // Payload (Code: 0x10 = Success)
+        };
 
-			uint16_t ADC_val;
-			if (service_id == 0x22) {
-			    if (data_id == 0x1) {
-					ADC_val = (uint16)Evadc_readVR();
-					respMsg[14] = 0x01;
-					respMsg[15] = ADC_val >> 8;
-					respMsg[16] = (uint8)ADC_val;
-				}else if (data_id == 0x2) {
-                    uint16 ADC_val = (uint16)Evadc_readPR();  // 포토레지스터 값 읽기
-                    respMsg[14] = 0x02;               // 응답에도 0x02 (같이 유지)
-                    respMsg[15] = ADC_val >> 8;
-                    respMsg[16] = (uint8)ADC_val;
-                }
-			}
+        // 응답 전송
+        tcp_write(tpcb, resp_payload, sizeof(resp_payload), 1);
+        tcp_output(tpcb);
+    }
+    else if (payload_type == 0x8001) // UDS Message
+    {
+        uint8 service_id = *(((uint8*)p->payload) + 8);
+        uint16 data_id = (*(((uint8*)p->payload) + 9) << 8) | *(((uint8*)p->payload) + 10);
 
-			es->p->len = 17;
-			memcpy(es->p->payload, respMsg, sizeof(respMsg));
+        if (service_id == 0x22 && data_id == 0x0002)
+        {
+            uint16_t adc_val = (uint16_t)Evadc_readPR();
 
-			tcp_sent(tpcb, doip_sent);
-			doip_send(tpcb, es);
-		} else {
-			struct pbuf *ptr;
+            // UDS 긍정 응답 메시지 생성
+            uint8 resp_payload[13] = {
+                0x02, 0xFD, 0x80, 0x02, 0x00, 0x00, 0x00, 0x05, // DoIP Header
+                0x62, (data_id >> 8) & 0xFF, data_id & 0xFF,
+                (adc_val >> 8) & 0xFF, adc_val & 0xFF
+            };
 
-			/* chain pbufs to the end of what we recv'ed previously  */
-			ptr = es->p;
-			pbuf_chain(ptr, p);
-		}
-		ret_err = ERR_OK;
-	} else if (es->state == ES_CLOSING) {
-		/* odd case, remote side closing twice, trash data */
-		tcp_recved(tpcb, p->tot_len);
-		es->p = NULL;
-		pbuf_free(p);
-		ret_err = ERR_OK;
-	} else {
-		/* unkown es->state, trash data  */
-		tcp_recved(tpcb, p->tot_len);
-		es->p = NULL;
-		pbuf_free(p);
-		ret_err = ERR_OK;
-	}
-	return ret_err;
+            // 응답 전송
+            tcp_write(tpcb, resp_payload, sizeof(resp_payload), 1);
+            tcp_output(tpcb);
+        }
+    }
+
+    pbuf_free(p); // 수신된 패킷은 처리 후 항상 해제
+    return ERR_OK;
 }
 
 void doip_error(void *arg, err_t err)

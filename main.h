@@ -23,6 +23,8 @@
 #include "ToF.h"
 #include "geth_lwip.h"
 
+#include "Headlight.h"
+
 /* Includes ETH, TCP/IP examples */
 #include "IfxGeth_Eth.h"
 #include "Ifx_Lwip.h"

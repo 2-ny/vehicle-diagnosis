@@ -65,6 +65,7 @@ Libraries/iLLD/TC37A/Tricore/Stm/Std \
 Libraries/iLLD/TC37A/Tricore/_Impl \
 Libraries/iLLD/TC37A/Tricore/_Lib/DataHandling \
 Libraries/iLLD/TC37A/Tricore/_PinMap \
+Modules \
 . \
 examples \
 

@@ -1,0 +1,720 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
+	.compiler_invocation	"ctc -f cc14172a -c99 --fp-model=3cflnrSTz -D__CPU__=tc37x -D__CPU_TC37X__ --core=tc1.6.2 --fp-model=+float -D__CPU__=tc37x -IC:\\\\NGV\\\\TC375LK_NGV_2 -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Modules -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\BSW -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\BSW\\\\Driver -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\BSW\\\\IO -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\BSW\\\\etc -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Configurations -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Infra -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Infra\\\\Sfr\\\\TC37A -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Infra\\\\Sfr\\\\TC37A\\\\_Reg -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Infra\\\\Ssw -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Infra\\\\Ssw\\\\TC37A -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Infra\\\\Ssw\\\\TC37A\\\\Tricore -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Service -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Service\\\\CpuGeneric\\\\StdIf -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin\\\\Asc -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin\\\\Std -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can\\\\Can -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can\\\\Std -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Irq -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc\\\\Adc -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc\\\\Std -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Geth -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Geth\\\\Eth -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Geth\\\\Std -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gpt12 -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gpt12\\\\Std -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Atom -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Atom\\\\Pwm -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms\\\\Std -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port\\\\Std -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu\\\\Std -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src\\\\Std -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Stm -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Stm\\\\Std -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Impl -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Lib -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Lib\\\\DataHandling -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_PinMap -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Ethernet\\\\lwip\\\\port\\\\include -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Ethernet\\\\Phy_Dp83825i -g3 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o Modules/Headlight.src ../Modules/Headlight.c"
+	.compiler_name		"ctc"
+	;source	'../Modules/Headlight.c'
+
+	
+$TC162
+	
+	.sdecl	'.text.Headlight.HBA_Init',code,cluster('HBA_Init')
+	.sect	'.text.Headlight.HBA_Init'
+	.align	2
+	
+	.global	HBA_Init
+; Function HBA_Init
+.L7:
+HBA_Init:	.type	func
+	call	GtmAtomPwm_Init
+.L86:
+	mov	d4,#0
+	call	GtmAtomPwm_SetDutyCycle
+.L87:
+	ret
+.L52:
+	
+__HBA_Init_function_end:
+	.size	HBA_Init,__HBA_Init_function_end-HBA_Init
+.L34:
+	; End of function
+	
+	.sdecl	'.text.Headlight.HBA_ON',code,cluster('HBA_ON')
+	.sect	'.text.Headlight.HBA_ON'
+	.align	2
+	
+	.global	HBA_ON
+; Function HBA_ON
+.L9:
+HBA_ON:	.type	func
+	call	Evadc_readPR
+.L61:
+	mov	d15,#20
+.L73:
+	div	e4,d2,d15
+.L62:
+	mov	d15,#100
+.L74:
+	jlt	d15,d4,.L2
+.L75:
+	jlt	d4,#0,.L3
+.L76:
+	call	GtmAtomPwm_SetDutyCycle
+.L3:
+.L2:
+	ret
+.L47:
+	
+__HBA_ON_function_end:
+	.size	HBA_ON,__HBA_ON_function_end-HBA_ON
+.L24:
+	; End of function
+	
+	.sdecl	'.text.Headlight.HBA_OFF',code,cluster('HBA_OFF')
+	.sect	'.text.Headlight.HBA_OFF'
+	.align	2
+	
+	.global	HBA_OFF
+; Function HBA_OFF
+.L11:
+HBA_OFF:	.type	func
+	mov	d4,#0
+	call	GtmAtomPwm_SetDutyCycle
+.L81:
+	ret
+.L51:
+	
+__HBA_OFF_function_end:
+	.size	HBA_OFF,__HBA_OFF_function_end-HBA_OFF
+.L29:
+	; End of function
+	
+	.sdecl	'.text.Headlight.set_headlight_brightness',code,cluster('set_headlight_brightness')
+	.sect	'.text.Headlight.set_headlight_brightness'
+	.align	2
+	
+	.global	set_headlight_brightness
+; Function set_headlight_brightness
+.L13:
+set_headlight_brightness:	.type	func
+	movh.a	a15,#@his(g_headlight_brightness)
+	lea	a15,[a15]@los(g_headlight_brightness)
+.L92:
+	st.b	[a15],d4
+.L56:
+	movh.a	a15,#@his(g_headlight_brightness)
+	lea	a15,[a15]@los(g_headlight_brightness)
+	ld.bu	d15,[a15]
+.L93:
+	utof	d15,d15
+.L94:
+	movh	d0,#17279
+.L95:
+	div.f	d15,d15,d0
+.L96:
+	movh	d0,#17096
+.L97:
+	mul.f	d15,d15,d0
+.L98:
+	ftouz	d4,d15
+.L63:
+	mov	d15,#100
+.L99:
+	jge.u	d15,d4,.L4
+.L100:
+	mov	d4,#100
+.L4:
+	call	GtmAtomPwm_SetDutyCycle
+.L64:
+	ret
+.L53:
+	
+__set_headlight_brightness_function_end:
+	.size	set_headlight_brightness,__set_headlight_brightness_function_end-set_headlight_brightness
+.L39:
+	; End of function
+	
+	.sdecl	'.text.Headlight.get_headlight_brightness',code,cluster('get_headlight_brightness')
+	.sect	'.text.Headlight.get_headlight_brightness'
+	.align	2
+	
+	.global	get_headlight_brightness
+; Function get_headlight_brightness
+.L15:
+get_headlight_brightness:	.type	func
+	movh.a	a15,#@his(g_headlight_brightness)
+	lea	a15,[a15]@los(g_headlight_brightness)
+	ld.bu	d2,[a15]
+.L105:
+	j	.L5
+.L5:
+	ret
+.L59:
+	
+__get_headlight_brightness_function_end:
+	.size	get_headlight_brightness,__get_headlight_brightness_function_end-get_headlight_brightness
+.L44:
+	; End of function
+	
+	.sdecl	'.data.Headlight.g_headlight_brightness',data,cluster('g_headlight_brightness')
+	.sect	'.data.Headlight.g_headlight_brightness'
+	.global	g_headlight_brightness
+g_headlight_brightness:	.type	object
+	.size	g_headlight_brightness,1
+	.space	1
+	.calls	'HBA_Init','GtmAtomPwm_Init'
+	.calls	'HBA_Init','GtmAtomPwm_SetDutyCycle'
+	.calls	'HBA_ON','Evadc_readPR'
+	.calls	'HBA_ON','GtmAtomPwm_SetDutyCycle'
+	.calls	'HBA_OFF','GtmAtomPwm_SetDutyCycle'
+	.calls	'set_headlight_brightness','GtmAtomPwm_SetDutyCycle'
+	.calls	'HBA_Init','',0
+	.calls	'HBA_ON','',0
+	.calls	'HBA_OFF','',0
+	.calls	'set_headlight_brightness','',0
+	.extern	Evadc_readPR
+	.extern	GtmAtomPwm_Init
+	.extern	GtmAtomPwm_SetDutyCycle
+	.calls	'get_headlight_brightness','',0
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L17:
+	.word	635
+	.half	3
+	.word	.L18
+	.byte	4
+.L16:
+	.byte	1
+	.byte	'../Modules/Headlight.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\NGV\\TC375LK_NGV_2\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L19
+	.byte	2
+	.byte	'unsigned int',0,4,7,3
+	.byte	'Evadc_readPR',0,1,8,14
+	.word	164
+	.byte	1,1,1,1,4
+	.byte	'GtmAtomPwm_Init',0,2,6,6,1,1,1,1
+.L57:
+	.byte	2
+	.byte	'unsigned long int',0,4,7,5
+	.byte	'GtmAtomPwm_SetDutyCycle',0,2,7,6,1,1,1,1,6
+	.byte	'dutyCycle',0,2,7,37
+	.word	229
+	.byte	0
+.L48:
+	.byte	2
+	.byte	'int',0,4,5
+.L54:
+	.byte	2
+	.byte	'unsigned char',0,1,8,2
+	.byte	'short int',0,2,5,7
+	.byte	'__wchar_t',0,3,1,1
+	.word	325
+	.byte	7
+	.byte	'__size_t',0,3,1,1
+	.word	164
+	.byte	7
+	.byte	'__ptrdiff_t',0,3,1,1
+	.word	301
+	.byte	8,1,9
+	.word	393
+	.byte	7
+	.byte	'__codeptr',0,3,1,1
+	.word	395
+	.byte	7
+	.byte	'uint8',0,4,108,29
+	.word	308
+	.byte	2
+	.byte	'unsigned short int',0,2,7,7
+	.byte	'uint16',0,4,112,29
+	.word	432
+	.byte	7
+	.byte	'uint32',0,4,116,29
+	.word	229
+	.byte	7
+	.byte	'sint16',0,4,129,1,29
+	.word	325
+	.byte	2
+	.byte	'long int',0,4,5,7
+	.byte	'sint32',0,4,134,1,29
+	.word	500
+	.byte	2
+	.byte	'long long int',0,8,5,7
+	.byte	'sint64',0,4,141,1,29
+	.word	528
+	.byte	2
+	.byte	'float',0,4,4,7
+	.byte	'float32',0,4,170,1,29
+	.word	561
+	.byte	10
+	.byte	'void',0,9
+	.word	587
+	.byte	7
+	.byte	'pvoid',0,5,54,28
+	.word	593
+	.byte	7
+	.byte	'Ifx_TickTime',0,5,76,28
+	.word	528
+.L60:
+	.byte	11
+	.word	308
+	.byte	0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L18:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,36,0,3,8,11,15,62,15,0,0,3,46,0,3,8,58,15,59,15,57,15
+	.byte	73,19,54,15,39,12,63,12,60,12,0,0,4,46,0,3,8,58,15,59,15,57,15,54,15,39,12,63,12,60,12,0,0,5,46,1,3,8
+	.byte	58,15,59,15,57,15,54,15,39,12,63,12,60,12,0,0,6,5,0,3,8,58,15,59,15,57,15,73,19,0,0,7,22,0,3,8,58,15,59
+	.byte	15,57,15,73,19,0,0,8,21,0,54,15,0,0,9,15,0,73,19,0,0,10,59,0,3,8,0,0,11,53,0,73,19,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L19:
+	.word	.L66-.L65
+.L65:
+	.half	3
+	.word	.L68-.L67
+.L67:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'C:\\\\NGV\\\\TC375LK_NGV_2\\\\BSW\\\\Driver',0
+	.byte	'C:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Std',0,0
+	.byte	'Evadc.h',0,1,0,0
+	.byte	'gtm_atom_pwm.h',0,1,0,0
+	.byte	'../Modules/Headlight.c',0,0,0,0
+	.byte	'Platform_Types.h',0,2,0,0
+	.byte	'Ifx_Types.h',0,2,0,0,0
+.L68:
+.L66:
+	.sdecl	'.debug_pubnames',debug
+	.sect	'.debug_pubnames'
+	.word	79
+	.half	2
+	.word	.L17,639,180
+	.byte	'Evadc_readPR',0
+	.word	205
+	.byte	'GtmAtomPwm_Init',0
+	.word	250
+	.byte	'GtmAtomPwm_SetDutyCycle',0
+	.word	0
+	.sdecl	'.debug_info',debug,cluster('HBA_ON')
+	.sect	'.debug_info'
+.L20:
+	.word	246
+	.half	3
+	.word	.L21
+	.byte	4,1
+	.byte	'../Modules/Headlight.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\NGV\\TC375LK_NGV_2\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L23,.L22
+	.byte	2
+	.word	.L16
+	.byte	3
+	.byte	'HBA_ON',0,1,12,6,1,1,1
+	.word	.L9,.L47,.L8
+	.byte	4
+	.word	.L9,.L47
+	.byte	5
+	.byte	'adcResult',0,1,13,9
+	.word	.L48,.L49
+	.byte	5
+	.byte	'duty',0,1,14,9
+	.word	.L48,.L50
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('HBA_ON')
+	.sect	'.debug_abbrev'
+.L21:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,1,17,1,18,1,0,0,5,52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('HBA_ON')
+	.sect	'.debug_line'
+.L22:
+	.word	.L70-.L69
+.L69:
+	.half	3
+	.word	.L72-.L71
+.L71:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Modules/Headlight.c',0,0,0,0,0
+.L72:
+	.byte	5,31,7,0,5,2
+	.word	.L9
+	.byte	3,12,1,5,28,9
+	.half	.L61-.L9
+	.byte	3,1,1,5,26,9
+	.half	.L73-.L61
+	.byte	1,5,16,9
+	.half	.L62-.L73
+	.byte	3,1,1,5,8,9
+	.half	.L74-.L62
+	.byte	1,5,28,7,9
+	.half	.L75-.L74
+	.byte	1,5,33,7,9
+	.half	.L76-.L75
+	.byte	3,1,1,5,1,9
+	.half	.L2-.L76
+	.byte	3,2,1,7,9
+	.half	.L24-.L2
+	.byte	0,1,1
+.L70:
+	.sdecl	'.debug_ranges',debug,cluster('HBA_ON')
+	.sect	'.debug_ranges'
+.L23:
+	.word	-1,.L9,0,.L24-.L9,0,0
+	.sdecl	'.debug_pubnames',debug
+	.sect	'.debug_pubnames'
+	.word	25
+	.half	2
+	.word	.L20,250,173
+	.byte	'HBA_ON',0
+	.word	0
+	.sdecl	'.debug_info',debug,cluster('HBA_OFF')
+	.sect	'.debug_info'
+.L25:
+	.word	207
+	.half	3
+	.word	.L26
+	.byte	4,1
+	.byte	'../Modules/Headlight.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\NGV\\TC375LK_NGV_2\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L28,.L27
+	.byte	2
+	.word	.L16
+	.byte	3
+	.byte	'HBA_OFF',0,1,20,6,1,1,1
+	.word	.L11,.L51,.L10
+	.byte	4
+	.word	.L11,.L51
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('HBA_OFF')
+	.sect	'.debug_abbrev'
+.L26:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('HBA_OFF')
+	.sect	'.debug_line'
+.L27:
+	.word	.L78-.L77
+.L77:
+	.half	3
+	.word	.L80-.L79
+.L79:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Modules/Headlight.c',0,0,0,0,0
+.L80:
+	.byte	5,29,7,0,5,2
+	.word	.L11
+	.byte	3,20,1,5,1,9
+	.half	.L81-.L11
+	.byte	3,1,1,7,9
+	.half	.L29-.L81
+	.byte	0,1,1
+.L78:
+	.sdecl	'.debug_ranges',debug,cluster('HBA_OFF')
+	.sect	'.debug_ranges'
+.L28:
+	.word	-1,.L11,0,.L29-.L11,0,0
+	.sdecl	'.debug_pubnames',debug
+	.sect	'.debug_pubnames'
+	.word	26
+	.half	2
+	.word	.L25,211,173
+	.byte	'HBA_OFF',0
+	.word	0
+	.sdecl	'.debug_info',debug,cluster('HBA_Init')
+	.sect	'.debug_info'
+.L30:
+	.word	208
+	.half	3
+	.word	.L31
+	.byte	4,1
+	.byte	'../Modules/Headlight.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\NGV\\TC375LK_NGV_2\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L33,.L32
+	.byte	2
+	.word	.L16
+	.byte	3
+	.byte	'HBA_Init',0,1,6,6,1,1,1
+	.word	.L7,.L52,.L6
+	.byte	4
+	.word	.L7,.L52
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('HBA_Init')
+	.sect	'.debug_abbrev'
+.L31:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('HBA_Init')
+	.sect	'.debug_line'
+.L32:
+	.word	.L83-.L82
+.L82:
+	.half	3
+	.word	.L85-.L84
+.L84:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Modules/Headlight.c',0,0,0,0,0
+.L85:
+	.byte	5,20,7,0,5,2
+	.word	.L7
+	.byte	3,6,1,5,29,9
+	.half	.L86-.L7
+	.byte	3,2,1,5,1,9
+	.half	.L87-.L86
+	.byte	3,1,1,7,9
+	.half	.L34-.L87
+	.byte	0,1,1
+.L83:
+	.sdecl	'.debug_ranges',debug,cluster('HBA_Init')
+	.sect	'.debug_ranges'
+.L33:
+	.word	-1,.L7,0,.L34-.L7,0,0
+	.sdecl	'.debug_pubnames',debug
+	.sect	'.debug_pubnames'
+	.word	27
+	.half	2
+	.word	.L30,212,173
+	.byte	'HBA_Init',0
+	.word	0
+	.sdecl	'.debug_info',debug,cluster('set_headlight_brightness')
+	.sect	'.debug_info'
+.L35:
+	.word	275
+	.half	3
+	.word	.L36
+	.byte	4,1
+	.byte	'../Modules/Headlight.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\NGV\\TC375LK_NGV_2\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L38,.L37
+	.byte	2
+	.word	.L16
+	.byte	3
+	.byte	'set_headlight_brightness',0,1,25,6,1,1,1
+	.word	.L13,.L53,.L12
+	.byte	4
+	.byte	'brightness',0,1,25,37
+	.word	.L54,.L55
+	.byte	5
+	.word	.L13,.L53
+	.byte	5
+	.word	.L56,.L53
+	.byte	6
+	.byte	'duty',0,1,31,12
+	.word	.L57,.L58
+	.byte	0,0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('set_headlight_brightness')
+	.sect	'.debug_abbrev'
+.L36:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6,52,0,3
+	.byte	8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('set_headlight_brightness')
+	.sect	'.debug_line'
+.L37:
+	.word	.L89-.L88
+.L88:
+	.half	3
+	.word	.L91-.L90
+.L90:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Modules/Headlight.c',0,0,0,0,0
+.L91:
+	.byte	5,5,7,0,5,2
+	.word	.L13
+	.byte	3,27,1,5,28,9
+	.half	.L92-.L13
+	.byte	1,5,36,9
+	.half	.L56-.L92
+	.byte	3,3,1,5,29,9
+	.half	.L93-.L56
+	.byte	1,5,61,9
+	.half	.L94-.L93
+	.byte	1,5,59,9
+	.half	.L95-.L94
+	.byte	1,5,71,9
+	.half	.L96-.L95
+	.byte	1,5,69,9
+	.half	.L97-.L96
+	.byte	1,5,19,9
+	.half	.L98-.L97
+	.byte	1,5,16,9
+	.half	.L63-.L98
+	.byte	3,1,1,5,5,9
+	.half	.L99-.L63
+	.byte	1,5,26,7,9
+	.half	.L100-.L99
+	.byte	1,5,29,9
+	.half	.L4-.L100
+	.byte	3,3,1,5,1,9
+	.half	.L64-.L4
+	.byte	3,1,1,7,9
+	.half	.L39-.L64
+	.byte	0,1,1
+.L89:
+	.sdecl	'.debug_ranges',debug,cluster('set_headlight_brightness')
+	.sect	'.debug_ranges'
+.L38:
+	.word	-1,.L13,0,.L39-.L13,0,0
+	.sdecl	'.debug_pubnames',debug
+	.sect	'.debug_pubnames'
+	.word	43
+	.half	2
+	.word	.L35,279,173
+	.byte	'set_headlight_brightness',0
+	.word	0
+	.sdecl	'.debug_info',debug,cluster('get_headlight_brightness')
+	.sect	'.debug_info'
+.L40:
+	.word	228
+	.half	3
+	.word	.L41
+	.byte	4,1
+	.byte	'../Modules/Headlight.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\NGV\\TC375LK_NGV_2\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L43,.L42
+	.byte	2
+	.word	.L16
+	.byte	3
+	.byte	'get_headlight_brightness',0,1,39,7
+	.word	.L54
+	.byte	1,1,1
+	.word	.L15,.L59,.L14
+	.byte	4
+	.word	.L15,.L59
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('get_headlight_brightness')
+	.sect	'.debug_abbrev'
+.L41:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('get_headlight_brightness')
+	.sect	'.debug_line'
+.L42:
+	.word	.L102-.L101
+.L101:
+	.half	3
+	.word	.L104-.L103
+.L103:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Modules/Headlight.c',0,0,0,0,0
+.L104:
+	.byte	5,12,7,0,5,2
+	.word	.L15
+	.byte	3,40,1,5,5,9
+	.half	.L105-.L15
+	.byte	1,5,1,9
+	.half	.L5-.L105
+	.byte	3,1,1,7,9
+	.half	.L44-.L5
+	.byte	0,1,1
+.L102:
+	.sdecl	'.debug_ranges',debug,cluster('get_headlight_brightness')
+	.sect	'.debug_ranges'
+.L43:
+	.word	-1,.L15,0,.L44-.L15,0,0
+	.sdecl	'.debug_pubnames',debug
+	.sect	'.debug_pubnames'
+	.word	43
+	.half	2
+	.word	.L40,232,173
+	.byte	'get_headlight_brightness',0
+	.word	0
+	.sdecl	'.debug_info',debug,cluster('g_headlight_brightness')
+	.sect	'.debug_info'
+.L45:
+	.word	200
+	.half	3
+	.word	.L46
+	.byte	4,1
+	.byte	'../Modules/Headlight.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\NGV\\TC375LK_NGV_2\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L16
+	.byte	3
+	.byte	'g_headlight_brightness',0,3,4,16
+	.word	.L60
+	.byte	1,5,3
+	.word	g_headlight_brightness
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('g_headlight_brightness')
+	.sect	'.debug_abbrev'
+.L46:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_loc',debug,cluster('HBA_Init')
+	.sect	'.debug_loc'
+.L6:
+	.word	-1,.L7,0,.L52-.L7
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('HBA_OFF')
+	.sect	'.debug_loc'
+.L10:
+	.word	-1,.L11,0,.L51-.L11
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('HBA_ON')
+	.sect	'.debug_loc'
+.L8:
+	.word	-1,.L9,0,.L47-.L9
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L49:
+	.word	-1,.L9,.L61-.L9,.L2-.L9
+	.half	1
+	.byte	82
+	.word	0,0
+.L50:
+	.word	-1,.L9,.L62-.L9,.L2-.L9
+	.half	1
+	.byte	84
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('get_headlight_brightness')
+	.sect	'.debug_loc'
+.L14:
+	.word	-1,.L15,0,.L59-.L15
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('set_headlight_brightness')
+	.sect	'.debug_loc'
+.L55:
+	.word	-1,.L13,0,.L63-.L13
+	.half	1
+	.byte	84
+	.word	0,0
+.L58:
+	.word	-1,.L13,.L63-.L13,.L64-.L13
+	.half	1
+	.byte	84
+	.word	0,0
+.L12:
+	.word	-1,.L13,0,.L53-.L13
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_frame',debug
+	.sect	'.debug_frame'
+.L106:
+	.word	48
+	.word	-1
+	.byte	3,0,2,1,27,12,26,0,8,26,8,27,8,30,8,29,8,28,8,16,8,17,8,24,8,25,8,31,8,32,8,33,8,34,8,35,8,36,8,37,8,38
+	.byte	8,39
+	.sdecl	'.debug_frame',debug,cluster('HBA_Init')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L106,.L7,.L52-.L7
+	.sdecl	'.debug_frame',debug,cluster('HBA_ON')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L106,.L9,.L47-.L9
+	.sdecl	'.debug_frame',debug,cluster('HBA_OFF')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L106,.L11,.L51-.L11
+	.sdecl	'.debug_frame',debug,cluster('set_headlight_brightness')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L106,.L13,.L53-.L13
+	.sdecl	'.debug_frame',debug,cluster('get_headlight_brightness')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L106,.L15,.L59-.L15
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+	; Module end

@@ -9,6 +9,7 @@ RM := rm -rf
 # All of the sources participating in the build are defined here
 -include sources.mk
 -include examples/subdir.mk
+-include Modules/subdir.mk
 -include Libraries/iLLD/TC37A/Tricore/_PinMap/subdir.mk
 -include Libraries/iLLD/TC37A/Tricore/_Lib/DataHandling/subdir.mk
 -include Libraries/iLLD/TC37A/Tricore/_Impl/subdir.mk

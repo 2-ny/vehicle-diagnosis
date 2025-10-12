@@ -22,6 +22,8 @@ void module_Init(void)
     Ultrasonics_Init();
     Motor_Init();
 
+    HBA_Init();
+
     /* Module Init */
     Asclin0_InitUart();
     gpt12_Init();

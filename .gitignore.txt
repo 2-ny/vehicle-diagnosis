@@ -3,7 +3,6 @@ TriCore Debug (TASKING)/
 Debug/
 Release/
 
-
 # Common object and output files
 *.o
 *.src

@@ -24,6 +24,7 @@ SECONDARY_SIZE :=
 
 # Every subdirectory with source files must be described here
 SUBDIRS := \
+App \
 BSW/Driver \
 BSW/IO \
 BSW/etc \

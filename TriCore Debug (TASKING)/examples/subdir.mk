@@ -4,6 +4,7 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
+../examples/DTCManager.c \
 ../examples/DoIP.c \
 ../examples/can-ethernet.c \
 ../examples/someip.c \
@@ -11,6 +12,7 @@ C_SRCS += \
 ../examples/udp_echo.c 
 
 COMPILED_SRCS += \
+examples/DTCManager.src \
 examples/DoIP.src \
 examples/can-ethernet.src \
 examples/someip.src \
@@ -18,6 +20,7 @@ examples/tcp_echo.src \
 examples/udp_echo.src 
 
 C_DEPS += \
+examples/DTCManager.d \
 examples/DoIP.d \
 examples/can-ethernet.d \
 examples/someip.d \
@@ -25,6 +28,7 @@ examples/tcp_echo.d \
 examples/udp_echo.d 
 
 OBJS += \
+examples/DTCManager.o \
 examples/DoIP.o \
 examples/can-ethernet.o \
 examples/someip.o \
@@ -33,6 +37,10 @@ examples/udp_echo.o
 
 
 # Each subdirectory must supply rules for building sources it contributes
+examples/DTCManager.src: ../examples/DTCManager.c examples/subdir.mk
+	cctc -cs --misrac-version=2004 -D__CPU__=tc37x "-fC:/NGV/TC375LK_NGV_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -Wc-g3 -Wc-w544 -Wc-w557 -Ctc37x -Y0 -N0 -Z0 -o "$@" "$<"
+examples/DTCManager.o: examples/DTCManager.src examples/subdir.mk
+	astc -Og -Os --no-warnings= --error-limit=42 -o  "$@" "$<"
 examples/DoIP.src: ../examples/DoIP.c examples/subdir.mk
 	cctc -cs --misrac-version=2004 -D__CPU__=tc37x "-fC:/NGV/TC375LK_NGV_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -Wc-g3 -Wc-w544 -Wc-w557 -Ctc37x -Y0 -N0 -Z0 -o "$@" "$<"
 examples/DoIP.o: examples/DoIP.src examples/subdir.mk
@@ -57,7 +65,7 @@ examples/udp_echo.o: examples/udp_echo.src examples/subdir.mk
 clean: clean-examples
 
 clean-examples:
-	-$(RM) examples/DoIP.d examples/DoIP.o examples/DoIP.src examples/can-ethernet.d examples/can-ethernet.o examples/can-ethernet.src examples/someip.d examples/someip.o examples/someip.src examples/tcp_echo.d examples/tcp_echo.o examples/tcp_echo.src examples/udp_echo.d examples/udp_echo.o examples/udp_echo.src
+	-$(RM) examples/DTCManager.d examples/DTCManager.o examples/DTCManager.src examples/DoIP.d examples/DoIP.o examples/DoIP.src examples/can-ethernet.d examples/can-ethernet.o examples/can-ethernet.src examples/someip.d examples/someip.o examples/someip.src examples/tcp_echo.d examples/tcp_echo.o examples/tcp_echo.src examples/udp_echo.d examples/udp_echo.o examples/udp_echo.src
 
 .PHONY: clean-examples
 

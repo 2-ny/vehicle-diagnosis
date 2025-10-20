@@ -50,6 +50,7 @@ RM := rm -rf
 -include BSW/etc/subdir.mk
 -include BSW/IO/subdir.mk
 -include BSW/Driver/subdir.mk
+-include App/subdir.mk
 -include subdir.mk
 ifneq ($(MAKECMDGOALS),clean)
 ifneq ($(strip $(C++_DEPS)),)

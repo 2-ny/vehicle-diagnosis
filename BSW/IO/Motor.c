@@ -8,6 +8,12 @@
 #include "isr_priority.h"
 #include "gtm_atom_pwm.h"
 
+// --- 💡 여기가 추가/수정될 부분입니다 ---
+// 현재 모터 상태(채널 B)를 저장할 전역 변수
+volatile int g_current_motorB_duty = 0;
+volatile int g_current_motorB_direction = 0;
+// ------------------------------------
+
 
 void Motor_Init(void)
 {
@@ -79,6 +85,7 @@ void Motor_movChB(int dir)
 
 void Motor_stopChB(void)
 {
+    GtmAtomPwmB_SetDutyCycle(0);    // 💡 PWM 출력을 0으로 설정하여 모터 동력 차단
     MODULE_P02.OUT.B.P6 = 1;   /* 모터 Brake 신호 인가 (1: 정지, 0: PWM-A에 따라 동작) */
 }
 
@@ -86,6 +93,12 @@ void Motor_stopChB(void)
 ///* 1: 정방향, 0: 역방향 */
 void Motor_movChB_PWM(int duty, int dir)
 {
+    // --- 💡 여기가 추가/수정될 부분입니다 ---
+    // 전역 변수에 현재 상태를 기록
+    g_current_motorB_duty = duty;
+    g_current_motorB_direction = dir;
+    // ------------------------------------
+
 //    GtmAtomPwm_SetDutyCycle(duty);
     GtmAtomPwmB_SetDutyCycle(duty * 4);
 

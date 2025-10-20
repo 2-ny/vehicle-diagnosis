@@ -5,7 +5,7 @@
 
 static unsigned int g_TofValue = 0;
 
-//IFX_INTERRUPT(TofIsrHandler, 0, ISR_PRIORITY_CAN_RX);
+IFX_INTERRUPT(TofIsrHandler, 0, ISR_PRIORITY_CAN_RX);
 void TofIsrHandler(void)
 {
     unsigned int rxID;
@@ -17,7 +17,7 @@ void TofIsrHandler(void)
 
     if (signal_strength != 0) {
         g_TofValue = rxData[2] << 16 | rxData[1] << 8 | rxData[0];
-//        my_printf("TOF Distance: %d\n", g_TofValue); // for debugging
+        my_printf("TOF Distance: %d\n", g_TofValue); // for debugging
     } else {
 //        my_printf("out of range!\n"); // for debugging
     }

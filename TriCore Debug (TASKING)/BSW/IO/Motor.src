@@ -1,6 +1,6 @@
 	; Module start
 	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
-	.compiler_invocation	"ctc -f cc57560a -c99 --fp-model=3cflnrSTz -D__CPU__=tc37x -D__CPU_TC37X__ --core=tc1.6.2 --fp-model=+float -D__CPU__=tc37x -IC:\\\\NGV\\\\TC375LK_NGV_2 -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\BSW -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\BSW\\\\Driver -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\BSW\\\\IO -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\BSW\\\\etc -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Configurations -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Infra -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Infra\\\\Sfr\\\\TC37A -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Infra\\\\Sfr\\\\TC37A\\\\_Reg -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Infra\\\\Ssw -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Infra\\\\Ssw\\\\TC37A -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Infra\\\\Ssw\\\\TC37A\\\\Tricore -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Service -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Service\\\\CpuGeneric\\\\StdIf -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin\\\\Asc -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin\\\\Std -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can\\\\Can -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can\\\\Std -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Irq -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc\\\\Adc -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc\\\\Std -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Geth -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Geth\\\\Eth -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Geth\\\\Std -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gpt12 -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gpt12\\\\Std -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Atom -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Atom\\\\Pwm -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms\\\\Std -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port\\\\Std -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu\\\\Std -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src\\\\Std -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Stm -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Stm\\\\Std -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Impl -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Lib -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Lib\\\\DataHandling -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_PinMap -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Ethernet\\\\lwip\\\\port\\\\include -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Ethernet\\\\Phy_Dp83825i -g3 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o BSW/IO/Motor.src ../BSW/IO/Motor.c"
+	.compiler_invocation	"ctc -f cc33820a -c99 --fp-model=3cflnrSTz -D__CPU__=tc37x -D__CPU_TC37X__ --core=tc1.6.2 --fp-model=+float -D__CPU__=tc37x -IC:\\\\NGV\\\\TC375LK_NGV_2 -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\BSW -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\BSW\\\\Driver -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\BSW\\\\IO -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\BSW\\\\etc -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Configurations -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Infra -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Infra\\\\Sfr\\\\TC37A -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Infra\\\\Sfr\\\\TC37A\\\\_Reg -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Infra\\\\Ssw -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Infra\\\\Ssw\\\\TC37A -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Infra\\\\Ssw\\\\TC37A\\\\Tricore -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Service -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Service\\\\CpuGeneric\\\\StdIf -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin\\\\Asc -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin\\\\Std -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can\\\\Can -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can\\\\Std -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Irq -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc\\\\Adc -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc\\\\Std -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Geth -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Geth\\\\Eth -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Geth\\\\Std -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gpt12 -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gpt12\\\\Std -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Atom -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Atom\\\\Pwm -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms\\\\Std -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port\\\\Std -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu\\\\Std -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src\\\\Std -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Stm -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Stm\\\\Std -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Impl -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Lib -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Lib\\\\DataHandling -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_PinMap -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Ethernet\\\\lwip\\\\port\\\\include -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Ethernet\\\\Phy_Dp83825i -g3 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o BSW/IO/Motor.src ../BSW/IO/Motor.c"
 	.compiler_name		"ctc"
 	;source	'../BSW/IO/Motor.c'
 
@@ -17,64 +17,64 @@ $TC162
 Motor_Init:	.type	func
 	movh.a	a15,#61444
 	ld.bu	d0,[a15]@los(0xf003aa11)
-.L97:
-	mov	d15,#16
-.L98:
-	insert	d15,d0,d15,#3,#5
-	movh.a	a15,#61444
-	st.b	[a15]@los(0xf003aa11),d15
-.L99:
-	movh.a	a15,#61444
-	ld.bu	d0,[a15]@los(0xf003a217)
-.L100:
-	mov	d15,#16
-.L101:
-	insert	d15,d0,d15,#3,#5
-	movh.a	a15,#61444
-	st.b	[a15]@los(0xf003a217),d15
-.L102:
-	movh.a	a15,#61444
-	ld.bu	d0,[a15]@los(0xf003aa12)
 .L103:
 	mov	d15,#16
 .L104:
 	insert	d15,d0,d15,#3,#5
 	movh.a	a15,#61444
-	st.b	[a15]@los(0xf003aa12),d15
+	st.b	[a15]@los(0xf003aa11),d15
 .L105:
 	movh.a	a15,#61444
-	ld.bu	d0,[a15]@los(0xf003a216)
+	ld.bu	d0,[a15]@los(0xf003a217)
 .L106:
 	mov	d15,#16
 .L107:
 	insert	d15,d0,d15,#3,#5
 	movh.a	a15,#61444
-	st.b	[a15]@los(0xf003a216),d15
+	st.b	[a15]@los(0xf003a217),d15
 .L108:
-	call	GtmAtomPwm_Init
+	movh.a	a15,#61444
+	ld.bu	d0,[a15]@los(0xf003aa12)
 .L109:
-	mov	d4,#0
-	call	GtmAtomPwmA_SetDutyCycle
+	mov	d15,#16
 .L110:
-	mov	d4,#0
-	call	GtmAtomPwmB_SetDutyCycle
+	insert	d15,d0,d15,#3,#5
+	movh.a	a15,#61444
+	st.b	[a15]@los(0xf003aa12),d15
 .L111:
 	movh.a	a15,#61444
-	ld.bu	d15,[a15]@los(0xf003a200)
+	ld.bu	d0,[a15]@los(0xf003a216)
 .L112:
+	mov	d15,#16
+.L113:
+	insert	d15,d0,d15,#3,#5
+	movh.a	a15,#61444
+	st.b	[a15]@los(0xf003a216),d15
+.L114:
+	call	GtmAtomPwm_Init
+.L115:
+	mov	d4,#0
+	call	GtmAtomPwmA_SetDutyCycle
+.L116:
+	mov	d4,#0
+	call	GtmAtomPwmB_SetDutyCycle
+.L117:
+	movh.a	a15,#61444
+	ld.bu	d15,[a15]@los(0xf003a200)
+.L118:
 	or	d15,#128
 	movh.a	a15,#61444
 	st.b	[a15]@los(0xf003a200),d15
-.L113:
+.L119:
 	movh.a	a15,#61444
 	ld.bu	d15,[a15]@los(0xf003a200)
-.L114:
+.L120:
 	or	d15,#64
 	movh.a	a15,#61444
 	st.b	[a15]@los(0xf003a200),d15
-.L115:
+.L121:
 	ret
-.L63:
+.L67:
 	
 __Motor_Init_function_end:
 	.size	Motor_Init,__Motor_Init_function_end-Motor_Init
@@ -90,36 +90,36 @@ __Motor_Init_function_end:
 .L13:
 Motor_movChA:	.type	func
 	jeq	d4,#0,.L2
-.L120:
+.L126:
 	movh.a	a15,#61444
 	ld.bu	d15,[a15]@los(0xf003aa00)
-.L121:
+.L127:
 	or	d15,#2
 	movh.a	a15,#61444
 	st.b	[a15]@los(0xf003aa00),d15
-.L122:
+.L128:
 	j	.L3
 .L2:
 	movh.a	a15,#61444
 	ld.bu	d15,[a15]@los(0xf003aa00)
-.L123:
+.L129:
 	insert	d15,d15,#0,#1,#1
 	movh.a	a15,#61444
 	st.b	[a15]@los(0xf003aa00),d15
 .L3:
 	movh.a	a15,#61444
 	ld.bu	d15,[a15]@los(0xf003a200)
-.L124:
+.L130:
 	insert	d15,d15,#0,#7,#1
 	movh.a	a15,#61444
 	st.b	[a15]@los(0xf003a200),d15
-.L125:
+.L131:
 	mov	d4,#1000
-.L77:
+.L83:
 	call	GtmAtomPwm_SetDutyCycle
-.L126:
+.L132:
 	ret
-.L64:
+.L68:
 	
 __Motor_movChA_function_end:
 	.size	Motor_movChA,__Motor_movChA_function_end-Motor_movChA
@@ -136,13 +136,13 @@ __Motor_movChA_function_end:
 Motor_stopChA:	.type	func
 	movh.a	a15,#61444
 	ld.bu	d15,[a15]@los(0xf003a200)
-.L131:
+.L137:
 	or	d15,#128
 	movh.a	a15,#61444
 	st.b	[a15]@los(0xf003a200),d15
-.L132:
+.L138:
 	ret
-.L67:
+.L71:
 	
 __Motor_stopChA_function_end:
 	.size	Motor_stopChA,__Motor_stopChA_function_end-Motor_stopChA
@@ -158,38 +158,38 @@ __Motor_stopChA_function_end:
 .L17:
 Motor_movChA_PWM:	.type	func
 	mov	d15,d5
-.L80:
+.L86:
 	mul	d4,d4,#4
-.L79:
+.L85:
 	call	GtmAtomPwmA_SetDutyCycle
-.L78:
+.L84:
 	jeq	d15,#0,.L4
-.L137:
+.L143:
 	movh.a	a15,#61444
 	ld.bu	d15,[a15]@los(0xf003aa00)
-.L81:
+.L87:
 	or	d15,#2
 	movh.a	a15,#61444
 	st.b	[a15]@los(0xf003aa00),d15
-.L138:
+.L144:
 	j	.L5
 .L4:
 	movh.a	a15,#61444
 	ld.bu	d15,[a15]@los(0xf003aa00)
-.L82:
+.L88:
 	insert	d15,d15,#0,#1,#1
 	movh.a	a15,#61444
 	st.b	[a15]@los(0xf003aa00),d15
 .L5:
 	movh.a	a15,#61444
 	ld.bu	d15,[a15]@los(0xf003a200)
-.L139:
+.L145:
 	insert	d15,d15,#0,#7,#1
 	movh.a	a15,#61444
 	st.b	[a15]@los(0xf003a200),d15
-.L140:
+.L146:
 	ret
-.L68:
+.L72:
 	
 __Motor_movChA_PWM_function_end:
 	.size	Motor_movChA_PWM,__Motor_movChA_PWM_function_end-Motor_movChA_PWM
@@ -205,36 +205,36 @@ __Motor_movChA_PWM_function_end:
 .L19:
 Motor_movChB:	.type	func
 	jeq	d4,#0,.L6
-.L145:
+.L151:
 	movh.a	a15,#61444
 	ld.bu	d15,[a15]@los(0xf003aa00)
-.L146:
+.L152:
 	or	d15,#4
 	movh.a	a15,#61444
 	st.b	[a15]@los(0xf003aa00),d15
-.L147:
+.L153:
 	j	.L7
 .L6:
 	movh.a	a15,#61444
 	ld.bu	d15,[a15]@los(0xf003aa00)
-.L148:
+.L154:
 	insert	d15,d15,#0,#2,#1
 	movh.a	a15,#61444
 	st.b	[a15]@los(0xf003aa00),d15
 .L7:
 	movh.a	a15,#61444
 	ld.bu	d15,[a15]@los(0xf003a200)
-.L149:
+.L155:
 	insert	d15,d15,#0,#6,#1
 	movh.a	a15,#61444
 	st.b	[a15]@los(0xf003a200),d15
-.L150:
+.L156:
 	mov	d4,#1000
-.L83:
+.L89:
 	call	GtmAtomPwm_SetDutyCycle
-.L151:
+.L157:
 	ret
-.L71:
+.L75:
 	
 __Motor_movChB_function_end:
 	.size	Motor_movChB,__Motor_movChB_function_end-Motor_movChB
@@ -249,15 +249,18 @@ __Motor_movChB_function_end:
 ; Function Motor_stopChB
 .L21:
 Motor_stopChB:	.type	func
+	mov	d4,#0
+	call	GtmAtomPwmB_SetDutyCycle
+.L162:
 	movh.a	a15,#61444
 	ld.bu	d15,[a15]@los(0xf003a200)
-.L156:
+.L163:
 	or	d15,#64
 	movh.a	a15,#61444
 	st.b	[a15]@los(0xf003a200),d15
-.L157:
+.L164:
 	ret
-.L73:
+.L77:
 	
 __Motor_stopChB_function_end:
 	.size	Motor_stopChB,__Motor_stopChB_function_end-Motor_stopChB
@@ -273,50 +276,75 @@ __Motor_stopChB_function_end:
 .L23:
 Motor_movChB_PWM:	.type	func
 	mov	d15,d5
-.L86:
+.L92:
+	movh.a	a15,#@his(g_current_motorB_duty)
+	lea	a15,[a15]@los(g_current_motorB_duty)
+.L169:
+	st.w	[a15],d4
+.L170:
+	movh.a	a15,#@his(g_current_motorB_direction)
+	lea	a15,[a15]@los(g_current_motorB_direction)
+.L171:
+	st.w	[a15],d15
+.L172:
 	mul	d4,d4,#4
-.L85:
+.L91:
 	call	GtmAtomPwmB_SetDutyCycle
-.L84:
+.L90:
 	jeq	d15,#0,.L8
-.L162:
+.L173:
 	movh.a	a15,#61444
 	ld.bu	d15,[a15]@los(0xf003aa00)
-.L87:
+.L93:
 	or	d15,#4
 	movh.a	a15,#61444
 	st.b	[a15]@los(0xf003aa00),d15
-.L163:
+.L174:
 	j	.L9
 .L8:
 	movh.a	a15,#61444
 	ld.bu	d15,[a15]@los(0xf003aa00)
-.L88:
+.L94:
 	insert	d15,d15,#0,#2,#1
 	movh.a	a15,#61444
 	st.b	[a15]@los(0xf003aa00),d15
 .L9:
 	movh.a	a15,#61444
 	ld.bu	d15,[a15]@los(0xf003a200)
-.L164:
+.L175:
 	insert	d15,d15,#0,#6,#1
 	movh.a	a15,#61444
 	st.b	[a15]@los(0xf003a200),d15
-.L165:
+.L176:
 	ret
-.L74:
+.L78:
 	
 __Motor_movChB_PWM_function_end:
 	.size	Motor_movChB_PWM,__Motor_movChB_PWM_function_end-Motor_movChB_PWM
 .L62:
 	; End of function
 	
+	.sdecl	'.data.Motor.g_current_motorB_duty',data,cluster('g_current_motorB_duty')
+	.sect	'.data.Motor.g_current_motorB_duty'
+	.global	g_current_motorB_duty
+	.align	2
+g_current_motorB_duty:	.type	object
+	.size	g_current_motorB_duty,4
+	.space	4
+	.sdecl	'.data.Motor.g_current_motorB_direction',data,cluster('g_current_motorB_direction')
+	.sect	'.data.Motor.g_current_motorB_direction'
+	.global	g_current_motorB_direction
+	.align	2
+g_current_motorB_direction:	.type	object
+	.size	g_current_motorB_direction,4
+	.space	4
 	.calls	'Motor_Init','GtmAtomPwm_Init'
 	.calls	'Motor_Init','GtmAtomPwmA_SetDutyCycle'
 	.calls	'Motor_Init','GtmAtomPwmB_SetDutyCycle'
 	.calls	'Motor_movChA','GtmAtomPwm_SetDutyCycle'
 	.calls	'Motor_movChA_PWM','GtmAtomPwmA_SetDutyCycle'
 	.calls	'Motor_movChB','GtmAtomPwm_SetDutyCycle'
+	.calls	'Motor_stopChB','GtmAtomPwmB_SetDutyCycle'
 	.calls	'Motor_movChB_PWM','GtmAtomPwmB_SetDutyCycle'
 	.calls	'Motor_Init','',0
 	.calls	'Motor_movChA','',0
@@ -332,7 +360,7 @@ __Motor_movChB_PWM_function_end:
 	.sdecl	'.debug_info',debug
 	.sect	'.debug_info'
 .L25:
-	.word	645404
+	.word	645414
 	.half	3
 	.word	.L26
 	.byte	4
@@ -376,7 +404,7 @@ __Motor_movChB_PWM_function_end:
 	.word	305
 	.byte	6,0,7
 	.byte	'unsigned int',0,4,7
-.L65:
+.L69:
 	.byte	7
 	.byte	'int',0,4,5,7
 	.byte	'unsigned char',0,1,8,10
@@ -92949,6 +92977,12 @@ __Motor_movChB_PWM_function_end:
 	.byte	'IfxStm_SuspendMode_soft',0,2,0,27
 	.byte	'IfxStm_SuspendMode',0,14,137,2,3
 	.word	645294
+.L81:
+	.byte	14
+	.word	439
+.L82:
+	.byte	14
+	.word	439
 	.byte	0
 	.sdecl	'.debug_abbrev',debug
 	.sect	'.debug_abbrev'
@@ -92965,11 +92999,11 @@ __Motor_movChB_PWM_function_end:
 	.sdecl	'.debug_line',debug
 	.sect	'.debug_line'
 .L27:
-	.word	.L90-.L89
-.L89:
+	.word	.L96-.L95
+.L95:
 	.half	3
-	.word	.L92-.L91
-.L91:
+	.word	.L98-.L97
+.L97:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
 	.byte	'C:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Infra\\\\Sfr\\\\TC37A\\\\_Reg',0
 	.byte	'C:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gpt12\\\\Std',0
@@ -93036,13 +93070,13 @@ __Motor_movChB_PWM_function_end:
 	.byte	'C:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\_Impl\\IfxScu_cfg.h',0,0,0,0
 	.byte	'C:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\_PinMap\\IfxGpt12_PinMap.h',0,0
 	.byte	0,0,0
-.L92:
-.L90:
+.L98:
+.L96:
 	.sdecl	'.debug_pubnames',debug
 	.sect	'.debug_pubnames'
 	.word	120
 	.half	2
-	.word	.L25,645408,20403
+	.word	.L25,645418,20403
 	.byte	'GtmAtomPwm_Init',0
 	.word	20427
 	.byte	'GtmAtomPwm_SetDutyCycle',0
@@ -93065,10 +93099,10 @@ __Motor_movChB_PWM_function_end:
 	.byte	2
 	.word	.L24
 	.byte	3
-	.byte	'Motor_Init',0,1,12,6,1,1,1
-	.word	.L11,.L63,.L10
+	.byte	'Motor_Init',0,1,18,6,1,1,1
+	.word	.L11,.L67,.L10
 	.byte	4
-	.word	.L11,.L63
+	.word	.L11,.L67
 	.byte	0,0
 	.sdecl	'.debug_abbrev',debug,cluster('Motor_Init')
 	.sect	'.debug_abbrev'
@@ -93078,30 +93112,18 @@ __Motor_movChB_PWM_function_end:
 	.sdecl	'.debug_line',debug,cluster('Motor_Init')
 	.sect	'.debug_line'
 .L30:
-	.word	.L94-.L93
-.L93:
+	.word	.L100-.L99
+.L99:
 	.half	3
-	.word	.L96-.L95
-.L95:
+	.word	.L102-.L101
+.L101:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../BSW/IO/Motor.c',0,0,0,0,0
-.L96:
+.L102:
 	.byte	5,23,7,0,5,2
 	.word	.L11
-	.byte	3,13,1,5,30,9
-	.half	.L97-.L11
-	.byte	1,5,28,9
-	.half	.L98-.L97
-	.byte	1,5,23,9
-	.half	.L99-.L98
-	.byte	3,1,1,5,30,9
-	.half	.L100-.L99
-	.byte	1,5,28,9
-	.half	.L101-.L100
-	.byte	1,5,23,9
-	.half	.L102-.L101
-	.byte	3,2,1,5,30,9
-	.half	.L103-.L102
+	.byte	3,19,1,5,30,9
+	.half	.L103-.L11
 	.byte	1,5,28,9
 	.half	.L104-.L103
 	.byte	1,5,23,9
@@ -93110,26 +93132,38 @@ __Motor_movChB_PWM_function_end:
 	.half	.L106-.L105
 	.byte	1,5,28,9
 	.half	.L107-.L106
-	.byte	1,5,20,9
+	.byte	1,5,23,9
 	.half	.L108-.L107
-	.byte	3,3,1,5,30,9
+	.byte	3,2,1,5,30,9
 	.half	.L109-.L108
-	.byte	3,3,1,9
+	.byte	1,5,28,9
 	.half	.L110-.L109
-	.byte	3,1,1,5,21,9
+	.byte	1,5,23,9
 	.half	.L111-.L110
-	.byte	3,1,1,5,25,9
+	.byte	3,1,1,5,30,9
 	.half	.L112-.L111
-	.byte	1,5,21,9
+	.byte	1,5,28,9
 	.half	.L113-.L112
-	.byte	3,1,1,5,25,9
+	.byte	1,5,20,9
 	.half	.L114-.L113
-	.byte	1,5,1,9
+	.byte	3,3,1,5,30,9
 	.half	.L115-.L114
+	.byte	3,3,1,9
+	.half	.L116-.L115
+	.byte	3,1,1,5,21,9
+	.half	.L117-.L116
+	.byte	3,1,1,5,25,9
+	.half	.L118-.L117
+	.byte	1,5,21,9
+	.half	.L119-.L118
+	.byte	3,1,1,5,25,9
+	.half	.L120-.L119
+	.byte	1,5,1,9
+	.half	.L121-.L120
 	.byte	3,1,1,7,9
-	.half	.L32-.L115
+	.half	.L32-.L121
 	.byte	0,1,1
-.L94:
+.L100:
 	.sdecl	'.debug_ranges',debug,cluster('Motor_Init')
 	.sect	'.debug_ranges'
 .L31:
@@ -93155,13 +93189,13 @@ __Motor_movChB_PWM_function_end:
 	.byte	2
 	.word	.L24
 	.byte	3
-	.byte	'Motor_movChA',0,1,31,6,1,1,1
-	.word	.L13,.L64,.L12
+	.byte	'Motor_movChA',0,1,37,6,1,1,1
+	.word	.L13,.L68,.L12
 	.byte	4
-	.byte	'dir',0,1,31,23
-	.word	.L65,.L66
+	.byte	'dir',0,1,37,23
+	.word	.L69,.L70
 	.byte	5
-	.word	.L13,.L64
+	.word	.L13,.L68
 	.byte	0,0
 	.sdecl	'.debug_abbrev',debug,cluster('Motor_movChA')
 	.sect	'.debug_abbrev'
@@ -93171,38 +93205,38 @@ __Motor_movChB_PWM_function_end:
 	.sdecl	'.debug_line',debug,cluster('Motor_movChA')
 	.sect	'.debug_line'
 .L35:
-	.word	.L117-.L116
-.L116:
+	.word	.L123-.L122
+.L122:
 	.half	3
-	.word	.L119-.L118
-.L118:
+	.word	.L125-.L124
+.L124:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../BSW/IO/Motor.c',0,0,0,0,0
-.L119:
+.L125:
 	.byte	5,5,7,0,5,2
 	.word	.L13
-	.byte	3,32,1,5,25,7,9
-	.half	.L120-.L13
+	.byte	3,38,1,5,25,7,9
+	.half	.L126-.L13
 	.byte	3,2,1,5,29,9
-	.half	.L121-.L120
+	.half	.L127-.L126
 	.byte	1,5,32,9
-	.half	.L122-.L121
+	.half	.L128-.L127
 	.byte	1,5,25,9
-	.half	.L2-.L122
+	.half	.L2-.L128
 	.byte	3,3,1,5,29,9
-	.half	.L123-.L2
+	.half	.L129-.L2
 	.byte	1,5,21,9
-	.half	.L3-.L123
+	.half	.L3-.L129
 	.byte	3,2,1,5,25,9
-	.half	.L124-.L3
+	.half	.L130-.L3
 	.byte	1,5,29,9
-	.half	.L125-.L124
+	.half	.L131-.L130
 	.byte	3,1,1,5,1,9
-	.half	.L126-.L125
+	.half	.L132-.L131
 	.byte	3,1,1,7,9
-	.half	.L37-.L126
+	.half	.L37-.L132
 	.byte	0,1,1
-.L117:
+.L123:
 	.sdecl	'.debug_ranges',debug,cluster('Motor_movChA')
 	.sect	'.debug_ranges'
 .L36:
@@ -93228,10 +93262,10 @@ __Motor_movChB_PWM_function_end:
 	.byte	2
 	.word	.L24
 	.byte	3
-	.byte	'Motor_stopChA',0,1,44,6,1,1,1
-	.word	.L15,.L67,.L14
+	.byte	'Motor_stopChA',0,1,50,6,1,1,1
+	.word	.L15,.L71,.L14
 	.byte	4
-	.word	.L15,.L67
+	.word	.L15,.L71
 	.byte	0,0
 	.sdecl	'.debug_abbrev',debug,cluster('Motor_stopChA')
 	.sect	'.debug_abbrev'
@@ -93241,24 +93275,24 @@ __Motor_movChB_PWM_function_end:
 	.sdecl	'.debug_line',debug,cluster('Motor_stopChA')
 	.sect	'.debug_line'
 .L40:
-	.word	.L128-.L127
-.L127:
+	.word	.L134-.L133
+.L133:
 	.half	3
-	.word	.L130-.L129
-.L129:
+	.word	.L136-.L135
+.L135:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../BSW/IO/Motor.c',0,0,0,0,0
-.L130:
+.L136:
 	.byte	5,21,7,0,5,2
 	.word	.L15
-	.byte	3,45,1,5,25,9
-	.half	.L131-.L15
+	.byte	3,51,1,5,25,9
+	.half	.L137-.L15
 	.byte	1,5,1,9
-	.half	.L132-.L131
+	.half	.L138-.L137
 	.byte	3,1,1,7,9
-	.half	.L42-.L132
+	.half	.L42-.L138
 	.byte	0,1,1
-.L128:
+.L134:
 	.sdecl	'.debug_ranges',debug,cluster('Motor_stopChA')
 	.sect	'.debug_ranges'
 .L41:
@@ -93284,16 +93318,16 @@ __Motor_movChB_PWM_function_end:
 	.byte	2
 	.word	.L24
 	.byte	3
-	.byte	'Motor_movChA_PWM',0,1,51,6,1,1,1
-	.word	.L17,.L68,.L16
+	.byte	'Motor_movChA_PWM',0,1,57,6,1,1,1
+	.word	.L17,.L72,.L16
 	.byte	4
-	.byte	'duty',0,1,51,27
-	.word	.L65,.L69
+	.byte	'duty',0,1,57,27
+	.word	.L69,.L73
 	.byte	4
-	.byte	'dir',0,1,51,37
-	.word	.L65,.L70
+	.byte	'dir',0,1,57,37
+	.word	.L69,.L74
 	.byte	5
-	.word	.L17,.L68
+	.word	.L17,.L72
 	.byte	0,0
 	.sdecl	'.debug_abbrev',debug,cluster('Motor_movChA_PWM')
 	.sect	'.debug_abbrev'
@@ -93303,40 +93337,40 @@ __Motor_movChB_PWM_function_end:
 	.sdecl	'.debug_line',debug,cluster('Motor_movChA_PWM')
 	.sect	'.debug_line'
 .L45:
-	.word	.L134-.L133
-.L133:
+	.word	.L140-.L139
+.L139:
 	.half	3
-	.word	.L136-.L135
-.L135:
+	.word	.L142-.L141
+.L141:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../BSW/IO/Motor.c',0,0,0,0,0
-.L136:
+.L142:
 	.byte	5,6,7,0,5,2
 	.word	.L17
-	.byte	3,50,1,5,35,9
-	.half	.L80-.L17
+	.byte	3,56,1,5,35,9
+	.half	.L86-.L17
 	.byte	3,3,1,5,5,9
-	.half	.L78-.L80
+	.half	.L84-.L86
 	.byte	3,1,1,5,25,7,9
-	.half	.L137-.L78
+	.half	.L143-.L84
 	.byte	3,2,1,5,29,9
-	.half	.L81-.L137
+	.half	.L87-.L143
 	.byte	1,5,32,9
-	.half	.L138-.L81
+	.half	.L144-.L87
 	.byte	1,5,25,9
-	.half	.L4-.L138
+	.half	.L4-.L144
 	.byte	3,3,1,5,29,9
-	.half	.L82-.L4
+	.half	.L88-.L4
 	.byte	1,5,21,9
-	.half	.L5-.L82
+	.half	.L5-.L88
 	.byte	3,3,1,5,25,9
-	.half	.L139-.L5
+	.half	.L145-.L5
 	.byte	1,5,1,9
-	.half	.L140-.L139
+	.half	.L146-.L145
 	.byte	3,1,1,7,9
-	.half	.L47-.L140
+	.half	.L47-.L146
 	.byte	0,1,1
-.L134:
+.L140:
 	.sdecl	'.debug_ranges',debug,cluster('Motor_movChA_PWM')
 	.sect	'.debug_ranges'
 .L46:
@@ -93362,13 +93396,13 @@ __Motor_movChB_PWM_function_end:
 	.byte	2
 	.word	.L24
 	.byte	3
-	.byte	'Motor_movChB',0,1,67,6,1,1,1
-	.word	.L19,.L71,.L18
+	.byte	'Motor_movChB',0,1,73,6,1,1,1
+	.word	.L19,.L75,.L18
 	.byte	4
-	.byte	'dir',0,1,67,23
-	.word	.L65,.L72
+	.byte	'dir',0,1,73,23
+	.word	.L69,.L76
 	.byte	5
-	.word	.L19,.L71
+	.word	.L19,.L75
 	.byte	0,0
 	.sdecl	'.debug_abbrev',debug,cluster('Motor_movChB')
 	.sect	'.debug_abbrev'
@@ -93378,38 +93412,38 @@ __Motor_movChB_PWM_function_end:
 	.sdecl	'.debug_line',debug,cluster('Motor_movChB')
 	.sect	'.debug_line'
 .L50:
-	.word	.L142-.L141
-.L141:
+	.word	.L148-.L147
+.L147:
 	.half	3
-	.word	.L144-.L143
-.L143:
+	.word	.L150-.L149
+.L149:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../BSW/IO/Motor.c',0,0,0,0,0
-.L144:
+.L150:
 	.byte	5,5,7,0,5,2
 	.word	.L19
-	.byte	3,196,0,1,5,25,7,9
-	.half	.L145-.L19
+	.byte	3,202,0,1,5,25,7,9
+	.half	.L151-.L19
 	.byte	3,2,1,5,29,9
-	.half	.L146-.L145
+	.half	.L152-.L151
 	.byte	1,5,32,9
-	.half	.L147-.L146
+	.half	.L153-.L152
 	.byte	1,5,25,9
-	.half	.L6-.L147
+	.half	.L6-.L153
 	.byte	3,3,1,5,29,9
-	.half	.L148-.L6
+	.half	.L154-.L6
 	.byte	1,5,21,9
-	.half	.L7-.L148
+	.half	.L7-.L154
 	.byte	3,2,1,5,25,9
-	.half	.L149-.L7
+	.half	.L155-.L7
 	.byte	1,5,29,9
-	.half	.L150-.L149
+	.half	.L156-.L155
 	.byte	3,1,1,5,1,9
-	.half	.L151-.L150
+	.half	.L157-.L156
 	.byte	3,1,1,7,9
-	.half	.L52-.L151
+	.half	.L52-.L157
 	.byte	0,1,1
-.L142:
+.L148:
 	.sdecl	'.debug_ranges',debug,cluster('Motor_movChB')
 	.sect	'.debug_ranges'
 .L51:
@@ -93435,10 +93469,10 @@ __Motor_movChB_PWM_function_end:
 	.byte	2
 	.word	.L24
 	.byte	3
-	.byte	'Motor_stopChB',0,1,80,6,1,1,1
-	.word	.L21,.L73,.L20
+	.byte	'Motor_stopChB',0,1,86,6,1,1,1
+	.word	.L21,.L77,.L20
 	.byte	4
-	.word	.L21,.L73
+	.word	.L21,.L77
 	.byte	0,0
 	.sdecl	'.debug_abbrev',debug,cluster('Motor_stopChB')
 	.sect	'.debug_abbrev'
@@ -93448,24 +93482,26 @@ __Motor_movChB_PWM_function_end:
 	.sdecl	'.debug_line',debug,cluster('Motor_stopChB')
 	.sect	'.debug_line'
 .L55:
-	.word	.L153-.L152
-.L152:
+	.word	.L159-.L158
+.L158:
 	.half	3
-	.word	.L155-.L154
-.L154:
+	.word	.L161-.L160
+.L160:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../BSW/IO/Motor.c',0,0,0,0,0
-.L155:
-	.byte	5,21,7,0,5,2
+.L161:
+	.byte	5,30,7,0,5,2
 	.word	.L21
-	.byte	3,209,0,1,5,25,9
-	.half	.L156-.L21
+	.byte	3,215,0,1,5,21,9
+	.half	.L162-.L21
+	.byte	3,1,1,5,25,9
+	.half	.L163-.L162
 	.byte	1,5,1,9
-	.half	.L157-.L156
+	.half	.L164-.L163
 	.byte	3,1,1,7,9
-	.half	.L57-.L157
+	.half	.L57-.L164
 	.byte	0,1,1
-.L153:
+.L159:
 	.sdecl	'.debug_ranges',debug,cluster('Motor_stopChB')
 	.sect	'.debug_ranges'
 .L56:
@@ -93491,16 +93527,16 @@ __Motor_movChB_PWM_function_end:
 	.byte	2
 	.word	.L24
 	.byte	3
-	.byte	'Motor_movChB_PWM',0,1,87,6,1,1,1
-	.word	.L23,.L74,.L22
+	.byte	'Motor_movChB_PWM',0,1,94,6,1,1,1
+	.word	.L23,.L78,.L22
 	.byte	4
-	.byte	'duty',0,1,87,27
-	.word	.L65,.L75
+	.byte	'duty',0,1,94,27
+	.word	.L69,.L79
 	.byte	4
-	.byte	'dir',0,1,87,37
-	.word	.L65,.L76
+	.byte	'dir',0,1,94,37
+	.word	.L69,.L80
 	.byte	5
-	.word	.L23,.L74
+	.word	.L23,.L78
 	.byte	0,0
 	.sdecl	'.debug_abbrev',debug,cluster('Motor_movChB_PWM')
 	.sect	'.debug_abbrev'
@@ -93510,40 +93546,48 @@ __Motor_movChB_PWM_function_end:
 	.sdecl	'.debug_line',debug,cluster('Motor_movChB_PWM')
 	.sect	'.debug_line'
 .L60:
-	.word	.L159-.L158
-.L158:
+	.word	.L166-.L165
+.L165:
 	.half	3
-	.word	.L161-.L160
-.L160:
+	.word	.L168-.L167
+.L167:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../BSW/IO/Motor.c',0,0,0,0,0
-.L161:
+.L168:
 	.byte	5,6,7,0,5,2
 	.word	.L23
-	.byte	3,214,0,1,5,35,9
-	.half	.L86-.L23
-	.byte	3,3,1,5,5,9
-	.half	.L84-.L86
+	.byte	3,221,0,1,5,5,9
+	.half	.L92-.L23
+	.byte	3,4,1,5,27,9
+	.half	.L169-.L92
+	.byte	1,5,5,9
+	.half	.L170-.L169
+	.byte	3,1,1,5,32,9
+	.half	.L171-.L170
+	.byte	1,5,35,9
+	.half	.L172-.L171
+	.byte	3,4,1,5,5,9
+	.half	.L90-.L172
 	.byte	3,2,1,5,25,7,9
-	.half	.L162-.L84
+	.half	.L173-.L90
 	.byte	3,2,1,5,29,9
-	.half	.L87-.L162
+	.half	.L93-.L173
 	.byte	1,5,32,9
-	.half	.L163-.L87
+	.half	.L174-.L93
 	.byte	1,5,25,9
-	.half	.L8-.L163
+	.half	.L8-.L174
 	.byte	3,3,1,5,29,9
-	.half	.L88-.L8
+	.half	.L94-.L8
 	.byte	1,5,21,9
-	.half	.L9-.L88
+	.half	.L9-.L94
 	.byte	3,3,1,5,25,9
-	.half	.L164-.L9
+	.half	.L175-.L9
 	.byte	1,5,1,9
-	.half	.L165-.L164
+	.half	.L176-.L175
 	.byte	3,1,1,7,9
-	.half	.L62-.L165
+	.half	.L62-.L176
 	.byte	0,1,1
-.L159:
+.L166:
 	.sdecl	'.debug_ranges',debug,cluster('Motor_movChB_PWM')
 	.sect	'.debug_ranges'
 .L61:
@@ -93555,100 +93599,144 @@ __Motor_movChB_PWM_function_end:
 	.word	.L58,248,168
 	.byte	'Motor_movChB_PWM',0
 	.word	0
+	.sdecl	'.debug_info',debug,cluster('g_current_motorB_duty')
+	.sect	'.debug_info'
+.L63:
+	.word	194
+	.half	3
+	.word	.L64
+	.byte	4,1
+	.byte	'../BSW/IO/Motor.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\NGV\\TC375LK_NGV_2\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L24
+	.byte	3
+	.byte	'g_current_motorB_duty',0,18,13,14
+	.word	.L81
+	.byte	1,5,3
+	.word	g_current_motorB_duty
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('g_current_motorB_duty')
+	.sect	'.debug_abbrev'
+.L64:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('g_current_motorB_direction')
+	.sect	'.debug_info'
+.L65:
+	.word	199
+	.half	3
+	.word	.L66
+	.byte	4,1
+	.byte	'../BSW/IO/Motor.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\NGV\\TC375LK_NGV_2\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L24
+	.byte	3
+	.byte	'g_current_motorB_direction',0,18,14,14
+	.word	.L82
+	.byte	1,5,3
+	.word	g_current_motorB_direction
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('g_current_motorB_direction')
+	.sect	'.debug_abbrev'
+.L66:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
 	.sdecl	'.debug_loc',debug,cluster('Motor_Init')
 	.sect	'.debug_loc'
 .L10:
-	.word	-1,.L11,0,.L63-.L11
+	.word	-1,.L11,0,.L67-.L11
 	.half	2
 	.byte	138,0
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('Motor_movChA')
 	.sect	'.debug_loc'
 .L12:
-	.word	-1,.L13,0,.L64-.L13
+	.word	-1,.L13,0,.L68-.L13
 	.half	2
 	.byte	138,0
 	.word	0,0
-.L66:
-	.word	-1,.L13,0,.L77-.L13
+.L70:
+	.word	-1,.L13,0,.L83-.L13
 	.half	1
 	.byte	84
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('Motor_movChA_PWM')
 	.sect	'.debug_loc'
 .L16:
-	.word	-1,.L17,0,.L68-.L17
+	.word	-1,.L17,0,.L72-.L17
 	.half	2
 	.byte	138,0
 	.word	0,0
-.L70:
-	.word	-1,.L17,0,.L78-.L17
+.L74:
+	.word	-1,.L17,0,.L84-.L17
 	.half	1
 	.byte	85
-	.word	.L80-.L17,.L81-.L17
+	.word	.L86-.L17,.L87-.L17
 	.half	1
 	.byte	95
-	.word	.L4-.L17,.L82-.L17
+	.word	.L4-.L17,.L88-.L17
 	.half	1
 	.byte	95
 	.word	0,0
-.L69:
-	.word	-1,.L17,0,.L79-.L17
+.L73:
+	.word	-1,.L17,0,.L85-.L17
 	.half	1
 	.byte	84
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('Motor_movChB')
 	.sect	'.debug_loc'
 .L18:
-	.word	-1,.L19,0,.L71-.L19
+	.word	-1,.L19,0,.L75-.L19
 	.half	2
 	.byte	138,0
 	.word	0,0
-.L72:
-	.word	-1,.L19,0,.L83-.L19
+.L76:
+	.word	-1,.L19,0,.L89-.L19
 	.half	1
 	.byte	84
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('Motor_movChB_PWM')
 	.sect	'.debug_loc'
 .L22:
-	.word	-1,.L23,0,.L74-.L23
+	.word	-1,.L23,0,.L78-.L23
 	.half	2
 	.byte	138,0
 	.word	0,0
-.L76:
-	.word	-1,.L23,0,.L84-.L23
+.L80:
+	.word	-1,.L23,0,.L90-.L23
 	.half	1
 	.byte	85
-	.word	.L86-.L23,.L87-.L23
+	.word	.L92-.L23,.L93-.L23
 	.half	1
 	.byte	95
-	.word	.L8-.L23,.L88-.L23
+	.word	.L8-.L23,.L94-.L23
 	.half	1
 	.byte	95
 	.word	0,0
-.L75:
-	.word	-1,.L23,0,.L85-.L23
+.L79:
+	.word	-1,.L23,0,.L91-.L23
 	.half	1
 	.byte	84
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('Motor_stopChA')
 	.sect	'.debug_loc'
 .L14:
-	.word	-1,.L15,0,.L67-.L15
+	.word	-1,.L15,0,.L71-.L15
 	.half	2
 	.byte	138,0
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('Motor_stopChB')
 	.sect	'.debug_loc'
 .L20:
-	.word	-1,.L21,0,.L73-.L21
+	.word	-1,.L21,0,.L77-.L21
 	.half	2
 	.byte	138,0
 	.word	0,0
 	.sdecl	'.debug_frame',debug
 	.sect	'.debug_frame'
-.L166:
+.L177:
 	.word	48
 	.word	-1
 	.byte	3,0,2,1,27,12,26,0,8,26,8,27,8,30,8,29,8,28,8,16,8,17,8,24,8,25,8,31,8,32,8,33,8,34,8,35,8,36,8,37,8,38
@@ -93656,31 +93744,30 @@ __Motor_movChB_PWM_function_end:
 	.sdecl	'.debug_frame',debug,cluster('Motor_Init')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L166,.L11,.L63-.L11
+	.word	.L177,.L11,.L67-.L11
 	.sdecl	'.debug_frame',debug,cluster('Motor_movChA')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L166,.L13,.L64-.L13
+	.word	.L177,.L13,.L68-.L13
 	.sdecl	'.debug_frame',debug,cluster('Motor_stopChA')
 	.sect	'.debug_frame'
 	.word	24
-	.word	.L166,.L15,.L67-.L15
+	.word	.L177,.L15,.L71-.L15
 	.byte	8,18,8,19,8,20,8,21,8,22,8,23
 	.sdecl	'.debug_frame',debug,cluster('Motor_movChA_PWM')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L166,.L17,.L68-.L17
+	.word	.L177,.L17,.L72-.L17
 	.sdecl	'.debug_frame',debug,cluster('Motor_movChB')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L166,.L19,.L71-.L19
+	.word	.L177,.L19,.L75-.L19
 	.sdecl	'.debug_frame',debug,cluster('Motor_stopChB')
 	.sect	'.debug_frame'
-	.word	24
-	.word	.L166,.L21,.L73-.L21
-	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+	.word	12
+	.word	.L177,.L21,.L77-.L21
 	.sdecl	'.debug_frame',debug,cluster('Motor_movChB_PWM')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L166,.L23,.L74-.L23
+	.word	.L177,.L23,.L78-.L23
 	; Module end

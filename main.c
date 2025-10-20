@@ -30,7 +30,9 @@ void main (void)
 
     while (1)
     {
+
         Ifx_Lwip_pollTimerFlags(); /* Poll LwIP timers and trigger protocols execution if required */
         Ifx_Lwip_pollReceiveFlags(); /* Receive data package through ETH */
+
     } /* End of while */
 }

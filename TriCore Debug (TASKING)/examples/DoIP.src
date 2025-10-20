@@ -1,6 +1,6 @@
 	; Module start
 	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
-	.compiler_invocation	"ctc -f cc12704a -c99 --fp-model=3cflnrSTz -D__CPU__=tc37x -D__CPU_TC37X__ --core=tc1.6.2 --fp-model=+float -D__CPU__=tc37x -IC:\\\\NGV\\\\TC375LK_NGV_2 -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\BSW -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\BSW\\\\Driver -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\BSW\\\\IO -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\BSW\\\\etc -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Configurations -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Infra -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Infra\\\\Sfr\\\\TC37A -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Infra\\\\Sfr\\\\TC37A\\\\_Reg -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Infra\\\\Ssw -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Infra\\\\Ssw\\\\TC37A -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Infra\\\\Ssw\\\\TC37A\\\\Tricore -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Service -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Service\\\\CpuGeneric\\\\StdIf -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin\\\\Asc -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin\\\\Std -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can\\\\Can -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can\\\\Std -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Irq -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc\\\\Adc -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc\\\\Std -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Geth -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Geth\\\\Eth -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Geth\\\\Std -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gpt12 -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gpt12\\\\Std -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Atom -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Atom\\\\Pwm -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms\\\\Std -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port\\\\Std -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu\\\\Std -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src\\\\Std -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Stm -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Stm\\\\Std -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Impl -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Lib -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Lib\\\\DataHandling -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_PinMap -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Ethernet\\\\lwip\\\\port\\\\include -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Ethernet\\\\Phy_Dp83825i -g3 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o examples/DoIP.src ../examples/DoIP.c"
+	.compiler_invocation	"ctc -f cc35436a -c99 --fp-model=3cflnrSTz -D__CPU__=tc37x -D__CPU_TC37X__ --core=tc1.6.2 --fp-model=+float -D__CPU__=tc37x -IC:\\\\NGV\\\\TC375LK_NGV_2 -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\BSW -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\BSW\\\\Driver -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\BSW\\\\IO -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\BSW\\\\etc -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Configurations -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Infra -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Infra\\\\Sfr\\\\TC37A -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Infra\\\\Sfr\\\\TC37A\\\\_Reg -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Infra\\\\Ssw -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Infra\\\\Ssw\\\\TC37A -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Infra\\\\Ssw\\\\TC37A\\\\Tricore -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Service -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Service\\\\CpuGeneric\\\\StdIf -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin\\\\Asc -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin\\\\Std -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can\\\\Can -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can\\\\Std -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Irq -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc\\\\Adc -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc\\\\Std -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Geth -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Geth\\\\Eth -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Geth\\\\Std -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gpt12 -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gpt12\\\\Std -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Atom -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Atom\\\\Pwm -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms\\\\Std -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port\\\\Std -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu\\\\Std -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src\\\\Std -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Stm -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Stm\\\\Std -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Impl -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Lib -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Lib\\\\DataHandling -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_PinMap -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Ethernet\\\\lwip\\\\port\\\\include -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Ethernet\\\\Phy_Dp83825i -g3 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o examples/DoIP.src ../examples/DoIP.c"
 	.compiler_name		"ctc"
 	;source	'../examples/DoIP.c'
 
@@ -13,3250 +13,2233 @@ $TC162
 	
 	.global	DoIP_Init
 ; Function DoIP_Init
-.L55:
+.L35:
 DoIP_Init:	.type	func
-	movh.a	a15,#@his(doip_pcb)
-	lea	a15,[a15]@los(doip_pcb)
-.L293:
 	call	tcp_new
-.L294:
-	st.a	[a15],a2
-.L295:
-	movh.a	a15,#@his(doip_pcb)
-	lea	a15,[a15]@los(doip_pcb)
-	ld.w	d15,[a15]
-.L296:
-	jeq	d15,#0,.L2
-.L117:
-	movh.a	a15,#@his(doip_pcb)
-	lea	a15,[a15]@los(doip_pcb)
-	ld.a	a4,[a15]
-.L297:
+.L109:
+	mov.aa	a15,a2
+.L111:
+	jz.a	a15,.L2
+.L69:
 	movh.a	a5,#@his(ip_addr_any)
 	lea	a5,[a5]@los(ip_addr_any)
-.L298:
+.L173:
 	mov	d4,#13400
+	mov.aa	a4,a15
+.L110:
 	call	tcp_bind
-.L177:
+.L113:
 	jne	d2,#0,.L3
-.L299:
-	movh.a	a15,#@his(doip_pcb)
-	lea	a15,[a15]@los(doip_pcb)
-.L300:
-	movh.a	a2,#@his(doip_pcb)
-	lea	a2,[a2]@los(doip_pcb)
-	ld.a	a4,[a2]
+.L174:
 	mov	d4,#255
+	mov.aa	a4,a15
+.L114:
 	call	tcp_listen_with_backlog
-.L178:
-	st.a	[a15],a2
-.L301:
-	movh.a	a15,#@his(doip_pcb)
-	lea	a15,[a15]@los(doip_pcb)
-	ld.a	a4,[a15]
-.L302:
+.L112:
 	movh.a	a5,#@his(doip_accept)
 	lea	a5,[a5]@los(doip_accept)
+	mov.aa	a4,a2
+.L116:
 	call	tcp_accept
-.L303:
+.L115:
 	j	.L4
 .L3:
+	mov.aa	a4,a15
+.L117:
+	call	tcp_abort
 .L4:
-	j	.L5
 .L2:
-.L5:
 	ret
-.L116:
+.L66:
 	
 __DoIP_Init_function_end:
 	.size	DoIP_Init,__DoIP_Init_function_end-DoIP_Init
-.L78:
+.L50:
 	; End of function
 	
 	.sdecl	'.text.DoIP.doip_accept',code,cluster('doip_accept')
 	.sect	'.text.DoIP.doip_accept'
 	.align	2
 	
-	.global	doip_accept
 ; Function doip_accept
-.L57:
+.L37:
 doip_accept:	.type	func
-	mov.aa	a12,a5
-.L181:
-	mov	d4,#1
-.L180:
-	mov.aa	a4,a12
-.L179:
-	call	tcp_setprio
-.L182:
-	mov	d4,#12
-	call	mem_malloc
-.L183:
-	mov.aa	a15,a2
-.L185:
-	jz.a	a15,.L6
-.L308:
-	mov	d15,#1
-.L309:
-	st.b	[a15],d15
-.L310:
-	st.a	[a15]4,a12
-.L311:
-	mov	d15,#0
-.L312:
-	st.b	[a15]1,d15
-.L313:
-	mov.a	a2,#0
-.L184:
-	st.a	[a15]8,a2
-.L314:
-	mov.aa	a4,a12
-.L186:
-	mov.aa	a5,a15
-.L188:
-	call	tcp_arg
-.L187:
+	mov.aa	a15,a5
+.L121:
 	movh.a	a5,#@his(doip_recv)
+.L120:
 	lea	a5,[a5]@los(doip_recv)
-	mov.aa	a4,a12
-.L189:
+	mov.aa	a4,a15
+.L118:
 	call	tcp_recv
-.L190:
+.L119:
 	movh.a	a5,#@his(doip_error)
 	lea	a5,[a5]@los(doip_error)
-	mov.aa	a4,a12
-.L191:
+	mov.aa	a4,a15
+.L122:
 	call	tcp_err
-.L192:
-	movh.a	a5,#@his(doip_poll)
-	lea	a5,[a5]@los(doip_poll)
-.L315:
-	mov	d4,#0
-	mov.aa	a4,a12
-.L193:
-	call	tcp_poll
-.L194:
+.L123:
 	mov	d2,#0
-.L195:
-	mov	d15,#2
-.L316:
-	st.b	[a15],d15
-.L317:
-	j	.L7
-.L6:
-	mov	d2,#-1
-.L7:
-	j	.L8
-.L8:
+.L179:
+	j	.L5
+.L5:
 	ret
-.L120:
+.L72:
 	
 __doip_accept_function_end:
 	.size	doip_accept,__doip_accept_function_end-doip_accept
-.L83:
+.L55:
 	; End of function
 	
 	.sdecl	'.text.DoIP.doip_recv',code,cluster('doip_recv')
 	.sect	'.text.DoIP.doip_recv'
 	.align	2
 	
-	.global	doip_recv
 ; Function doip_recv
-.L59:
+.L39:
 doip_recv:	.type	func
-	sub.a	a10,#40
-.L196:
-	mov.aa	a15,a4
-.L198:
+	sub.a	a10,#24
+.L124:
 	mov.aa	a12,a5
-.L199:
-	mov.aa	a13,a6
-.L200:
-	mov	d8,d4
-.L9:
-	jnz.a	a15,.L10
-.L322:
-	movh.a	a2,#@his(.2.str)
-	lea	a2,[a2]@los(.2.str)
-	st.a	[a10],a2
-	mov	d15,#97
-	st.w	[a10]4,d15
-	movh.a	a2,#@his(.3.str)
-	lea	a2,[a2]@los(.3.str)
-	st.a	[a10]8,a2
-	movh.a	a4,#@his(.1.str)
-.L197:
-	lea	a4,[a4]@los(.1.str)
-	call	Ifx_Lwip_printf
-.L10:
-	jnz.a	a13,.L11
-.L323:
-	mov	d15,#3
-.L324:
-	st.b	[a15],d15
-.L325:
-	ld.w	d15,[a15]8
-.L326:
-	jne	d15,#0,.L12
-.L327:
+.L127:
+	mov.aa	a15,a6
+.L128:
+	mov	d15,d4
+.L129:
+	jnz.a	a15,.L6
+.L184:
 	mov.aa	a4,a12
-.L201:
-	mov.aa	a5,a15
-.L203:
-	call	doip_close
-.L202:
-	j	.L13
-.L12:
-	movh.a	a5,#@his(doip_sent)
-	lea	a5,[a5]@los(doip_sent)
-	mov.aa	a4,a12
-.L204:
-	call	tcp_sent
-.L205:
-	mov.aa	a4,a12
-.L206:
-	mov.aa	a5,a15
-.L207:
-	call	doip_send
-.L13:
-	mov	d8,#0
-.L328:
-	j	.L14
-.L11:
-	jeq	d8,#0,.L15
-.L329:
-	jz.a	a13,.L16
-.L330:
-	mov.a	a2,#0
-.L331:
-	st.a	[a15]8,a2
-.L332:
-	mov.aa	a4,a13
-.L208:
+.L125:
+	call	tcp_close
+.L126:
+	mov	d2,#0
+.L185:
+	j	.L7
+.L6:
+	jeq	d15,#0,.L8
+.L186:
+	mov.aa	a4,a15
+.L131:
 	call	pbuf_free
-.L16:
-	j	.L17
-.L15:
-	ld.bu	d15,[a15]
-.L333:
-	jne	d15,#1,.L18
-.L334:
-	mov	d15,#2
-.L335:
-	st.b	[a15],d15
-.L336:
-	st.a	[a15]8,a13
-.L337:
-	movh.a	a5,#@his(doip_sent)
-	lea	a5,[a5]@los(doip_sent)
-	mov.aa	a4,a12
-.L209:
-	call	tcp_sent
-.L210:
-	mov.aa	a4,a12
-.L211:
-	mov.aa	a5,a15
-.L213:
-	call	doip_send
-.L212:
-	mov	d8,#0
-.L338:
-	j	.L19
-.L18:
-	ld.bu	d15,[a15]
-.L339:
-	jne	d15,#2,.L20
-.L340:
-	ld.w	d15,[a15]8
-.L341:
-	jne	d15,#0,.L21
-.L342:
-	st.a	[a15]8,a13
-.L137:
-	ld.a	a2,[a13]4
-.L343:
-	ld.bu	d15,[a2]12
-.L344:
-	st.b	[a10]12,d15
-.L345:
-	ld.a	a2,[a13]4
-.L346:
-	ld.bu	d15,[a2]13
-.L347:
+.L132:
+	mov	d2,d15
+.L133:
+	j	.L9
+.L8:
+	ld.a	a2,[a15]4
+.L187:
+	ld.bu	d15,[a2]2
+.L130:
 	sha	d0,d15,#8
-.L348:
-	ld.a	a2,[a13]4
-.L349:
-	ld.bu	d15,[a2]14
-.L350:
+.L188:
+	ld.a	a2,[a15]4
+.L189:
+	ld.bu	d15,[a2]3
+.L137:
 	or	d0,d15
-.L351:
-	st.h	[a10]14,d0
-.L352:
-	movh.a	a2,#@his(.4.ini)
-	lea	a2,[a2]@los(.4.ini)
+.L190:
+	jne	d0,#5,.L10
+.L85:
+	movh.a	a2,#@his(.1.ini)
+	lea	a2,[a2]@los(.1.ini)
 	lea	a2,[a2]0
-.L353:
-	lea	a4,[a10]16
+.L191:
+	lea	a4,[a10]0
+.L134:
 	lea	a5,16
-.L22:
+.L11:
 	ld.bu	d15,[a2+]
 	st.b	[a4+],d15
-	loop	a5,.L22
-.L354:
-	ld.bu	d0,[a10]12
-.L355:
+	loop	a5,.L11
+.L192:
+	ld.a	a2,[a15]4
+.L193:
+	ld.bu	d15,[a2]8
+.L194:
+	st.b	[a10]8,d15
+.L195:
+	ld.a	a2,[a15]4
+.L196:
+	ld.bu	d15,[a2]9
+.L197:
+	st.b	[a10]9,d15
+.L198:
+	lea	a5,[a10]0
+.L199:
+	mov	d4,#17
+.L135:
+	mov	d5,#1
+	mov.aa	a4,a12
+.L138:
+	call	tcp_write
+.L136:
+	mov.aa	a4,a12
+.L139:
+	call	tcp_output
+.L86:
+	j	.L12
+.L10:
+	mov.u	d15,#32769
+.L200:
+	jne	d15,d0,.L13
+.L89:
+	ld.a	a2,[a15]4
+.L201:
+	ld.bu	d0,[a2]12
+.L141:
+	ld.a	a2,[a15]4
+.L202:
+	ld.bu	d15,[a2]13
+.L203:
+	sha	d1,d15,#8
+.L204:
+	ld.a	a2,[a15]4
+.L205:
+	ld.bu	d15,[a2]14
+.L206:
+	or	d8,d1,d15
+.L143:
 	mov	d15,#34
-.L356:
-	jne	d15,d0,.L23
-.L357:
-	ld.hu	d15,[a10]14
-.L358:
-	jne	d15,#1,.L24
-.L359:
-	call	Evadc_readVR
-.L360:
-	extr.u	d15,d2,#0,#16
+	jeq	d15,d0,.L14
+.L207:
+	mov	d15,#47
+	jeq	d15,d0,.L15
+	j	.L16
+.L14:
+	mov	d0,#4097
+.L142:
+	jne	d8,d0,.L17
+.L93:
+	call	Tof_GetValue
+.L140:
+	extr.u	d0,d2,#0,#16
+.L144:
+	movh.a	a2,#@his(.2.ini)
+	lea	a2,[a2]@los(.2.ini)
+	lea	a2,[a2]0
+.L208:
+	lea	a4,[a10]0
+	lea	a5,16
+.L18:
+	ld.bu	d1,[a2+]
+	st.b	[a4+],d1
+	loop	a5,.L18
+.L209:
+	ld.a	a2,[a15]4
+.L210:
+	ld.bu	d15,[a2]10
+.L211:
+	st.b	[a10]8,d15
+.L212:
+	ld.a	a2,[a15]4
+.L213:
+	ld.bu	d15,[a2]11
 .L214:
-	mov	d0,#1
-.L361:
-	st.b	[a10]30,d0
-.L362:
-	sha	d0,d15,#-8
-.L363:
-	st.b	[a10]31,d0
-.L364:
-	st.b	[a10]32,d15
-.L365:
-	j	.L25
-.L24:
-	ld.hu	d15,[a10]14
-.L366:
-	jne	d15,#2,.L26
-.L147:
-	call	Evadc_readPR
-.L367:
-	extr.u	d15,d2,#0,#16
+	st.b	[a10]9,d15
 .L215:
-	mov	d0,#2
-.L368:
-	st.b	[a10]30,d0
-.L369:
-	sha	d0,d15,#-8
-.L370:
-	st.b	[a10]31,d0
-.L371:
-	st.b	[a10]32,d15
+	ld.a	a2,[a15]4
+.L216:
+	ld.bu	d15,[a2]8
+.L217:
+	st.b	[a10]10,d15
+.L218:
+	ld.a	a2,[a15]4
+.L219:
+	ld.bu	d15,[a2]9
+.L220:
+	st.b	[a10]11,d15
+.L221:
+	sha	d15,d8,#-8
+.L222:
+	st.b	[a10]13,d15
+.L223:
+	st.b	[a10]14,d8
+.L224:
+	sha	d15,d0,#-8
+.L225:
+	st.b	[a10]15,d15
+.L226:
+	st.b	[a10]16,d0
+.L227:
+	lea	a5,[a10]0
+.L228:
+	mov	d4,#17
+.L229:
+	mov	d5,#1
+	mov.aa	a4,a12
+.L146:
+	call	tcp_write
+.L145:
+	mov.aa	a4,a12
+.L147:
+	call	tcp_output
+.L17:
+	j	.L19
+.L15:
+	mov	d15,#16384
+.L230:
+	jne	d15,d8,.L20
+.L96:
+	ld.a	a2,[a15]4
+.L231:
+	ld.bu	d15,[a2]15
+.L151:
+	mov	d9,#1
+.L152:
+	mov	d0,#0
+.L150:
+	jeq	d15,d0,.L21
+.L232:
+	mov	d0,#3
+	jeq	d15,d0,.L22
+	j	.L23
+.L22:
+	ld.a	a2,[a15]4
+.L233:
+	ld.bu	d5,[a2]16
+.L153:
+	ld.a	a2,[a15]4
+.L234:
+	ld.bu	d4,[a2]17
+.L149:
+	call	Motor_movChB_PWM
+.L148:
+	j	.L24
+.L21:
+	call	Motor_stopChB
+.L154:
+	j	.L25
+.L23:
+	mov	d9,#0
+.L235:
+	j	.L26
 .L26:
 .L25:
-.L23:
-	ld.a	a2,[a15]8
-.L372:
-	mov	d15,#17
-.L373:
-	st.h	[a2]10,d15
-.L374:
-	ld.a	a2,[a15]8
-.L375:
-	ld.a	a4,[a2]4
-.L376:
-	lea	a5,[a10]16
-.L377:
-	mov	d4,#17
-	call	memcpy
-.L378:
-	movh.a	a5,#@his(doip_sent)
-	lea	a5,[a5]@los(doip_sent)
-	mov.aa	a4,a12
-.L216:
-	call	tcp_sent
-.L217:
-	mov.aa	a4,a12
-.L218:
-	mov.aa	a5,a15
-.L219:
-	call	doip_send
-.L138:
-	j	.L27
-.L21:
-	ld.a	a4,[a15]8
-.L220:
-	mov.aa	a5,a13
-.L221:
-	call	pbuf_chain
-.L27:
-	mov	d8,#0
-.L379:
-	j	.L28
-.L20:
-	ld.bu	d15,[a15]
-.L380:
-	jne	d15,#3,.L29
-.L381:
-	ld.hu	d4,[a13]8
-	mov.aa	a4,a12
-.L222:
-	call	tcp_recved
-.L223:
-	mov.a	a2,#0
-.L382:
-	st.a	[a15]8,a2
-.L383:
-	mov.aa	a4,a13
-.L224:
-	call	pbuf_free
-.L225:
-	mov	d8,#0
-.L384:
-	j	.L30
-.L29:
-	ld.hu	d4,[a13]8
-	mov.aa	a4,a12
-.L226:
-	call	tcp_recved
-.L227:
-	mov.a	a2,#0
-.L385:
-	st.a	[a15]8,a2
-.L386:
-	mov.aa	a4,a13
-.L228:
-	call	pbuf_free
-.L229:
-	mov	d8,#0
-.L30:
+.L24:
+	jeq	d9,#0,.L27
+.L102:
+	movh.a	a2,#@his(.3.ini)
+	lea	a2,[a2]@los(.3.ini)
+	lea	a2,[a2]0
+.L236:
+	lea	a4,[a10]0
+	mov.a	a5,#14
 .L28:
-.L19:
-.L17:
-.L14:
-	mov	d2,d8
-.L230:
+	ld.bu	d15,[a2+]
+	st.b	[a4+],d15
+	loop	a5,.L28
+.L237:
+	ld.a	a2,[a15]4
+.L238:
+	ld.bu	d15,[a2]10
+.L239:
+	st.b	[a10]8,d15
+.L240:
+	ld.a	a2,[a15]4
+.L241:
+	ld.bu	d15,[a2]11
+.L242:
+	st.b	[a10]9,d15
+.L243:
+	ld.a	a2,[a15]4
+.L244:
+	ld.bu	d15,[a2]8
+.L245:
+	st.b	[a10]10,d15
+.L246:
+	ld.a	a2,[a15]4
+.L247:
+	ld.bu	d15,[a2]9
+.L248:
+	st.b	[a10]11,d15
+.L249:
+	sha	d15,d8,#-8
+.L250:
+	st.b	[a10]13,d15
+.L251:
+	st.b	[a10]14,d8
+.L252:
+	lea	a5,[a10]0
+.L253:
+	mov	d4,#15
+.L254:
+	mov	d5,#1
+	mov.aa	a4,a12
+.L155:
+	call	tcp_write
+.L156:
+	mov.aa	a4,a12
+.L157:
+	call	tcp_output
+.L103:
+	j	.L29
+.L27:
+.L29:
+	j	.L30
+.L20:
+.L30:
 	j	.L31
+.L16:
+	j	.L32
+.L32:
 .L31:
+.L19:
+.L13:
+.L12:
+	ld.hu	d4,[a15]8
+	mov.aa	a4,a12
+.L158:
+	call	tcp_recved
+.L159:
+	mov.aa	a4,a15
+.L160:
+	call	pbuf_free
+.L161:
+	mov	d2,#0
+.L255:
+	j	.L33
+.L33:
+.L9:
+.L7:
 	ret
-.L129:
+.L77:
 	
 __doip_recv_function_end:
 	.size	doip_recv,__doip_recv_function_end-doip_recv
-.L88:
+.L60:
 	; End of function
 	
 	.sdecl	'.text.DoIP.doip_error',code,cluster('doip_error')
 	.sect	'.text.DoIP.doip_error'
 	.align	2
 	
-	.global	doip_error
 ; Function doip_error
-.L61:
+.L41:
 doip_error:	.type	func
-	jz.a	a4,.L32
-.L391:
-	call	mem_free
-.L32:
 	ret
-.L150:
+.L106:
 	
 __doip_error_function_end:
 	.size	doip_error,__doip_error_function_end-doip_error
-.L93:
-	; End of function
-	
-	.sdecl	'.text.DoIP.doip_poll',code,cluster('doip_poll')
-	.sect	'.text.DoIP.doip_poll'
-	.align	2
-	
-	.global	doip_poll
-; Function doip_poll
-.L63:
-doip_poll:	.type	func
-	mov.aa	a15,a4
-.L233:
-	mov.aa	a12,a5
-.L234:
-	jz.a	a15,.L33
-.L396:
-	ld.w	d15,[a15]8
-.L397:
-	jeq	d15,#0,.L34
-.L398:
-	movh.a	a5,#@his(doip_sent)
-.L232:
-	lea	a5,[a5]@los(doip_sent)
-	mov.aa	a4,a12
-.L231:
-	call	tcp_sent
-.L235:
-	mov.aa	a4,a12
-.L236:
-	mov.aa	a5,a15
-.L238:
-	call	doip_send
-.L237:
-	j	.L35
-.L34:
-	ld.bu	d15,[a15]
-.L399:
-	jne	d15,#3,.L36
-.L400:
-	mov.aa	a4,a12
-.L239:
-	mov.aa	a5,a15
-.L240:
-	call	doip_close
-.L36:
-.L35:
-	mov	d2,#0
-.L241:
-	j	.L37
-.L33:
-	mov.aa	a4,a12
-.L242:
-	call	tcp_abort
-.L243:
-	mov	d2,#-13
-.L37:
-	j	.L38
-.L38:
-	ret
-.L154:
-	
-__doip_poll_function_end:
-	.size	doip_poll,__doip_poll_function_end-doip_poll
-.L98:
-	; End of function
-	
-	.sdecl	'.text.DoIP.doip_sent',code,cluster('doip_sent')
-	.sect	'.text.DoIP.doip_sent'
-	.align	2
-	
-	.global	doip_sent
-; Function doip_sent
 .L65:
-doip_sent:	.type	func
-	mov.aa	a15,a4
-.L247:
-	mov.aa	a12,a5
-.L248:
-	mov	d15,#0
-.L405:
-	st.b	[a15]1,d15
-.L406:
-	ld.w	d15,[a15]8
-.L407:
-	jeq	d15,#0,.L39
-.L408:
-	movh.a	a5,#@his(doip_sent)
-.L246:
-	lea	a5,[a5]@los(doip_sent)
-	mov.aa	a4,a12
-.L244:
-	call	tcp_sent
-.L245:
-	mov.aa	a4,a12
-.L249:
-	mov.aa	a5,a15
-.L251:
-	call	doip_send
-.L250:
-	j	.L40
-.L39:
-	ld.bu	d15,[a15]
-.L409:
-	jne	d15,#3,.L41
-.L410:
-	mov.aa	a4,a12
-.L252:
-	mov.aa	a5,a15
-.L253:
-	call	doip_close
-.L41:
-.L40:
-	mov	d2,#0
-.L411:
-	j	.L42
-.L42:
-	ret
-.L159:
-	
-__doip_sent_function_end:
-	.size	doip_sent,__doip_sent_function_end-doip_sent
-.L103:
 	; End of function
 	
-	.sdecl	'.text.DoIP.doip_send',code,cluster('doip_send')
-	.sect	'.text.DoIP.doip_send'
-	.align	2
-	
-	.global	doip_send
-; Function doip_send
-.L67:
-doip_send:	.type	func
-	mov.aa	a13,a4
-.L254:
-	mov.aa	a15,a5
-.L255:
-	mov	d15,#0
-.L256:
-	j	.L43
-.L44:
-	ld.a	a12,[a15]8
-.L257:
-	ld.a	a5,[a12]4
-.L416:
-	ld.hu	d4,[a12]10
-.L417:
-	mov	d5,#1
-	mov.aa	a4,a13
-.L258:
-	call	tcp_write
-.L259:
-	mov	d15,d2
-.L260:
-	jne	d15,#0,.L45
-.L169:
-	ld.hu	d8,[a12]10
-.L262:
-	ld.a	a2,[a12]
-.L418:
-	st.a	[a15]8,a2
-.L419:
-	ld.w	d0,[a15]8
-.L420:
-	jeq	d0,#0,.L46
-.L421:
-	ld.a	a4,[a15]8
-	call	pbuf_ref
-.L46:
-.L47:
-	mov.aa	a4,a12
-.L263:
-	call	pbuf_free
-.L264:
-	jeq	d2,#0,.L47
-.L422:
-	mov.aa	a4,a13
-.L265:
-	mov	d4,d8
-.L266:
-	call	tcp_recved
-.L170:
-	j	.L48
-.L45:
-	jne	d15,#-1,.L49
-.L423:
-	st.a	[a15]8,a12
-.L424:
-	j	.L50
-.L49:
-.L50:
-.L48:
-.L43:
-	jne	d15,#0,.L51
-.L425:
-	ld.w	d15,[a15]8
-.L261:
-	jeq	d15,#0,.L52
-.L426:
-	ld.a	a2,[a15]8
-.L427:
-	ld.hu	d15,[a2]10
-.L428:
-	ld.hu	d0,[a13]100
-.L429:
-	jge.u	d0,d15,.L44
-.L52:
-.L51:
-	ret
-.L164:
-	
-__doip_send_function_end:
-	.size	doip_send,__doip_send_function_end-doip_send
-.L108:
-	; End of function
-	
-	.sdecl	'.text.DoIP.doip_close',code,cluster('doip_close')
-	.sect	'.text.DoIP.doip_close'
-	.align	2
-	
-	.global	doip_close
-; Function doip_close
-.L69:
-doip_close:	.type	func
-	mov.aa	a15,a4
-.L269:
-	mov.aa	a12,a5
-.L270:
-	mov.a	a5,#0
-.L267:
-	mov.aa	a4,a15
-	call	tcp_arg
-.L268:
-	mov.a	a5,#0
-	mov.aa	a4,a15
-.L271:
-	call	tcp_sent
-.L272:
-	mov.a	a5,#0
-	mov.aa	a4,a15
-.L273:
-	call	tcp_recv
-.L274:
-	mov.a	a5,#0
-	mov.aa	a4,a15
-.L275:
-	call	tcp_err
-.L276:
-	mov.a	a5,#0
-.L434:
-	mov	d4,#0
-	mov.aa	a4,a15
-.L277:
-	call	tcp_poll
-.L278:
-	jz.a	a12,.L53
-.L435:
-	mov.aa	a4,a12
-.L279:
-	call	mem_free
-.L53:
-	mov.aa	a4,a15
-.L280:
-	call	tcp_close
-.L281:
-	ret
-.L174:
-	
-__doip_close_function_end:
-	.size	doip_close,__doip_close_function_end-doip_close
-.L113:
-	; End of function
-	
-	.sdecl	'.bss.DoIP.doip_pcb',data,cluster('doip_pcb')
-	.sect	'.bss.DoIP.doip_pcb'
-	.align	4
-doip_pcb:	.type	object
-	.size	doip_pcb,4
+	.sdecl	'.rodata.DoIP..1.ini',data,rom
+	.sect	'.rodata.DoIP..1.ini'
+.1.ini:	.type	object
+	.size	.1.ini,17
+	.byte	3,252
+	.space	1
+	.byte	6
+	.space	3
+	.byte	9
+	.space	2
+	.byte	2,1,16
 	.space	4
-	.sdecl	'.rodata.DoIP..1.str',data,rom
-	.sect	'.rodata.DoIP..1.str'
-.1.str:	.type	object
-	.size	.1.str,40
-	.byte	65,115,115,101,114,116,105,111
-	.byte	110,32,34,37,115,34,32,102
-	.byte	97,105,108,101,100,32,97,116
-	.byte	32,108,105,110,101,32,37,100
-	.byte	32,105,110,32
-	.byte	37,115,10
-	.space	1
-	.sdecl	'.rodata.DoIP..2.str',data,rom
-	.sect	'.rodata.DoIP..2.str'
-.2.str:	.type	object
-	.size	.2.str,12
-	.byte	97,114,103,32,33,61,32,78
-	.byte	85,76,76
-	.space	1
-	.sdecl	'.rodata.DoIP..3.str',data,rom
-	.sect	'.rodata.DoIP..3.str'
-.3.str:	.type	object
-	.size	.3.str,19
-	.byte	46,46,47,101,120,97,109,112
-	.byte	108,101,115,47,68,111,73,80
-	.byte	46,99
-	.space	1
-	.sdecl	'.rodata.DoIP..4.ini',data,rom
-	.sect	'.rodata.DoIP..4.ini'
-.4.ini:	.type	object
-	.size	.4.ini,17
+	.sdecl	'.rodata.DoIP..2.ini',data,rom
+	.sect	'.rodata.DoIP..2.ini'
+.2.ini:	.type	object
+	.size	.2.ini,17
 	.byte	3,252,128,1
 	.space	3
-	.byte	9,2,1,2
-	.space	1
+	.byte	9
+	.space	4
 	.byte	98
 	.space	4
+	.sdecl	'.rodata.DoIP..3.ini',data,rom
+	.sect	'.rodata.DoIP..3.ini'
+.3.ini:	.type	object
+	.size	.3.ini,15
+	.byte	3,252,128,1
+	.space	3
+	.byte	7
+	.space	4
+	.byte	111
+	.space	2
 	.calls	'__INDIRECT__','doip_accept'
 	.calls	'__INDIRECT__','doip_recv'
 	.calls	'__INDIRECT__','doip_error'
-	.calls	'__INDIRECT__','doip_poll'
-	.calls	'__INDIRECT__','doip_sent'
 	.calls	'DoIP_Init','tcp_new'
 	.calls	'DoIP_Init','tcp_bind'
 	.calls	'DoIP_Init','tcp_listen_with_backlog'
 	.calls	'DoIP_Init','tcp_accept'
-	.calls	'doip_accept','tcp_setprio'
-	.calls	'doip_accept','mem_malloc'
-	.calls	'doip_accept','tcp_arg'
+	.calls	'DoIP_Init','tcp_abort'
 	.calls	'doip_accept','tcp_recv'
 	.calls	'doip_accept','tcp_err'
-	.calls	'doip_accept','tcp_poll'
-	.calls	'doip_recv','Ifx_Lwip_printf'
-	.calls	'doip_recv','doip_close'
-	.calls	'doip_recv','tcp_sent'
-	.calls	'doip_recv','doip_send'
+	.calls	'doip_recv','tcp_close'
 	.calls	'doip_recv','pbuf_free'
-	.calls	'doip_recv','Evadc_readVR'
-	.calls	'doip_recv','Evadc_readPR'
-	.calls	'doip_recv','memcpy'
-	.calls	'doip_recv','pbuf_chain'
+	.calls	'doip_recv','tcp_write'
+	.calls	'doip_recv','tcp_output'
+	.calls	'doip_recv','Tof_GetValue'
+	.calls	'doip_recv','Motor_movChB_PWM'
+	.calls	'doip_recv','Motor_stopChB'
 	.calls	'doip_recv','tcp_recved'
-	.calls	'doip_error','mem_free'
-	.calls	'doip_poll','tcp_sent'
-	.calls	'doip_poll','doip_send'
-	.calls	'doip_poll','doip_close'
-	.calls	'doip_poll','tcp_abort'
-	.calls	'doip_sent','tcp_sent'
-	.calls	'doip_sent','doip_send'
-	.calls	'doip_sent','doip_close'
-	.calls	'doip_send','tcp_write'
-	.calls	'doip_send','pbuf_ref'
-	.calls	'doip_send','pbuf_free'
-	.calls	'doip_send','tcp_recved'
-	.calls	'doip_close','tcp_arg'
-	.calls	'doip_close','tcp_sent'
-	.calls	'doip_close','tcp_recv'
-	.calls	'doip_close','tcp_err'
-	.calls	'doip_close','tcp_poll'
-	.calls	'doip_close','mem_free'
-	.calls	'doip_close','tcp_close'
 	.calls	'DoIP_Init','',0
 	.calls	'doip_accept','',0
-	.calls	'doip_recv','',40
-	.calls	'doip_error','',0
-	.calls	'doip_poll','',0
-	.calls	'doip_sent','',0
-	.calls	'doip_send','',0
-	.extern	Ifx_Lwip_printf
-	.extern	mem_malloc
-	.extern	mem_free
-	.extern	pbuf_ref
+	.calls	'doip_recv','',24
 	.extern	pbuf_free
-	.extern	pbuf_chain
 	.extern	ip_addr_any
 	.extern	tcp_new
-	.extern	tcp_arg
 	.extern	tcp_recv
-	.extern	tcp_sent
 	.extern	tcp_err
 	.extern	tcp_accept
-	.extern	tcp_poll
 	.extern	tcp_recved
 	.extern	tcp_bind
 	.extern	tcp_listen_with_backlog
 	.extern	tcp_abort
 	.extern	tcp_close
 	.extern	tcp_write
-	.extern	tcp_setprio
-	.extern	memcpy
-	.extern	Evadc_readVR
-	.extern	Evadc_readPR
+	.extern	tcp_output
+	.extern	Tof_GetValue
+	.extern	Motor_stopChB
+	.extern	Motor_movChB_PWM
 	.extern	__INDIRECT__
-	.calls	'doip_close','',0
+	.calls	'doip_error','',0
 	.sdecl	'.debug_info',debug
 	.sect	'.debug_info'
-.L71:
-	.word	5113
+.L43:
+	.word	4658
 	.half	3
-	.word	.L72
+	.word	.L44
 	.byte	4
-.L70:
+.L42:
 	.byte	1
 	.byte	'../examples/DoIP.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\NGV\\TC375LK_NGV_2\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L73
-.L118:
+	.word	.L45
+.L90:
 	.byte	2
-	.byte	'char',0,1,6,2
-	.byte	'char',0,1,6,3
-	.word	168
-	.byte	4
-	.word	176
-	.byte	5
-	.byte	'Ifx_Lwip_printf',0,1,123,6
-	.word	160
-	.byte	1,1,1,1,6
-	.byte	's',0,1,123,34
-	.word	181
-	.byte	7,1,123,37,0,8
+	.byte	'unsigned char',0,1,8,3
 	.byte	'void',0
-.L121:
+.L73:
 	.byte	4
-	.word	229
-.L145:
+	.word	177
+.L83:
 	.byte	2
 	.byte	'unsigned short int',0,2,7,5
-	.byte	'mem_malloc',0,2,74,7
-	.word	235
-	.byte	1,1,1,1,6
-	.byte	'size',0,2,74,29
-	.word	240
-	.byte	0,9
-	.byte	'mem_free',0,2,76,7,1,1,1,1,6
-	.byte	'mem',0,2,76,22
-	.word	235
-	.byte	0
-.L172:
-	.byte	2
-	.byte	'unsigned char',0,1,8,10
-	.byte	'pbuf',0,3,186,1,8,16,11
+	.byte	'pbuf',0,1,186,1,8,16,6
 	.byte	'next',0
-	.word	.L132-.L71
-	.byte	4,2,35,0,11
+	.word	.L80-.L43
+	.byte	4,2,35,0,6
 	.byte	'payload',0
-	.word	235
-	.byte	4,2,35,4,11
+	.word	183
+	.byte	4,2,35,4,6
 	.byte	'tot_len',0
-	.word	240
-	.byte	2,2,35,8,11
+	.word	188
+	.byte	2,2,35,8,6
 	.byte	'len',0
-	.word	240
-	.byte	2,2,35,10,11
+	.word	188
+	.byte	2,2,35,10,6
 	.byte	'type_internal',0
-	.word	329
-	.byte	1,2,35,12,11
+	.word	160
+	.byte	1,2,35,12,6
 	.byte	'flags',0
-	.word	329
-	.byte	1,2,35,13,11
+	.word	160
+	.byte	1,2,35,13,6
 	.byte	'ref',0
-	.word	329
-	.byte	1,2,35,14,11
+	.word	160
+	.byte	1,2,35,14,6
 	.byte	'if_idx',0
-	.word	329
+	.word	160
 	.byte	1,2,35,15,0
-.L132:
+.L80:
 	.byte	4
-	.word	346
-	.byte	9
-	.byte	'pbuf_ref',0,3,164,2,6,1,1,1,1,6
-	.byte	'p',0,3,164,2,28
-	.word	486
-	.byte	0,5
-	.byte	'pbuf_free',0,3,165,2,6
-	.word	329
-	.byte	1,1,1,1,6
-	.byte	'p',0,3,165,2,29
-	.word	486
-	.byte	0,9
-	.byte	'pbuf_chain',0,3,168,2,6,1,1,1,1,6
-	.byte	'head',0,3,168,2,30
-	.word	486
-	.byte	6
-	.byte	'tail',0,3,168,2,49
-	.word	486
+	.word	210
+	.byte	7
+	.byte	'pbuf_free',0,1,165,2,6
+	.word	160
+	.byte	1,1,1,1,8
+	.byte	'p',0,1,165,2,29
+	.word	350
 	.byte	0,2
-	.byte	'unsigned long int',0,4,7,10
-	.byte	'ip4_addr',0,5,51,8,4,11
+	.byte	'unsigned long int',0,4,7,5
+	.byte	'ip4_addr',0,3,51,8,4,6
 	.byte	'addr',0
-	.word	605
-	.byte	4,2,35,0,0,12
-	.byte	'tcp_state',0,6,56,6,1,13
-	.byte	'CLOSED',0,0,13
-	.byte	'LISTEN',0,1,13
-	.byte	'SYN_SENT',0,2,13
-	.byte	'SYN_RCVD',0,3,13
-	.byte	'ESTABLISHED',0,4,13
-	.byte	'FIN_WAIT_1',0,5,13
-	.byte	'FIN_WAIT_2',0,6,13
-	.byte	'CLOSE_WAIT',0,7,13
-	.byte	'CLOSING',0,8,13
-	.byte	'LAST_ACK',0,9,13
+	.word	390
+	.byte	4,2,35,0,0,9
+	.byte	'tcp_state',0,4,56,6,1,10
+	.byte	'CLOSED',0,0,10
+	.byte	'LISTEN',0,1,10
+	.byte	'SYN_SENT',0,2,10
+	.byte	'SYN_RCVD',0,3,10
+	.byte	'ESTABLISHED',0,4,10
+	.byte	'FIN_WAIT_1',0,5,10
+	.byte	'FIN_WAIT_2',0,6,10
+	.byte	'CLOSE_WAIT',0,7,10
+	.byte	'CLOSING',0,8,10
+	.byte	'LAST_ACK',0,9,10
 	.byte	'TIME_WAIT',0,10,0,2
-	.byte	'short int',0,2,5,14
-	.byte	'tcp_seg',0,4,210,2,10,1,4
-	.word	810
-	.byte	15
-	.word	160
-	.byte	1,1,16
-	.word	235
-	.byte	16
-	.word	.L123-.L71
-	.byte	16
-	.word	160
+	.byte	'short int',0,2,5,11
+	.byte	'tcp_seg',0,2,210,2,10,1,4
+	.word	595
+.L70:
+	.byte	2
+	.byte	'char',0,1,6,12
+	.word	614
+	.byte	1,1,13
+	.word	183
+	.byte	13
+	.word	.L67-.L43
+	.byte	13
+	.word	614
 	.byte	0,4
-	.word	829
-	.byte	17
-	.byte	'tcp_accept_fn',0,4,70,17
-	.word	852
-	.byte	10
-	.byte	'tcp_pcb_listen',0,4,223,1,8,28,11
+	.word	622
+	.byte	14
+	.byte	'tcp_accept_fn',0,2,70,17
+	.word	645
+	.byte	5
+	.byte	'tcp_pcb_listen',0,2,223,1,8,28,6
 	.byte	'local_ip',0
-	.word	626
-	.byte	4,2,35,0,11
+	.word	411
+	.byte	4,2,35,0,6
 	.byte	'remote_ip',0
-	.word	626
-	.byte	4,2,35,4,11
+	.word	411
+	.byte	4,2,35,4,6
 	.byte	'netif_idx',0
-	.word	329
-	.byte	1,2,35,8,11
+	.word	160
+	.byte	1,2,35,8,6
 	.byte	'so_options',0
-	.word	329
-	.byte	1,2,35,9,11
+	.word	160
+	.byte	1,2,35,9,6
 	.byte	'tos',0
-	.word	329
-	.byte	1,2,35,10,11
+	.word	160
+	.byte	1,2,35,10,6
 	.byte	'ttl',0
-	.word	329
-	.byte	1,2,35,11,11
+	.word	160
+	.byte	1,2,35,11,6
 	.byte	'next',0
-	.word	.L282-.L71
-	.byte	4,2,35,12,11
+	.word	.L162-.L43
+	.byte	4,2,35,12,6
 	.byte	'callback_arg',0
-	.word	235
-	.byte	4,2,35,16,11
+	.word	183
+	.byte	4,2,35,16,6
 	.byte	'state',0
-	.word	655
-	.byte	1,2,35,20,11
+	.word	440
+	.byte	1,2,35,20,6
 	.byte	'prio',0
-	.word	329
-	.byte	1,2,35,21,11
+	.word	160
+	.byte	1,2,35,21,6
 	.byte	'local_port',0
-	.word	240
-	.byte	2,2,35,22,11
+	.word	188
+	.byte	2,2,35,22,6
 	.byte	'accept',0
-	.word	857
+	.word	650
 	.byte	4,2,35,24,0
-.L282:
+.L162:
 	.byte	4
-	.word	879
-	.byte	15
-	.word	160
-	.byte	1,1,16
-	.word	235
-	.byte	16
-	.word	.L123-.L71
-	.byte	16
-	.word	240
+	.word	672
+	.byte	12
+	.word	614
+	.byte	1,1,13
+	.word	183
+	.byte	13
+	.word	.L67-.L43
+	.byte	13
+	.word	188
 	.byte	0,4
-	.word	1109
-	.byte	17
-	.byte	'tcp_sent_fn',0,4,96,17
-	.word	1132
-	.byte	15
-	.word	160
-	.byte	1,1,16
-	.word	235
-	.byte	16
-	.word	.L123-.L71
-	.byte	16
-	.word	486
-	.byte	16
-	.word	160
+	.word	902
+	.byte	14
+	.byte	'tcp_sent_fn',0,2,96,17
+	.word	925
+	.byte	12
+	.word	614
+	.byte	1,1,13
+	.word	183
+	.byte	13
+	.word	.L67-.L43
+	.byte	13
+	.word	350
+	.byte	13
+	.word	614
 	.byte	0,4
-	.word	1157
-	.byte	17
-	.byte	'tcp_recv_fn',0,4,82,17
-	.word	1185
-	.byte	17
-	.byte	'tcp_connected_fn',0,4,134,1,17
-	.word	852
-	.byte	15
-	.word	160
-	.byte	1,1,16
-	.word	235
-	.byte	16
-	.word	.L123-.L71
+	.word	950
+	.byte	14
+	.byte	'tcp_recv_fn',0,2,82,17
+	.word	978
+	.byte	14
+	.byte	'tcp_connected_fn',0,2,134,1,17
+	.word	645
+	.byte	12
+	.word	614
+	.byte	1,1,13
+	.word	183
+	.byte	13
+	.word	.L67-.L43
 	.byte	0,4
-	.word	1236
-	.byte	17
-	.byte	'tcp_poll_fn',0,4,108,17
-	.word	1254
-	.byte	18,1,1,16
-	.word	235
-	.byte	16
-	.word	160
+	.word	1029
+	.byte	14
+	.byte	'tcp_poll_fn',0,2,108,17
+	.word	1047
+	.byte	15,1,1,13
+	.word	183
+	.byte	13
+	.word	614
 	.byte	0,4
-	.word	1279
-	.byte	17
-	.byte	'tcp_err_fn',0,4,120,17
-	.word	1293
-	.byte	10
-	.byte	'tcp_pcb',0,4,242,1,8,156,1,11
+	.word	1072
+	.byte	14
+	.byte	'tcp_err_fn',0,2,120,17
+	.word	1086
+	.byte	5
+	.byte	'tcp_pcb',0,2,242,1,8,156,1,6
 	.byte	'local_ip',0
-	.word	626
-	.byte	4,2,35,0,11
+	.word	411
+	.byte	4,2,35,0,6
 	.byte	'remote_ip',0
-	.word	626
-	.byte	4,2,35,4,11
+	.word	411
+	.byte	4,2,35,4,6
 	.byte	'netif_idx',0
-	.word	329
-	.byte	1,2,35,8,11
+	.word	160
+	.byte	1,2,35,8,6
 	.byte	'so_options',0
-	.word	329
-	.byte	1,2,35,9,11
+	.word	160
+	.byte	1,2,35,9,6
 	.byte	'tos',0
-	.word	329
-	.byte	1,2,35,10,11
+	.word	160
+	.byte	1,2,35,10,6
 	.byte	'ttl',0
-	.word	329
-	.byte	1,2,35,11,11
+	.word	160
+	.byte	1,2,35,11,6
 	.byte	'next',0
-	.word	.L123-.L71
-	.byte	4,2,35,12,11
+	.word	.L67-.L43
+	.byte	4,2,35,12,6
 	.byte	'callback_arg',0
-	.word	235
-	.byte	4,2,35,16,11
+	.word	183
+	.byte	4,2,35,16,6
 	.byte	'state',0
-	.word	655
-	.byte	1,2,35,20,11
+	.word	440
+	.byte	1,2,35,20,6
 	.byte	'prio',0
-	.word	329
-	.byte	1,2,35,21,11
+	.word	160
+	.byte	1,2,35,21,6
 	.byte	'local_port',0
-	.word	240
-	.byte	2,2,35,22,11
+	.word	188
+	.byte	2,2,35,22,6
 	.byte	'remote_port',0
-	.word	240
-	.byte	2,2,35,24,11
+	.word	188
+	.byte	2,2,35,24,6
 	.byte	'flags',0
-	.word	240
-	.byte	2,2,35,26,11
+	.word	188
+	.byte	2,2,35,26,6
 	.byte	'polltmr',0
-	.word	329
-	.byte	1,2,35,28,11
+	.word	160
+	.byte	1,2,35,28,6
 	.byte	'pollinterval',0
-	.word	329
-	.byte	1,2,35,29,11
+	.word	160
+	.byte	1,2,35,29,6
 	.byte	'last_timer',0
-	.word	329
-	.byte	1,2,35,30,11
+	.word	160
+	.byte	1,2,35,30,6
 	.byte	'tmr',0
-	.word	605
-	.byte	4,2,35,32,11
+	.word	390
+	.byte	4,2,35,32,6
 	.byte	'rcv_nxt',0
-	.word	605
-	.byte	4,2,35,36,11
+	.word	390
+	.byte	4,2,35,36,6
 	.byte	'rcv_wnd',0
-	.word	240
-	.byte	2,2,35,40,11
+	.word	188
+	.byte	2,2,35,40,6
 	.byte	'rcv_ann_wnd',0
-	.word	240
-	.byte	2,2,35,42,11
+	.word	188
+	.byte	2,2,35,42,6
 	.byte	'rcv_ann_right_edge',0
-	.word	605
-	.byte	4,2,35,44,11
+	.word	390
+	.byte	4,2,35,44,6
 	.byte	'rtime',0
-	.word	797
-	.byte	2,2,35,48,11
+	.word	582
+	.byte	2,2,35,48,6
 	.byte	'mss',0
-	.word	240
-	.byte	2,2,35,50,11
+	.word	188
+	.byte	2,2,35,50,6
 	.byte	'rttest',0
-	.word	605
-	.byte	4,2,35,52,11
+	.word	390
+	.byte	4,2,35,52,6
 	.byte	'rtseq',0
-	.word	605
-	.byte	4,2,35,56,11
+	.word	390
+	.byte	4,2,35,56,6
 	.byte	'sa',0
-	.word	797
-	.byte	2,2,35,60,11
+	.word	582
+	.byte	2,2,35,60,6
 	.byte	'sv',0
-	.word	797
-	.byte	2,2,35,62,11
+	.word	582
+	.byte	2,2,35,62,6
 	.byte	'rto',0
-	.word	797
-	.byte	2,2,35,64,11
+	.word	582
+	.byte	2,2,35,64,6
 	.byte	'nrtx',0
-	.word	329
-	.byte	1,2,35,66,11
+	.word	160
+	.byte	1,2,35,66,6
 	.byte	'dupacks',0
-	.word	329
-	.byte	1,2,35,67,11
+	.word	160
+	.byte	1,2,35,67,6
 	.byte	'lastack',0
-	.word	605
-	.byte	4,2,35,68,11
+	.word	390
+	.byte	4,2,35,68,6
 	.byte	'cwnd',0
-	.word	240
-	.byte	2,2,35,72,11
+	.word	188
+	.byte	2,2,35,72,6
 	.byte	'ssthresh',0
-	.word	240
-	.byte	2,2,35,74,11
+	.word	188
+	.byte	2,2,35,74,6
 	.byte	'rto_end',0
-	.word	605
-	.byte	4,2,35,76,11
+	.word	390
+	.byte	4,2,35,76,6
 	.byte	'snd_nxt',0
-	.word	605
-	.byte	4,2,35,80,11
+	.word	390
+	.byte	4,2,35,80,6
 	.byte	'snd_wl1',0
-	.word	605
-	.byte	4,2,35,84,11
+	.word	390
+	.byte	4,2,35,84,6
 	.byte	'snd_wl2',0
-	.word	605
-	.byte	4,2,35,88,11
+	.word	390
+	.byte	4,2,35,88,6
 	.byte	'snd_lbb',0
-	.word	605
-	.byte	4,2,35,92,11
+	.word	390
+	.byte	4,2,35,92,6
 	.byte	'snd_wnd',0
-	.word	240
-	.byte	2,2,35,96,11
+	.word	188
+	.byte	2,2,35,96,6
 	.byte	'snd_wnd_max',0
-	.word	240
-	.byte	2,2,35,98,11
+	.word	188
+	.byte	2,2,35,98,6
 	.byte	'snd_buf',0
-	.word	240
-	.byte	2,2,35,100,11
+	.word	188
+	.byte	2,2,35,100,6
 	.byte	'snd_queuelen',0
-	.word	240
-	.byte	2,2,35,102,11
+	.word	188
+	.byte	2,2,35,102,6
 	.byte	'unsent_oversize',0
-	.word	240
-	.byte	2,2,35,104,11
+	.word	188
+	.byte	2,2,35,104,6
 	.byte	'bytes_acked',0
-	.word	240
-	.byte	2,2,35,106,11
+	.word	188
+	.byte	2,2,35,106,6
 	.byte	'unsent',0
-	.word	824
-	.byte	4,2,35,108,11
+	.word	609
+	.byte	4,2,35,108,6
 	.byte	'unacked',0
-	.word	824
-	.byte	4,2,35,112,11
+	.word	609
+	.byte	4,2,35,112,6
 	.byte	'ooseq',0
-	.word	824
-	.byte	4,2,35,116,11
+	.word	609
+	.byte	4,2,35,116,6
 	.byte	'refused_data',0
-	.word	486
-	.byte	4,2,35,120,11
+	.word	350
+	.byte	4,2,35,120,6
 	.byte	'listener',0
-	.word	1104
-	.byte	4,2,35,124,11
+	.word	897
+	.byte	4,2,35,124,6
 	.byte	'sent',0
-	.word	1137
-	.byte	4,3,35,128,1,11
+	.word	930
+	.byte	4,3,35,128,1,6
 	.byte	'recv',0
-	.word	1190
-	.byte	4,3,35,132,1,11
+	.word	983
+	.byte	4,3,35,132,1,6
 	.byte	'connected',0
-	.word	1210
-	.byte	4,3,35,136,1,11
+	.word	1003
+	.byte	4,3,35,136,1,6
 	.byte	'poll',0
-	.word	1259
-	.byte	4,3,35,140,1,11
+	.word	1052
+	.byte	4,3,35,140,1,6
 	.byte	'errf',0
-	.word	1298
-	.byte	4,3,35,144,1,11
+	.word	1091
+	.byte	4,3,35,144,1,6
 	.byte	'keep_idle',0
-	.word	605
-	.byte	4,3,35,148,1,11
+	.word	390
+	.byte	4,3,35,148,1,6
 	.byte	'persist_cnt',0
-	.word	329
-	.byte	1,3,35,152,1,11
+	.word	160
+	.byte	1,3,35,152,1,6
 	.byte	'persist_backoff',0
-	.word	329
-	.byte	1,3,35,153,1,11
+	.word	160
+	.byte	1,3,35,153,1,6
 	.byte	'persist_probe',0
-	.word	329
-	.byte	1,3,35,154,1,11
+	.word	160
+	.byte	1,3,35,154,1,6
 	.byte	'keep_cnt_sent',0
-	.word	329
+	.word	160
 	.byte	1,3,35,155,1,0
-.L123:
+.L67:
 	.byte	4
-	.word	1317
-	.byte	19
-	.byte	'tcp_new',0,4,155,3,18
-	.word	2379
+	.word	1110
+	.byte	16
+	.byte	'tcp_new',0,2,155,3,18
+	.word	2172
 	.byte	1,1,1,1,4
-	.word	829
+	.word	622
 	.byte	4
-	.word	1109
+	.word	902
 	.byte	4
-	.word	1157
+	.word	950
 	.byte	4
-	.word	829
+	.word	622
 	.byte	4
-	.word	1236
+	.word	1029
 	.byte	4
-	.word	1279
-	.byte	9
-	.byte	'tcp_arg',0,4,158,3,18,1,1,1,1,6
-	.byte	'pcb',0,4,158,3,47
-	.word	2379
-	.byte	6
-	.byte	'arg',0,4,158,3,58
-	.word	235
-	.byte	0,9
-	.byte	'tcp_recv',0,4,160,3,18,1,1,1,1,6
-	.byte	'pcb',0,4,160,3,47
-	.word	2379
-	.byte	6
-	.byte	'recv',0,4,160,3,64
-	.word	1190
-	.byte	0,9
-	.byte	'tcp_sent',0,4,161,3,18,1,1,1,1,6
-	.byte	'pcb',0,4,161,3,47
-	.word	2379
-	.byte	6
-	.byte	'sent',0,4,161,3,64
-	.word	1137
-	.byte	0,9
-	.byte	'tcp_err',0,4,162,3,18,1,1,1,1,6
-	.byte	'pcb',0,4,162,3,47
-	.word	2379
-	.byte	6
-	.byte	'err',0,4,162,3,63
-	.word	1298
-	.byte	0,9
-	.byte	'tcp_accept',0,4,163,3,18,1,1,1,1,6
-	.byte	'pcb',0,4,163,3,47
-	.word	2379
-	.byte	6
-	.byte	'accept',0,4,163,3,66
-	.word	857
-	.byte	0,9
-	.byte	'tcp_poll',0,4,165,3,18,1,1,1,1,6
-	.byte	'pcb',0,4,165,3,47
-	.word	2379
-	.byte	6
-	.byte	'poll',0,4,165,3,64
-	.word	1259
-	.byte	6
-	.byte	'interval',0,4,165,3,75
-	.word	329
-	.byte	0,9
-	.byte	'tcp_recved',0,4,201,3,18,1,1,1,1,6
-	.byte	'pcb',0,4,201,3,47
-	.word	2379
-	.byte	6
-	.byte	'len',0,4,201,3,58
-	.word	240
-	.byte	0,3
-	.word	626
+	.word	1072
+	.byte	17
+	.byte	'tcp_recv',0,2,160,3,18,1,1,1,1,8
+	.byte	'pcb',0,2,160,3,47
+	.word	2172
+	.byte	8
+	.byte	'recv',0,2,160,3,64
+	.word	983
+	.byte	0,17
+	.byte	'tcp_err',0,2,162,3,18,1,1,1,1,8
+	.byte	'pcb',0,2,162,3,47
+	.word	2172
+	.byte	8
+	.byte	'err',0,2,162,3,63
+	.word	1091
+	.byte	0,17
+	.byte	'tcp_accept',0,2,163,3,18,1,1,1,1,8
+	.byte	'pcb',0,2,163,3,47
+	.word	2172
+	.byte	8
+	.byte	'accept',0,2,163,3,66
+	.word	650
+	.byte	0,17
+	.byte	'tcp_recved',0,2,201,3,18,1,1,1,1,8
+	.byte	'pcb',0,2,201,3,47
+	.word	2172
+	.byte	8
+	.byte	'len',0,2,201,3,58
+	.word	188
+	.byte	0,18
+	.word	411
 	.byte	4
-	.word	2776
-	.byte	5
-	.byte	'tcp_bind',0,4,202,3,18
+	.word	2415
+	.byte	7
+	.byte	'tcp_bind',0,2,202,3,18
+	.word	614
+	.byte	1,1,1,1,8
+	.byte	'pcb',0,2,202,3,47
+	.word	2172
+	.byte	8
+	.byte	'ipaddr',0,2,202,3,69
+	.word	2420
+	.byte	8
+	.byte	'port',0,2,203,3,37
+	.word	188
+	.byte	0,7
+	.byte	'tcp_listen_with_backlog',0,2,209,3,18
+	.word	2172
+	.byte	1,1,1,1,8
+	.byte	'pcb',0,2,209,3,58
+	.word	2172
+	.byte	8
+	.byte	'backlog',0,2,209,3,68
 	.word	160
-	.byte	1,1,1,1,6
-	.byte	'pcb',0,4,202,3,47
-	.word	2379
-	.byte	6
-	.byte	'ipaddr',0,4,202,3,69
-	.word	2781
-	.byte	6
-	.byte	'port',0,4,203,3,37
-	.word	240
-	.byte	0,5
-	.byte	'tcp_listen_with_backlog',0,4,209,3,18
-	.word	2379
-	.byte	1,1,1,1,6
-	.byte	'pcb',0,4,209,3,58
-	.word	2379
-	.byte	6
-	.byte	'backlog',0,4,209,3,68
-	.word	329
-	.byte	0,9
-	.byte	'tcp_abort',0,4,213,3,18,1,1,1,1,6
-	.byte	'pcb',0,4,213,3,45
-	.word	2379
-	.byte	0,5
-	.byte	'tcp_close',0,4,214,3,18
-	.word	160
-	.byte	1,1,1,1,6
-	.byte	'pcb',0,4,214,3,47
-	.word	2379
-	.byte	0,3
-	.word	229
+	.byte	0,17
+	.byte	'tcp_abort',0,2,213,3,18,1,1,1,1,8
+	.byte	'pcb',0,2,213,3,45
+	.word	2172
+	.byte	0,7
+	.byte	'tcp_close',0,2,214,3,18
+	.word	614
+	.byte	1,1,1,1,8
+	.byte	'pcb',0,2,214,3,47
+	.word	2172
+	.byte	0,18
+	.word	177
 	.byte	4
-	.word	2990
-	.byte	5
-	.byte	'tcp_write',0,4,217,3,18
+	.word	2629
+	.byte	7
+	.byte	'tcp_write',0,2,217,3,18
+	.word	614
+	.byte	1,1,1,1,8
+	.byte	'pcb',0,2,217,3,47
+	.word	2172
+	.byte	8
+	.byte	'dataptr',0,2,217,3,64
+	.word	2634
+	.byte	8
+	.byte	'len',0,2,217,3,79
+	.word	188
+	.byte	8
+	.byte	'apiflags',0,2,218,3,36
 	.word	160
-	.byte	1,1,1,1,6
-	.byte	'pcb',0,4,217,3,47
-	.word	2379
-	.byte	6
-	.byte	'dataptr',0,4,217,3,64
-	.word	2995
-	.byte	6
-	.byte	'len',0,4,217,3,79
-	.word	240
-	.byte	6
-	.byte	'apiflags',0,4,218,3,36
-	.word	329
-	.byte	0,9
-	.byte	'tcp_setprio',0,4,220,3,18,1,1,1,1,6
-	.byte	'pcb',0,4,220,3,47
-	.word	2379
-	.byte	6
-	.byte	'prio',0,4,220,3,57
-	.word	329
-	.byte	0,20
-	.word	235
-	.byte	20
-	.word	2995
-	.byte	2
-	.byte	'unsigned int',0,4,7,5
-	.byte	'memcpy',0,7,53,17
-	.word	235
-	.byte	1,1,1,1,21,7,53,33
-	.word	3134
-	.byte	21,7,53,56
-	.word	3139
-	.byte	21,7,53,68
-	.word	3144
-	.byte	0,19
-	.byte	'Evadc_readVR',0,8,7,14
-	.word	3144
+	.byte	0,7
+	.byte	'tcp_output',0,2,222,3,18
+	.word	614
+	.byte	1,1,1,1,8
+	.byte	'pcb',0,2,222,3,47
+	.word	2172
+	.byte	0,2
+	.byte	'unsigned int',0,4,7,16
+	.byte	'Tof_GetValue',0,5,4,14
+	.word	2762
 	.byte	1,1,1,1,19
-	.byte	'Evadc_readPR',0,8,8,14
-	.word	3144
-	.byte	1,1,1,1,10
-	.byte	'doip_state',0,9,22,8,12,11
-	.byte	'state',0
-	.word	329
-	.byte	1,2,35,0,11
-	.byte	'retries',0
-	.word	329
-	.byte	1,2,35,1,11
-	.byte	'pcb',0
-	.word	2379
-	.byte	4,2,35,4,11
-	.byte	'p',0
-	.word	486
-	.byte	4,2,35,8,0
-.L127:
-	.byte	4
-	.word	3254
-.L139:
-	.byte	22
-	.word	329
-.L141:
-	.byte	22
-	.word	240
-.L143:
-	.byte	23,17
-	.word	329
-	.byte	24,16,0,25
-	.byte	'__INDIRECT__',0,9,1,1,1,1,1,17
-	.byte	'__wchar_t',0,9,1,1
-	.word	797
-	.byte	17
-	.byte	'__size_t',0,9,1,1
-	.word	3144
-	.byte	2
+	.byte	'Motor_stopChB',0,6,11,6,1,1,1,1,2
 	.byte	'int',0,4,5,17
-	.byte	'__ptrdiff_t',0,9,1,1
-	.word	3406
-	.byte	26,1,4
-	.word	3433
-	.byte	17
-	.byte	'__codeptr',0,9,1,1
-	.word	3435
-	.byte	17
-	.byte	'__intptr_t',0,9,1,1
-	.word	3406
-	.byte	17
-	.byte	'__uintptr_t',0,9,1,1
-	.word	3144
-	.byte	17
-	.byte	'size_t',0,10,24,25
-	.word	3144
-	.byte	17
-	.byte	'uint8',0,11,108,29
-	.word	329
-	.byte	17
-	.byte	'uint16',0,11,112,29
-	.word	240
-	.byte	17
-	.byte	'uint32',0,11,116,29
-	.word	605
-	.byte	17
-	.byte	'sint8',0,11,125,29
+	.byte	'Motor_movChB_PWM',0,6,12,6,1,1,1,1,8
+	.byte	'duty',0,6,12,27
+	.word	2825
+	.byte	8
+	.byte	'dir',0,6,12,37
+	.word	2825
+	.byte	0
+.L87:
+	.byte	20,17
 	.word	160
-	.byte	17
-	.byte	'sint16',0,11,129,1,29
-	.word	797
+	.byte	21,16,0
+.L98:
 	.byte	2
-	.byte	'long int',0,4,5,17
-	.byte	'sint32',0,11,134,1,29
-	.word	3586
-	.byte	2
-	.byte	'long long int',0,8,5,17
-	.byte	'sint64',0,11,141,1,29
-	.word	3614
-	.byte	2
-	.byte	'float',0,4,4,17
-	.byte	'float32',0,11,170,1,29
-	.word	3647
-	.byte	17
-	.byte	'pvoid',0,12,54,28
-	.word	235
-	.byte	17
-	.byte	'Ifx_TickTime',0,12,76,28
-	.word	3614
-	.byte	17
-	.byte	'u8_t',0,1,85,16
-	.word	329
-	.byte	17
-	.byte	'u16_t',0,1,86,16
-	.word	240
-	.byte	17
-	.byte	'u32_t',0,1,87,16
-	.word	605
-	.byte	17
-	.byte	's8_t',0,1,88,16
+	.byte	'_Bool',0,1,2
+.L104:
+	.byte	20,15
 	.word	160
-	.byte	17
-	.byte	's16_t',0,1,89,16
-	.word	797
-	.byte	17
-	.byte	'intmax_t',0,13,198,2,41
-	.word	3614
-	.byte	17
-	.byte	'mem_size_t',0,2,67,15
-	.word	240
-	.byte	17
-	.byte	'tcpwnd_size_t',0,6,53,15
-	.word	240
-	.byte	17
-	.byte	'err_t',0,14,96,14
+	.byte	21,14,0,22
+	.byte	'__INDIRECT__',0,7,1,1,1,1,1,14
+	.byte	'__wchar_t',0,7,1,1
+	.word	582
+	.byte	14
+	.byte	'__size_t',0,7,1,1
+	.word	2762
+	.byte	14
+	.byte	'__ptrdiff_t',0,7,1,1
+	.word	2825
+	.byte	23,1,4
+	.word	2985
+	.byte	14
+	.byte	'__codeptr',0,7,1,1
+	.word	2987
+	.byte	14
+	.byte	'__intptr_t',0,7,1,1
+	.word	2825
+	.byte	14
+	.byte	'__uintptr_t',0,7,1,1
+	.word	2762
+	.byte	14
+	.byte	'uint8',0,8,108,29
 	.word	160
-	.byte	18,1,1,16
-	.word	486
+	.byte	14
+	.byte	'uint16',0,8,112,29
+	.word	188
+	.byte	14
+	.byte	'uint32',0,8,116,29
+	.word	390
+	.byte	14
+	.byte	'sint8',0,8,125,29
+	.word	614
+	.byte	14
+	.byte	'sint16',0,8,129,1,29
+	.word	582
+	.byte	2
+	.byte	'long int',0,4,5,14
+	.byte	'sint32',0,8,134,1,29
+	.word	3123
+	.byte	2
+	.byte	'long long int',0,8,5,14
+	.byte	'sint64',0,8,141,1,29
+	.word	3151
+	.byte	2
+	.byte	'float',0,4,4,14
+	.byte	'float32',0,8,170,1,29
+	.word	3184
+	.byte	14
+	.byte	'pvoid',0,9,54,28
+	.word	183
+	.byte	14
+	.byte	'Ifx_TickTime',0,9,76,28
+	.word	3151
+	.byte	14
+	.byte	'u8_t',0,10,85,16
+	.word	160
+	.byte	14
+	.byte	'u16_t',0,10,86,16
+	.word	188
+	.byte	14
+	.byte	'u32_t',0,10,87,16
+	.word	390
+	.byte	14
+	.byte	's8_t',0,10,88,16
+	.word	614
+	.byte	14
+	.byte	's16_t',0,10,89,16
+	.word	582
+	.byte	14
+	.byte	'intmax_t',0,11,198,2,41
+	.word	3151
+	.byte	14
+	.byte	'tcpwnd_size_t',0,4,53,15
+	.word	188
+	.byte	14
+	.byte	'mem_size_t',0,12,67,15
+	.word	188
+	.byte	14
+	.byte	'err_t',0,13,96,14
+	.word	614
+	.byte	15,1,1,13
+	.word	350
 	.byte	0,4
-	.word	3849
-	.byte	17
-	.byte	'pbuf_free_custom_fn',0,3,242,1,16
-	.word	3858
-	.byte	17
-	.byte	'ip4_addr_t',0,5,57,25
-	.word	626
-	.byte	17
-	.byte	'ip_addr_t',0,15,142,2,20
-	.word	626
-	.byte	3
-	.word	626
-	.byte	27
-	.byte	'ip_addr_any',0,15,241,2,24
-	.word	3930
-	.byte	1,1,3
-	.word	626
+	.word	3386
+	.byte	14
+	.byte	'pbuf_free_custom_fn',0,1,242,1,16
+	.word	3395
+	.byte	14
+	.byte	'ip4_addr_t',0,3,57,25
+	.word	411
+	.byte	14
+	.byte	'ip_addr_t',0,14,142,2,20
+	.word	411
+	.byte	18
+	.word	411
+	.byte	24
+	.byte	'ip_addr_any',0,14,241,2,24
+	.word	3467
+	.byte	1,1,18
+	.word	411
 	.byte	4
-	.word	3958
-	.byte	15
-	.word	160
-	.byte	1,1,16
-	.word	.L283-.L71
-	.byte	16
-	.word	486
-	.byte	16
-	.word	3963
+	.word	3495
+	.byte	12
+	.word	614
+	.byte	1,1,13
+	.word	.L163-.L43
+	.byte	13
+	.word	350
+	.byte	13
+	.word	3500
 	.byte	0,4
-	.word	3968
-	.byte	17
-	.byte	'netif_output_fn',0,16,189,1,17
-	.word	3991
-	.byte	15
-	.word	160
-	.byte	1,1,16
-	.word	.L283-.L71
-	.byte	16
-	.word	486
+	.word	3505
+	.byte	14
+	.byte	'netif_output_fn',0,15,189,1,17
+	.word	3528
+	.byte	12
+	.word	614
+	.byte	1,1,13
+	.word	.L163-.L43
+	.byte	13
+	.word	350
 	.byte	0,4
-	.word	4021
-	.byte	17
-	.byte	'netif_linkoutput_fn',0,16,212,1,17
-	.word	4039
-	.byte	23,6
-	.word	329
-	.byte	24,5,0,23,2
-	.word	168
-	.byte	24,1,0,10
-	.byte	'netif',0,16,132,2,8,48,11
+	.word	3558
+	.byte	14
+	.byte	'netif_linkoutput_fn',0,15,212,1,17
+	.word	3576
+	.byte	20,6
+	.word	160
+	.byte	21,5,0,2
+	.byte	'char',0,1,6,20,2
+	.word	3619
+	.byte	21,1,0,5
+	.byte	'netif',0,15,132,2,8,48,6
 	.byte	'next',0
-	.word	.L283-.L71
-	.byte	4,2,35,0,11
+	.word	.L163-.L43
+	.byte	4,2,35,0,6
 	.byte	'ip_addr',0
-	.word	626
-	.byte	4,2,35,4,11
+	.word	411
+	.byte	4,2,35,4,6
 	.byte	'netmask',0
-	.word	626
-	.byte	4,2,35,8,11
+	.word	411
+	.byte	4,2,35,8,6
 	.byte	'gw',0
-	.word	626
-	.byte	4,2,35,12,11
+	.word	411
+	.byte	4,2,35,12,6
 	.byte	'input',0
-	.word	.L284-.L71
-	.byte	4,2,35,16,11
+	.word	.L164-.L43
+	.byte	4,2,35,16,6
 	.byte	'output',0
-	.word	3996
-	.byte	4,2,35,20,11
+	.word	3533
+	.byte	4,2,35,20,6
 	.byte	'linkoutput',0
-	.word	4044
-	.byte	4,2,35,24,11
+	.word	3581
+	.byte	4,2,35,24,6
 	.byte	'state',0
-	.word	235
-	.byte	4,2,35,28,11
+	.word	183
+	.byte	4,2,35,28,6
 	.byte	'mtu',0
-	.word	240
-	.byte	2,2,35,32,11
+	.word	188
+	.byte	2,2,35,32,6
 	.byte	'hwaddr',0
-	.word	4073
-	.byte	6,2,35,34,11
+	.word	3610
+	.byte	6,2,35,34,6
 	.byte	'hwaddr_len',0
-	.word	329
-	.byte	1,2,35,40,11
+	.word	160
+	.byte	1,2,35,40,6
 	.byte	'flags',0
-	.word	329
-	.byte	1,2,35,41,11
+	.word	160
+	.byte	1,2,35,41,6
 	.byte	'name',0
-	.word	4082
-	.byte	2,2,35,42,11
+	.word	3627
+	.byte	2,2,35,42,6
 	.byte	'num',0
-	.word	329
-	.byte	1,2,35,44,11
+	.word	160
+	.byte	1,2,35,44,6
 	.byte	'rs_count',0
-	.word	329
+	.word	160
 	.byte	1,2,35,45,0
-.L283:
+.L163:
 	.byte	4
-	.word	4091
-	.byte	15
-	.word	160
-	.byte	1,1,16
-	.word	486
-	.byte	16
-	.word	4339
+	.word	3636
+	.byte	12
+	.word	614
+	.byte	1,1,13
+	.word	350
+	.byte	13
+	.word	3884
 	.byte	0,4
-	.word	4344
-.L284:
-	.byte	17
-	.byte	'netif_input_fn',0,16,178,1,17
-	.word	4362
+	.word	3889
+.L164:
+	.byte	14
+	.byte	'netif_input_fn',0,15,178,1,17
+	.word	3907
 	.byte	4
-	.word	4344
+	.word	3889
 	.byte	4
-	.word	3968
+	.word	3505
 	.byte	4
-	.word	4021
-	.byte	10
-	.byte	'link_changed_s',0,16,213,4,10,1,11
+	.word	3558
+	.byte	5
+	.byte	'link_changed_s',0,15,213,4,10,1,6
 	.byte	'state',0
-	.word	329
-	.byte	1,2,35,0,0,10
-	.byte	'status_changed_s',0,16,219,4,10,1,11
+	.word	160
+	.byte	1,2,35,0,0,5
+	.byte	'status_changed_s',0,15,219,4,10,1,6
 	.byte	'state',0
-	.word	329
-	.byte	1,2,35,0,0,10
-	.byte	'ipv4_changed_s',0,16,225,4,10,12,11
+	.word	160
+	.byte	1,2,35,0,0,5
+	.byte	'ipv4_changed_s',0,15,225,4,10,12,6
 	.byte	'old_address',0
-	.word	2781
-	.byte	4,2,35,0,11
+	.word	2420
+	.byte	4,2,35,0,6
 	.byte	'old_netmask',0
-	.word	2781
-	.byte	4,2,35,4,11
+	.word	2420
+	.byte	4,2,35,4,6
 	.byte	'old_gw',0
-	.word	2781
-	.byte	4,2,35,8,0,10
-	.byte	'ipv6_set_s',0,16,233,4,10,8,11
+	.word	2420
+	.byte	4,2,35,8,0,5
+	.byte	'ipv6_set_s',0,15,233,4,10,8,6
 	.byte	'addr_index',0
-	.word	160
-	.byte	1,2,35,0,11
+	.word	614
+	.byte	1,2,35,0,6
 	.byte	'old_address',0
-	.word	2781
-	.byte	4,2,35,4,0,10
-	.byte	'ipv6_addr_state_changed_s',0,16,241,4,10,8,11
+	.word	2420
+	.byte	4,2,35,4,0,5
+	.byte	'ipv6_addr_state_changed_s',0,15,241,4,10,8,6
 	.byte	'addr_index',0
-	.word	160
-	.byte	1,2,35,0,11
+	.word	614
+	.byte	1,2,35,0,6
 	.byte	'old_state',0
-	.word	329
-	.byte	1,2,35,1,11
-	.byte	'address',0
-	.word	2781
-	.byte	4,2,35,4,0,28,16,210,4,9,12,11
-	.byte	'link_changed',0
-	.word	4406
-	.byte	1,2,35,0,11
-	.byte	'status_changed',0
-	.word	4443
-	.byte	1,2,35,0,11
-	.byte	'ipv4_changed',0
-	.word	4482
-	.byte	12,2,35,0,11
-	.byte	'ipv6_set',0
-	.word	4562
-	.byte	8,2,35,0,11
-	.byte	'ipv6_addr_state_changed',0
-	.word	4621
-	.byte	8,2,35,0,0,3
-	.word	4710
-	.byte	4
-	.word	4836
-	.byte	18,1,1,16
-	.word	4339
-	.byte	16
-	.word	240
-	.byte	16
-	.word	4841
-	.byte	0,4
-	.word	4846
-	.byte	17
-	.byte	'netif_ext_callback_fn',0,16,132,5,16
-	.word	4865
-	.byte	10
-	.byte	'ip4_addr_packed',0,17,53,8,4,11
-	.byte	'addr',0
-	.word	605
-	.byte	4,2,35,0,0,17
-	.byte	'ip4_addr_p_t',0,17,61,32
-	.word	4901
-	.byte	18,1,1,16
-	.word	329
-	.byte	16
-	.word	235
-	.byte	0,4
-	.word	4958
-	.byte	17
-	.byte	'tcp_extarg_callback_pcb_destroyed_fn',0,4,173,1,16
-	.word	4972
-	.byte	15
 	.word	160
-	.byte	1,1,16
-	.word	329
-	.byte	16
-	.word	1104
-	.byte	16
-	.word	2379
+	.byte	1,2,35,1,6
+	.byte	'address',0
+	.word	2420
+	.byte	4,2,35,4,0,25,15,210,4,9,12,6
+	.byte	'link_changed',0
+	.word	3951
+	.byte	1,2,35,0,6
+	.byte	'status_changed',0
+	.word	3988
+	.byte	1,2,35,0,6
+	.byte	'ipv4_changed',0
+	.word	4027
+	.byte	12,2,35,0,6
+	.byte	'ipv6_set',0
+	.word	4107
+	.byte	8,2,35,0,6
+	.byte	'ipv6_addr_state_changed',0
+	.word	4166
+	.byte	8,2,35,0,0,18
+	.word	4255
+	.byte	4
+	.word	4381
+	.byte	15,1,1,13
+	.word	3884
+	.byte	13
+	.word	188
+	.byte	13
+	.word	4386
 	.byte	0,4
-	.word	5023
-	.byte	17
-	.byte	'tcp_extarg_callback_passive_open_fn',0,4,182,1,17
-	.word	5046
-	.byte	17
-	.byte	'tcpflags_t',0,4,206,1,15
-	.word	240
+	.word	4391
+	.byte	14
+	.byte	'netif_ext_callback_fn',0,15,132,5,16
+	.word	4410
+	.byte	5
+	.byte	'ip4_addr_packed',0,16,53,8,4,6
+	.byte	'addr',0
+	.word	390
+	.byte	4,2,35,0,0,14
+	.byte	'ip4_addr_p_t',0,16,61,32
+	.word	4446
+	.byte	15,1,1,13
+	.word	160
+	.byte	13
+	.word	183
+	.byte	0,4
+	.word	4503
+	.byte	14
+	.byte	'tcp_extarg_callback_pcb_destroyed_fn',0,2,173,1,16
+	.word	4517
+	.byte	12
+	.word	614
+	.byte	1,1,13
+	.word	160
+	.byte	13
+	.word	897
+	.byte	13
+	.word	2172
+	.byte	0,4
+	.word	4568
+	.byte	14
+	.byte	'tcp_extarg_callback_passive_open_fn',0,2,182,1,17
+	.word	4591
+	.byte	14
+	.byte	'tcpflags_t',0,2,206,1,15
+	.word	188
 	.byte	0
 	.sdecl	'.debug_abbrev',debug
 	.sect	'.debug_abbrev'
-.L72:
-	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,36,0,3,8,11,15,62,15,0,0,3,38,0,73,19,0,0,4,15,0,73,19
-	.byte	0,0,5,46,1,3,8,58,15,59,15,57,15,73,19,54,15,39,12,63,12,60,12,0,0,6,5,0,3,8,58,15,59,15,57,15,73,19,0
-	.byte	0,7,24,0,58,15,59,15,57,15,0,0,8,59,0,3,8,0,0,9,46,1,3,8,58,15,59,15,57,15,54,15,39,12,63,12,60,12,0,0
-	.byte	10,19,1,3,8,58,15,59,15,57,15,11,15,0,0,11,13,0,3,8,73,19,11,15,56,9,0,0,12,4,1,3,8,58,15,59,15,57,15
-	.byte	11,15,0,0,13,40,0,3,8,28,13,0,0,14,19,0,3,8,58,15,59,15,57,15,60,12,0,0,15,21,1,73,19,54,15,39,12,0,0
-	.byte	16,5,0,73,19,0,0,17,22,0,3,8,58,15,59,15,57,15,73,19,0,0,18,21,1,54,15,39,12,0,0,19,46,0,3,8,58,15,59
-	.byte	15,57,15,73,19,54,15,39,12,63,12,60,12,0,0,20,55,0,73,19,0,0,21,5,0,58,15,59,15,57,15,73,19,0,0,22,53
-	.byte	0,73,19,0,0,23,1,1,11,15,73,19,0,0,24,33,0,47,15,0,0,25,46,0,3,8,58,15,59,15,57,15,54,15,63,12,60,12,0
-	.byte	0,26,21,0,54,15,0,0,27,52,0,3,8,58,15,59,15,57,15,73,19,63,12,60,12,0,0,28,23,1,58,15,59,15,57,15,11,15
-	.byte	0,0,0
+.L44:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,36,0,3,8,11,15,62,15,0,0,3,59,0,3,8,0,0,4,15,0,73,19,0
+	.byte	0,5,19,1,3,8,58,15,59,15,57,15,11,15,0,0,6,13,0,3,8,73,19,11,15,56,9,0,0,7,46,1,3,8,58,15,59,15,57,15
+	.byte	73,19,54,15,39,12,63,12,60,12,0,0,8,5,0,3,8,58,15,59,15,57,15,73,19,0,0,9,4,1,3,8,58,15,59,15,57,15,11
+	.byte	15,0,0,10,40,0,3,8,28,13,0,0,11,19,0,3,8,58,15,59,15,57,15,60,12,0,0,12,21,1,73,19,54,15,39,12,0,0,13
+	.byte	5,0,73,19,0,0,14,22,0,3,8,58,15,59,15,57,15,73,19,0,0,15,21,1,54,15,39,12,0,0,16,46,0,3,8,58,15,59,15
+	.byte	57,15,73,19,54,15,39,12,63,12,60,12,0,0,17,46,1,3,8,58,15,59,15,57,15,54,15,39,12,63,12,60,12,0,0,18,38
+	.byte	0,73,19,0,0,19,46,0,3,8,58,15,59,15,57,15,54,15,39,12,63,12,60,12,0,0,20,1,1,11,15,73,19,0,0,21,33,0,47
+	.byte	15,0,0,22,46,0,3,8,58,15,59,15,57,15,54,15,63,12,60,12,0,0,23,21,0,54,15,0,0,24,52,0,3,8,58,15,59,15,57
+	.byte	15,73,19,63,12,60,12,0,0,25,23,1,58,15,59,15,57,15,11,15,0,0,0
 	.sdecl	'.debug_line',debug
 	.sect	'.debug_line'
-.L73:
-	.word	.L286-.L285
-.L285:
+.L45:
+	.word	.L166-.L165
+.L165:
 	.half	3
-	.word	.L288-.L287
-.L287:
+	.word	.L168-.L167
+.L167:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
-	.byte	'C:\\Infineon\\AURIX-Studio-1.10.2\\tools\\Compilers\\Tasking_1.1r8\\ctc\\include\\',0
-	.byte	'C:\\\\NGV\\\\TC375LK_NGV_2\\\\BSW\\\\Driver',0,0
-	.byte	'C:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Ethernet\\\\lwip\\\\port\\\\include\\arch\\cc.h',0,0,0,0
-	.byte	'C:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\mem.h',0,0,0,0
+	.byte	'C:\\\\NGV\\\\TC375LK_NGV_2\\\\BSW\\\\IO',0
+	.byte	'C:\\Infineon\\AURIX-Studio-1.10.2\\tools\\Compilers\\Tasking_1.1r8\\ctc\\include\\',0,0
 	.byte	'C:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\pbuf.h',0,0,0,0
 	.byte	'C:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\tcp.h',0,0,0,0
 	.byte	'C:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\ip4_addr.h',0,0
 	.byte	0,0
 	.byte	'C:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\tcpbase.h',0,0,0
 	.byte	0
-	.byte	'string.h',0,1,0,0
-	.byte	'evadc.h',0,2,0,0
+	.byte	'ToF.h',0,1,0,0
+	.byte	'Motor.h',0,1,0,0
 	.byte	'../examples/DoIP.c',0,0,0,0
-	.byte	'stddef.h',0,1,0,0
 	.byte	'C:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\Cpu\\Std\\Platform_Types.h',0,0
 	.byte	0,0
 	.byte	'C:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\Cpu\\Std\\Ifx_Types.h',0,0,0,0
-	.byte	'stdint.h',0,1,0,0
+	.byte	'C:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Ethernet\\\\lwip\\\\port\\\\include\\arch\\cc.h',0,0,0,0
+	.byte	'stdint.h',0,2,0,0
+	.byte	'C:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\mem.h',0,0,0,0
 	.byte	'C:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\err.h',0,0,0,0
 	.byte	'C:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\ip_addr.h',0,0,0
 	.byte	0
 	.byte	'C:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\netif.h',0,0,0,0
 	.byte	'C:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\prot\\ip4.h',0,0
 	.byte	0,0,0
-.L288:
-.L286:
+.L168:
+.L166:
 	.sdecl	'.debug_pubnames',debug
 	.sect	'.debug_pubnames'
-	.word	370
+	.word	266
 	.half	2
-	.word	.L71,5117,186
-	.byte	'Ifx_Lwip_printf',0
-	.word	262
-	.byte	'mem_malloc',0
-	.word	299
-	.byte	'mem_free',0
-	.word	491
-	.byte	'pbuf_ref',0
-	.word	521
+	.word	.L43,4662,355
 	.byte	'pbuf_free',0
-	.word	556
-	.byte	'pbuf_chain',0
-	.word	2384
+	.word	2177
 	.byte	'tcp_new',0
-	.word	2435
-	.byte	'tcp_arg',0
-	.word	2479
+	.word	2228
 	.byte	'tcp_recv',0
-	.word	2525
-	.byte	'tcp_sent',0
-	.word	2571
+	.word	2274
 	.byte	'tcp_err',0
-	.word	2615
+	.word	2318
 	.byte	'tcp_accept',0
-	.word	2665
-	.byte	'tcp_poll',0
-	.word	2729
+	.word	2368
 	.byte	'tcp_recved',0
-	.word	2786
+	.word	2425
 	.byte	'tcp_bind',0
-	.word	2852
+	.word	2491
 	.byte	'tcp_listen_with_backlog',0
-	.word	2920
+	.word	2559
 	.byte	'tcp_abort',0
-	.word	2953
+	.word	2592
 	.byte	'tcp_close',0
-	.word	3000
+	.word	2639
 	.byte	'tcp_write',0
-	.word	3085
-	.byte	'tcp_setprio',0
-	.word	3160
-	.byte	'memcpy',0
-	.word	3204
-	.byte	'Evadc_readVR',0
-	.word	3229
-	.byte	'Evadc_readPR',0
-	.word	3351
+	.word	2724
+	.byte	'tcp_output',0
+	.word	2778
+	.byte	'Tof_GetValue',0
+	.word	2803
+	.byte	'Motor_stopChB',0
+	.word	2832
+	.byte	'Motor_movChB_PWM',0
+	.word	2910
 	.byte	'__INDIRECT__',0
 	.word	0
 	.sdecl	'.debug_info',debug,cluster('DoIP_Init')
 	.sect	'.debug_info'
-.L74:
-	.word	232
+.L46:
+	.word	248
 	.half	3
-	.word	.L75
+	.word	.L47
 	.byte	4,1
 	.byte	'../examples/DoIP.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\NGV\\TC375LK_NGV_2\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L77,.L76
+	.word	.L49,.L48
 	.byte	2
-	.word	.L70
+	.word	.L42
 	.byte	3
-	.byte	'DoIP_Init',0,1,41,6,1,1,1
-	.word	.L55,.L116,.L54
+	.byte	'DoIP_Init',0,1,24,6,1,1,1
+	.word	.L35,.L66,.L34
 	.byte	4
-	.word	.L55,.L116
-	.byte	4
-	.word	.L117,.L4
+	.word	.L35,.L66
 	.byte	5
-	.byte	'err',0,1,45,9
-	.word	.L118,.L119
+	.byte	'pcb',0,1,26,21
+	.word	.L67,.L68
+	.byte	4
+	.word	.L69,.L2
+	.byte	5
+	.byte	'err',0,1,29,15
+	.word	.L70,.L71
 	.byte	0,0,0,0
 	.sdecl	'.debug_abbrev',debug,cluster('DoIP_Init')
 	.sect	'.debug_abbrev'
-.L75:
+.L47:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
 	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,1,17,1,18,1,0,0,5,52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
 	.sdecl	'.debug_line',debug,cluster('DoIP_Init')
 	.sect	'.debug_line'
-.L76:
-	.word	.L290-.L289
-.L289:
+.L48:
+	.word	.L170-.L169
+.L169:
 	.half	3
-	.word	.L292-.L291
-.L291:
+	.word	.L172-.L171
+.L171:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../examples/DoIP.c',0,0,0,0,0
-.L292:
-	.byte	5,2,7,0,5,2
-	.word	.L55
-	.byte	3,42,1,5,20,9
-	.half	.L293-.L55
-	.byte	1,5,11,9
-	.half	.L294-.L293
-	.byte	1,5,6,9
-	.half	.L295-.L294
-	.byte	3,1,1,5,2,9
-	.half	.L296-.L295
-	.byte	1,5,18,7,9
-	.half	.L117-.L296
-	.byte	3,3,1,5,28,9
-	.half	.L297-.L117
-	.byte	1,5,41,9
-	.half	.L298-.L297
-	.byte	1,5,3,9
-	.half	.L177-.L298
-	.byte	3,1,1,5,4,7,9
-	.half	.L299-.L177
-	.byte	3,1,1,5,15,9
-	.half	.L300-.L299
-	.byte	1,5,13,9
-	.half	.L178-.L300
-	.byte	1,5,15,9
-	.half	.L301-.L178
-	.byte	3,1,1,5,25,9
-	.half	.L302-.L301
-	.byte	1,5,35,9
-	.half	.L303-.L302
-	.byte	3,127,1,5,5,9
-	.half	.L4-.L303
-	.byte	3,2,1,5,1,9
-	.half	.L5-.L4
-	.byte	3,6,1,7,9
-	.half	.L78-.L5
+.L172:
+	.byte	5,34,7,0,5,2
+	.word	.L35
+	.byte	3,25,1,5,25,9
+	.half	.L109-.L35
+	.byte	1,5,5,9
+	.half	.L111-.L109
+	.byte	3,1,1,5,35,7,9
+	.half	.L69-.L111
+	.byte	3,2,1,5,48,9
+	.half	.L173-.L69
+	.byte	1,5,9,9
+	.half	.L113-.L173
+	.byte	3,1,1,5,19,7,9
+	.half	.L174-.L113
+	.byte	3,2,1,5,29,9
+	.half	.L112-.L174
+	.byte	3,1,1,5,34,9
+	.half	.L115-.L112
+	.byte	3,127,1,5,23,9
+	.half	.L3-.L115
+	.byte	3,5,1,5,1,9
+	.half	.L2-.L3
+	.byte	3,3,1,7,9
+	.half	.L50-.L2
 	.byte	0,1,1
-.L290:
+.L170:
 	.sdecl	'.debug_ranges',debug,cluster('DoIP_Init')
 	.sect	'.debug_ranges'
-.L77:
-	.word	-1,.L55,0,.L78-.L55,0,0
+.L49:
+	.word	-1,.L35,0,.L50-.L35,0,0
 	.sdecl	'.debug_pubnames',debug
 	.sect	'.debug_pubnames'
 	.word	28
 	.half	2
-	.word	.L74,236,169
+	.word	.L46,252,169
 	.byte	'DoIP_Init',0
 	.word	0
 	.sdecl	'.debug_info',debug,cluster('doip_accept')
 	.sect	'.debug_info'
-.L79:
-	.word	298
+.L51:
+	.word	261
 	.half	3
-	.word	.L80
+	.word	.L52
 	.byte	4,1
 	.byte	'../examples/DoIP.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\NGV\\TC375LK_NGV_2\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L82,.L81
+	.word	.L54,.L53
 	.byte	2
-	.word	.L70
+	.word	.L42
 	.byte	3
-	.byte	'doip_accept',0,1,59,7
-	.word	.L118
-	.byte	1,1,1
-	.word	.L57,.L120,.L56
+	.byte	'doip_accept',0,1,42,14
+	.word	.L70
+	.byte	1,1
+	.word	.L37,.L72,.L36
 	.byte	4
-	.byte	'arg',0,1,59,25
-	.word	.L121,.L122
+	.byte	'arg',0,1,42,33
+	.word	.L73,.L74
 	.byte	4
-	.byte	'newpcb',0,1,59,46
-	.word	.L123,.L124
+	.byte	'newpcb',0,1,42,54
+	.word	.L67,.L75
 	.byte	4
-	.byte	'err',0,1,59,60
-	.word	.L118,.L125
+	.byte	'err',0,1,42,68
+	.word	.L70,.L76
 	.byte	5
-	.word	.L57,.L120
-	.byte	6
-	.byte	'ret_err',0,1,61,8
-	.word	.L118,.L126
-	.byte	6
-	.byte	'es',0,1,62,21
-	.word	.L127,.L128
-	.byte	0,0,0
+	.word	.L37,.L72
+	.byte	0,0
 	.sdecl	'.debug_abbrev',debug,cluster('doip_accept')
 	.sect	'.debug_abbrev'
-.L80:
+.L52:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
-	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
-	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.byte	54,15,39,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
 	.sdecl	'.debug_line',debug,cluster('doip_accept')
 	.sect	'.debug_line'
-.L81:
-	.word	.L305-.L304
-.L304:
+.L53:
+	.word	.L176-.L175
+.L175:
 	.half	3
-	.word	.L307-.L306
-.L306:
+	.word	.L178-.L177
+.L177:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../examples/DoIP.c',0,0,0,0,0
-.L307:
-	.byte	5,7,7,0,5,2
-	.word	.L57
-	.byte	3,58,1,5,22,9
-	.half	.L181-.L57
-	.byte	3,12,1,5,39,9
-	.half	.L182-.L181
-	.byte	3,2,1,5,5,9
-	.half	.L183-.L182
-	.byte	1,5,2,9
-	.half	.L185-.L183
-	.byte	3,1,1,5,15,7,9
-	.half	.L308-.L185
-	.byte	3,1,1,5,13,9
-	.half	.L309-.L308
-	.byte	1,5,11,9
-	.half	.L310-.L309
-	.byte	3,1,1,5,17,9
-	.half	.L311-.L310
-	.byte	3,1,1,5,15,9
-	.half	.L312-.L311
-	.byte	1,5,11,9
-	.half	.L313-.L312
-	.byte	3,1,1,5,9,9
-	.half	.L184-.L313
-	.byte	1,5,19,9
-	.half	.L314-.L184
-	.byte	3,2,1,5,20,9
-	.half	.L187-.L314
-	.byte	3,1,1,5,19,9
-	.half	.L190-.L187
-	.byte	3,1,1,5,20,9
-	.half	.L192-.L190
-	.byte	3,1,1,5,31,9
-	.half	.L315-.L192
-	.byte	1,5,11,9
-	.half	.L194-.L315
-	.byte	3,1,1,5,15,9
-	.half	.L195-.L194
-	.byte	3,1,1,5,13,9
-	.half	.L316-.L195
-	.byte	1,5,26,9
-	.half	.L317-.L316
-	.byte	3,118,1,5,11,9
-	.half	.L6-.L317
-	.byte	3,12,1,5,2,9
-	.half	.L7-.L6
-	.byte	3,2,1,5,1,9
-	.half	.L8-.L7
+.L178:
+	.byte	5,14,7,0,5,2
+	.word	.L37
+	.byte	3,41,1,5,22,9
+	.half	.L121-.L37
+	.byte	3,4,1,5,21,9
+	.half	.L119-.L121
+	.byte	3,1,1,5,12,9
+	.half	.L123-.L119
+	.byte	3,1,1,5,5,9
+	.half	.L179-.L123
+	.byte	1,5,1,9
+	.half	.L5-.L179
 	.byte	3,1,1,7,9
-	.half	.L83-.L8
+	.half	.L55-.L5
 	.byte	0,1,1
-.L305:
+.L176:
 	.sdecl	'.debug_ranges',debug,cluster('doip_accept')
 	.sect	'.debug_ranges'
-.L82:
-	.word	-1,.L57,0,.L83-.L57,0,0
+.L54:
+	.word	-1,.L37,0,.L55-.L37,0,0
 	.sdecl	'.debug_pubnames',debug
 	.sect	'.debug_pubnames'
 	.word	30
 	.half	2
-	.word	.L79,302,169
+	.word	.L51,265,169
 	.byte	'doip_accept',0
 	.word	0
 	.sdecl	'.debug_info',debug,cluster('doip_recv')
 	.sect	'.debug_info'
-.L84:
-	.word	463
+.L56:
+	.word	578
 	.half	3
-	.word	.L85
+	.word	.L57
 	.byte	4,1
 	.byte	'../examples/DoIP.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\NGV\\TC375LK_NGV_2\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L87,.L86
+	.word	.L59,.L58
 	.byte	2
-	.word	.L70
+	.word	.L42
 	.byte	3
-	.byte	'doip_recv',0,1,92,7
-	.word	.L118
-	.byte	1,1,1
-	.word	.L59,.L129,.L58
+	.byte	'doip_recv',0,1,51,14
+	.word	.L70
+	.byte	1,1
+	.word	.L39,.L77,.L38
 	.byte	4
-	.byte	'arg',0,1,92,23
-	.word	.L121,.L130
+	.byte	'arg',0,1,51,31
+	.word	.L73,.L78
 	.byte	4
-	.byte	'tpcb',0,1,92,44
-	.word	.L123,.L131
+	.byte	'tpcb',0,1,51,52
+	.word	.L67,.L79
 	.byte	4
-	.byte	'p',0,1,92,63
-	.word	.L132,.L133
+	.byte	'p',0,1,51,71
+	.word	.L80,.L81
 	.byte	4
-	.byte	'err',0,1,92,72
-	.word	.L118,.L134
+	.byte	'err',0,1,51,80
+	.word	.L70,.L82
 	.byte	5
-	.word	.L59,.L129
-	.byte	6
-	.byte	'es',0,1,94,21
-	.word	.L127,.L135
-	.byte	6
-	.byte	'ret_err',0,1,95,8
-	.word	.L118,.L136
+	.word	.L39,.L77
 	.byte	5
-	.word	.L137,.L138
+	.word	.L8,.L77
 	.byte	6
-	.byte	'service_id',0,1,133,1,19
-	.word	.L139,.L140
-	.byte	6
-	.byte	'data_id',0,1,134,1,20
-	.word	.L141,.L142
-	.byte	6
-	.byte	'respMsg',0,1,136,1,10
-	.word	.L143,.L144
-	.byte	6
-	.byte	'ADC_val',0,1,150,1,13
-	.word	.L145,.L146
+	.byte	'payload_type',0,1,64,14
+	.word	.L83,.L84
 	.byte	5
-	.word	.L147,.L23
+	.word	.L85,.L86
 	.byte	6
-	.byte	'ADC_val',0,1,158,1,28
-	.word	.L145,.L148
-	.byte	0,0,5
-	.word	.L21,.L27
+	.byte	'resp',0,1,68,17
+	.word	.L87,.L88
+	.byte	0,5
+	.word	.L89,.L12
 	.byte	6
-	.byte	'ptr',0,1,171,1,17
-	.word	.L132,.L149
-	.byte	0,0,0,0
+	.byte	'service_id',0,1,75,17
+	.word	.L90,.L91
+	.byte	6
+	.byte	'data_id',0,1,76,18
+	.word	.L83,.L92
+	.byte	5
+	.word	.L93,.L17
+	.byte	6
+	.byte	'distance',0,1,85,30
+	.word	.L83,.L94
+	.byte	6
+	.byte	'resp',0,1,86,29
+	.word	.L87,.L95
+	.byte	0,5
+	.word	.L96,.L29
+	.byte	6
+	.byte	'control_option',0,1,107,29
+	.word	.L90,.L97
+	.byte	6
+	.byte	'success',0,1,108,26
+	.word	.L98,.L99
+	.byte	5
+	.word	.L22,.L21
+	.byte	6
+	.byte	'new_direction',0,1,115,37
+	.word	.L90,.L100
+	.byte	6
+	.byte	'new_speed',0,1,116,37
+	.word	.L90,.L101
+	.byte	0,5
+	.word	.L102,.L103
+	.byte	6
+	.byte	'resp',0,1,136,1,33
+	.word	.L104,.L105
+	.byte	0,0,0,0,0,0,0
 	.sdecl	'.debug_abbrev',debug,cluster('doip_recv')
 	.sect	'.debug_abbrev'
-.L85:
+.L57:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
-	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
-	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.byte	54,15,39,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6,52,0,3
+	.byte	8,58,15,59,15,57,15,73,16,2,6,0,0,0
 	.sdecl	'.debug_line',debug,cluster('doip_recv')
 	.sect	'.debug_line'
-.L86:
-	.word	.L319-.L318
-.L318:
+.L58:
+	.word	.L181-.L180
+.L180:
 	.half	3
-	.word	.L321-.L320
-.L320:
+	.word	.L183-.L182
+.L182:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../examples/DoIP.c',0,0,0,0,0
-.L321:
-	.byte	5,7,7,0,5,2
-	.word	.L59
-	.byte	3,219,0,1,5,2,9
-	.half	.L9-.L59
-	.byte	3,5,1,7,9
-	.half	.L322-.L9
-	.byte	1,9
-	.half	.L10-.L322
-	.byte	3,3,1,5,15,7,9
-	.half	.L323-.L10
-	.byte	3,2,1,5,13,9
-	.half	.L324-.L323
-	.byte	1,5,9,9
-	.half	.L325-.L324
-	.byte	3,1,1,5,3,9
-	.half	.L326-.L325
-	.byte	1,5,21,7,9
-	.half	.L327-.L326
+.L183:
+	.byte	5,14,7,0,5,2
+	.word	.L39
+	.byte	3,50,1,5,5,9
+	.half	.L129-.L39
+	.byte	3,2,1,5,19,7,9
+	.half	.L184-.L129
+	.byte	3,2,1,5,16,9
+	.half	.L126-.L184
+	.byte	3,1,1,5,9,9
+	.half	.L185-.L126
+	.byte	1,5,5,9
+	.half	.L6-.L185
+	.byte	3,2,1,5,19,7,9
+	.half	.L186-.L6
+	.byte	3,2,1,5,9,9
+	.half	.L132-.L186
+	.byte	3,1,1,5,54,9
+	.half	.L8-.L132
+	.byte	3,3,1,5,64,9
+	.half	.L187-.L8
+	.byte	1,5,68,9
+	.half	.L130-.L187
+	.byte	1,5,89,9
+	.half	.L188-.L130
+	.byte	1,5,99,9
+	.half	.L189-.L188
+	.byte	1,5,74,9
+	.half	.L137-.L189
+	.byte	1,5,5,9
+	.half	.L190-.L137
+	.byte	3,2,1,5,26,7,9
+	.half	.L85-.L190
 	.byte	3,2,1,5,24,9
-	.half	.L202-.L327
-	.byte	1,5,19,9
-	.half	.L12-.L202
-	.byte	3,3,1,5,20,9
-	.half	.L205-.L12
-	.byte	3,1,1,5,11,9
-	.half	.L13-.L205
-	.byte	3,2,1,5,19,9
-	.half	.L328-.L13
-	.byte	1,5,9,9
-	.half	.L11-.L328
-	.byte	3,1,1,5,3,7,9
-	.half	.L329-.L11
-	.byte	3,2,1,5,12,7,9
-	.half	.L330-.L329
-	.byte	3,1,1,5,10,9
-	.half	.L331-.L330
-	.byte	1,5,14,9
-	.half	.L332-.L331
-	.byte	3,1,1,5,16,9
-	.half	.L16-.L332
-	.byte	3,2,1,5,15,9
-	.half	.L15-.L16
-	.byte	3,1,1,5,9,9
-	.half	.L333-.L15
-	.byte	1,5,15,7,9
-	.half	.L334-.L333
-	.byte	3,2,1,5,13,9
-	.half	.L335-.L334
-	.byte	1,5,9,9
-	.half	.L336-.L335
-	.byte	3,2,1,5,18,9
-	.half	.L337-.L336
-	.byte	3,2,1,5,19,9
-	.half	.L210-.L337
-	.byte	3,1,1,5,11,9
-	.half	.L212-.L210
-	.byte	3,1,1,5,26,9
-	.half	.L338-.L212
-	.byte	3,122,1,5,15,9
-	.half	.L18-.L338
-	.byte	3,7,1,5,9,9
-	.half	.L339-.L18
-	.byte	1,7,9
-	.half	.L340-.L339
-	.byte	3,2,1,5,3,9
-	.half	.L341-.L340
-	.byte	1,5,10,7,9
-	.half	.L342-.L341
-	.byte	3,1,1,5,44,9
-	.half	.L137-.L342
-	.byte	3,2,1,5,32,9
-	.half	.L343-.L137
+	.half	.L191-.L85
+	.byte	1,5,88,9
+	.half	.L192-.L191
+	.byte	1,5,98,9
+	.half	.L193-.L192
+	.byte	1,5,75,9
+	.half	.L194-.L193
 	.byte	1,5,30,9
-	.half	.L344-.L343
-	.byte	1,5,42,9
-	.half	.L345-.L344
-	.byte	3,1,1,5,30,9
-	.half	.L346-.L345
-	.byte	1,5,59,9
-	.half	.L347-.L346
-	.byte	1,5,78,9
-	.half	.L348-.L347
-	.byte	1,5,66,9
-	.half	.L349-.L348
-	.byte	1,5,64,9
-	.half	.L350-.L349
-	.byte	1,5,28,9
-	.half	.L351-.L350
-	.byte	1,5,4,9
-	.half	.L352-.L351
-	.byte	3,3,1,5,20,9
-	.half	.L353-.L352
-	.byte	3,127,1,5,8,9
-	.half	.L354-.L353
-	.byte	3,15,1,5,22,9
-	.half	.L355-.L354
-	.byte	1,5,4,9
-	.half	.L356-.L355
-	.byte	1,5,12,7,9
-	.half	.L357-.L356
-	.byte	3,1,1,5,8,9
-	.half	.L358-.L357
-	.byte	1,5,36,7,9
-	.half	.L359-.L358
-	.byte	3,1,1,5,16,9
-	.half	.L360-.L359
-	.byte	1,5,20,9
-	.half	.L214-.L360
-	.byte	3,1,1,5,18,9
-	.half	.L361-.L214
-	.byte	1,5,28,9
-	.half	.L362-.L361
-	.byte	3,1,1,5,18,9
-	.half	.L363-.L362
-	.byte	1,9
-	.half	.L364-.L363
-	.byte	3,1,1,5,38,9
-	.half	.L365-.L364
-	.byte	3,125,1,5,15,9
-	.half	.L24-.L365
-	.byte	3,4,1,5,11,9
-	.half	.L366-.L24
-	.byte	1,5,58,7,9
-	.half	.L147-.L366
-	.byte	3,1,1,5,38,9
-	.half	.L367-.L147
-	.byte	1,5,35,9
-	.half	.L215-.L367
-	.byte	3,1,1,5,33,9
-	.half	.L368-.L215
-	.byte	1,5,43,9
-	.half	.L369-.L368
-	.byte	3,1,1,5,33,9
-	.half	.L370-.L369
-	.byte	1,9
-	.half	.L371-.L370
-	.byte	3,1,1,5,6,9
-	.half	.L23-.L371
-	.byte	3,4,1,5,17,9
-	.half	.L372-.L23
-	.byte	1,5,15,9
-	.half	.L373-.L372
-	.byte	1,5,13,9
-	.half	.L374-.L373
-	.byte	3,1,1,5,16,9
-	.half	.L375-.L374
-	.byte	1,5,27,9
-	.half	.L376-.L375
-	.byte	1,5,36,9
-	.half	.L377-.L376
-	.byte	1,5,19,9
-	.half	.L378-.L377
-	.byte	3,2,1,5,20,9
-	.half	.L217-.L378
-	.byte	3,1,1,5,19,9
-	.half	.L138-.L217
-	.byte	3,124,1,5,12,9
-	.half	.L21-.L138
-	.byte	3,9,1,5,20,9
-	.half	.L220-.L21
-	.byte	3,1,1,5,11,9
-	.half	.L27-.L220
-	.byte	3,2,1,5,19,9
-	.half	.L379-.L27
-	.byte	1,5,15,9
-	.half	.L20-.L379
-	.byte	3,1,1,5,9,9
-	.half	.L380-.L20
-	.byte	1,5,21,7,9
-	.half	.L381-.L380
-	.byte	3,2,1,5,11,9
-	.half	.L223-.L381
-	.byte	3,1,1,5,9,9
-	.half	.L382-.L223
-	.byte	1,5,13,9
-	.half	.L383-.L382
-	.byte	3,1,1,5,11,9
-	.half	.L225-.L383
+	.half	.L195-.L194
+	.byte	3,1,1,5,40,9
+	.half	.L196-.L195
+	.byte	1,5,17,9
+	.half	.L197-.L196
+	.byte	1,5,25,9
+	.half	.L198-.L197
 	.byte	3,1,1,5,31,9
-	.half	.L384-.L225
-	.byte	3,125,1,5,21,9
-	.half	.L29-.L384
-	.byte	3,6,1,5,11,9
-	.half	.L227-.L29
-	.byte	3,1,1,5,9,9
-	.half	.L385-.L227
-	.byte	1,5,13,9
-	.half	.L386-.L385
-	.byte	3,1,1,5,11,9
-	.half	.L229-.L386
-	.byte	3,1,1,5,2,9
-	.half	.L14-.L229
-	.byte	3,2,1,5,1,9
-	.half	.L31-.L14
+	.half	.L199-.L198
+	.byte	1,5,45,9
+	.half	.L135-.L199
+	.byte	1,5,20,9
+	.half	.L136-.L135
+	.byte	3,1,1,5,24,9
+	.half	.L86-.L136
+	.byte	3,125,1,5,30,9
+	.half	.L10-.L86
+	.byte	3,5,1,5,10,9
+	.half	.L200-.L10
+	.byte	1,5,43,7,9
+	.half	.L89-.L200
+	.byte	3,2,1,5,53,9
+	.half	.L201-.L89
+	.byte	1,9
+	.half	.L141-.L201
+	.byte	3,1,1,5,63,9
+	.half	.L202-.L141
+	.byte	1,5,68,9
+	.half	.L203-.L202
+	.byte	1,5,89,9
+	.half	.L204-.L203
+	.byte	1,5,99,9
+	.half	.L205-.L204
+	.byte	1,5,74,9
+	.half	.L206-.L205
+	.byte	1,5,18,9
+	.half	.L143-.L206
+	.byte	3,5,1,9
+	.half	.L207-.L143
+	.byte	3,22,1,5,32,9
+	.half	.L14-.L207
+	.byte	3,108,1,5,17,9
+	.half	.L142-.L14
+	.byte	1,5,53,7,9
+	.half	.L93-.L142
+	.byte	3,2,1,5,38,9
+	.half	.L144-.L93
+	.byte	3,1,1,5,36,9
+	.half	.L208-.L144
+	.byte	1,5,42,9
+	.half	.L209-.L208
+	.byte	3,1,1,5,52,9
+	.half	.L210-.L209
+	.byte	1,5,29,9
+	.half	.L211-.L210
+	.byte	1,5,71,9
+	.half	.L212-.L211
+	.byte	1,5,81,9
+	.half	.L213-.L212
+	.byte	1,5,58,9
+	.half	.L214-.L213
+	.byte	1,5,42,9
+	.half	.L215-.L214
+	.byte	3,1,1,5,52,9
+	.half	.L216-.L215
+	.byte	1,5,29,9
+	.half	.L217-.L216
+	.byte	1,5,70,9
+	.half	.L218-.L217
+	.byte	1,5,80,9
+	.half	.L219-.L218
+	.byte	1,5,57,9
+	.half	.L220-.L219
+	.byte	1,5,48,9
+	.half	.L221-.L220
+	.byte	3,2,1,5,29,9
+	.half	.L222-.L221
+	.byte	1,9
+	.half	.L223-.L222
+	.byte	3,1,1,5,49,9
+	.half	.L224-.L223
+	.byte	3,1,1,5,29,9
+	.half	.L225-.L224
+	.byte	1,9
+	.half	.L226-.L225
+	.byte	3,1,1,5,37,9
+	.half	.L227-.L226
+	.byte	3,2,1,5,43,9
+	.half	.L228-.L227
+	.byte	1,5,57,9
+	.half	.L229-.L228
+	.byte	1,5,32,9
+	.half	.L145-.L229
+	.byte	3,1,1,5,17,9
+	.half	.L17-.L145
+	.byte	3,3,1,5,32,9
+	.half	.L15-.L17
+	.byte	3,6,1,5,17,9
+	.half	.L230-.L15
+	.byte	1,5,59,7,9
+	.half	.L96-.L230
+	.byte	3,2,1,5,69,9
+	.half	.L231-.L96
+	.byte	1,5,34,9
+	.half	.L151-.L231
+	.byte	3,1,1,5,30,9
+	.half	.L152-.L151
+	.byte	3,14,1,9
+	.half	.L232-.L152
+	.byte	3,118,1,5,66,9
+	.half	.L22-.L232
+	.byte	3,3,1,5,76,9
+	.half	.L233-.L22
+	.byte	1,5,62,9
+	.half	.L153-.L233
+	.byte	3,1,1,5,72,9
+	.half	.L234-.L153
+	.byte	1,5,57,9
+	.half	.L149-.L234
+	.byte	3,3,1,5,29,9
+	.half	.L148-.L149
+	.byte	3,1,1,5,42,9
+	.half	.L21-.L148
+	.byte	3,5,1,5,29,9
+	.half	.L154-.L21
+	.byte	3,1,1,5,37,9
+	.half	.L23-.L154
+	.byte	3,3,1,5,29,9
+	.half	.L235-.L23
+	.byte	3,1,1,5,21,9
+	.half	.L24-.L235
+	.byte	3,3,1,5,42,7,9
+	.half	.L102-.L24
+	.byte	3,3,1,5,40,9
+	.half	.L236-.L102
+	.byte	1,5,46,9
+	.half	.L237-.L236
+	.byte	3,1,1,5,56,9
+	.half	.L238-.L237
+	.byte	1,5,33,9
+	.half	.L239-.L238
+	.byte	1,5,75,9
+	.half	.L240-.L239
+	.byte	1,5,85,9
+	.half	.L241-.L240
+	.byte	1,5,62,9
+	.half	.L242-.L241
+	.byte	1,5,46,9
+	.half	.L243-.L242
+	.byte	3,1,1,5,56,9
+	.half	.L244-.L243
+	.byte	1,5,33,9
+	.half	.L245-.L244
+	.byte	1,5,74,9
+	.half	.L246-.L245
+	.byte	1,5,84,9
+	.half	.L247-.L246
+	.byte	1,5,61,9
+	.half	.L248-.L247
+	.byte	1,5,58,9
+	.half	.L249-.L248
+	.byte	3,1,1,5,39,9
+	.half	.L250-.L249
+	.byte	1,5,65,9
+	.half	.L251-.L250
+	.byte	1,5,41,9
+	.half	.L252-.L251
+	.byte	3,2,1,5,47,9
+	.half	.L253-.L252
+	.byte	1,5,61,9
+	.half	.L254-.L253
+	.byte	1,5,36,9
+	.half	.L156-.L254
+	.byte	3,1,1,5,40,9
+	.half	.L103-.L156
+	.byte	3,122,1,5,21,9
+	.half	.L29-.L103
+	.byte	3,8,1,5,17,9
+	.half	.L30-.L29
+	.byte	3,9,1,9
+	.half	.L16-.L30
+	.byte	3,6,1,5,23,9
+	.half	.L12-.L16
+	.byte	3,4,1,5,15,9
+	.half	.L159-.L12
+	.byte	3,1,1,5,12,9
+	.half	.L161-.L159
+	.byte	3,2,1,5,5,9
+	.half	.L255-.L161
+	.byte	1,5,1,9
+	.half	.L7-.L255
 	.byte	3,1,1,7,9
-	.half	.L88-.L31
+	.half	.L60-.L7
 	.byte	0,1,1
-.L319:
+.L181:
 	.sdecl	'.debug_ranges',debug,cluster('doip_recv')
 	.sect	'.debug_ranges'
-.L87:
-	.word	-1,.L59,0,.L88-.L59,0,0
+.L59:
+	.word	-1,.L39,0,.L60-.L39,0,0
 	.sdecl	'.debug_pubnames',debug
 	.sect	'.debug_pubnames'
 	.word	28
 	.half	2
-	.word	.L84,467,169
+	.word	.L56,582,169
 	.byte	'doip_recv',0
 	.word	0
 	.sdecl	'.debug_info',debug,cluster('doip_error')
 	.sect	'.debug_info'
-.L89:
-	.word	258
+.L61:
+	.word	240
 	.half	3
-	.word	.L90
+	.word	.L62
 	.byte	4,1
 	.byte	'../examples/DoIP.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\NGV\\TC375LK_NGV_2\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L92,.L91
+	.word	.L64,.L63
 	.byte	2
-	.word	.L70
+	.word	.L42
 	.byte	3
-	.byte	'doip_error',0,1,194,1,6,1,1,1
-	.word	.L61,.L150,.L60
+	.byte	'doip_error',0,1,169,1,13,1,1
+	.word	.L41,.L106,.L40
 	.byte	4
-	.byte	'arg',0,1,194,1,23
-	.word	.L121,.L151
+	.byte	'arg',0,1,169,1,31
+	.word	.L73,.L107
 	.byte	4
-	.byte	'err',0,1,194,1,34
-	.word	.L118,.L152
+	.byte	'err',0,1,169,1,42
+	.word	.L70,.L108
 	.byte	5
-	.word	.L61,.L150
-	.byte	6
-	.byte	'es',0,1,196,1,21
-	.word	.L127,.L153
-	.byte	0,0,0
+	.word	.L41,.L106
+	.byte	0,0
 	.sdecl	'.debug_abbrev',debug,cluster('doip_error')
 	.sect	'.debug_abbrev'
-.L90:
+.L62:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
-	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6,52,0,3
-	.byte	8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.byte	39,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
 	.sdecl	'.debug_line',debug,cluster('doip_error')
 	.sect	'.debug_line'
-.L91:
-	.word	.L388-.L387
-.L387:
+.L63:
+	.word	.L257-.L256
+.L256:
 	.half	3
-	.word	.L390-.L389
-.L389:
+	.word	.L259-.L258
+.L258:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../examples/DoIP.c',0,0,0,0,0
-.L390:
-	.byte	5,2,7,0,5,2
-	.word	.L61
-	.byte	3,201,1,1,5,12,7,9
-	.half	.L391-.L61
-	.byte	3,1,1,5,1,9
-	.half	.L32-.L391
-	.byte	3,2,1,7,9
-	.half	.L93-.L32
+.L259:
+	.byte	5,1,7,0,5,2
+	.word	.L41
+	.byte	3,172,1,1,7,9
+	.half	.L65-.L41
 	.byte	0,1,1
-.L388:
+.L257:
 	.sdecl	'.debug_ranges',debug,cluster('doip_error')
 	.sect	'.debug_ranges'
-.L92:
-	.word	-1,.L61,0,.L93-.L61,0,0
+.L64:
+	.word	-1,.L41,0,.L65-.L41,0,0
 	.sdecl	'.debug_pubnames',debug
 	.sect	'.debug_pubnames'
 	.word	29
 	.half	2
-	.word	.L89,262,169
+	.word	.L61,244,169
 	.byte	'doip_error',0
 	.word	0
-	.sdecl	'.debug_info',debug,cluster('doip_poll')
-	.sect	'.debug_info'
-.L94:
-	.word	283
-	.half	3
-	.word	.L95
-	.byte	4,1
-	.byte	'../examples/DoIP.c',0
-	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'C:\\NGV\\TC375LK_NGV_2\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L97,.L96
-	.byte	2
-	.word	.L70
-	.byte	3
-	.byte	'doip_poll',0,1,207,1,7
-	.word	.L118
-	.byte	1,1,1
-	.word	.L63,.L154,.L62
-	.byte	4
-	.byte	'arg',0,1,207,1,23
-	.word	.L121,.L155
-	.byte	4
-	.byte	'tpcb',0,1,207,1,44
-	.word	.L123,.L156
-	.byte	5
-	.word	.L63,.L154
-	.byte	6
-	.byte	'ret_err',0,1,209,1,8
-	.word	.L118,.L157
-	.byte	6
-	.byte	'es',0,1,210,1,21
-	.word	.L127,.L158
-	.byte	0,0,0
-	.sdecl	'.debug_abbrev',debug,cluster('doip_poll')
-	.sect	'.debug_abbrev'
-.L95:
-	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
-	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
-	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
-	.sdecl	'.debug_line',debug,cluster('doip_poll')
-	.sect	'.debug_line'
-.L96:
-	.word	.L393-.L392
-.L392:
-	.half	3
-	.word	.L395-.L394
-.L394:
-	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
-	.byte	'../examples/DoIP.c',0,0,0,0,0
-.L395:
-	.byte	5,7,7,0,5,2
-	.word	.L63
-	.byte	3,206,1,1,5,2,9
-	.half	.L234-.L63
-	.byte	3,7,1,5,9,7,9
-	.half	.L396-.L234
-	.byte	3,1,1,5,3,9
-	.half	.L397-.L396
-	.byte	1,5,19,7,9
-	.half	.L398-.L397
-	.byte	3,2,1,5,20,9
-	.half	.L235-.L398
-	.byte	3,1,1,5,29,9
-	.half	.L237-.L235
-	.byte	3,127,1,5,10,9
-	.half	.L34-.L237
-	.byte	3,4,1,5,4,9
-	.half	.L399-.L34
-	.byte	1,5,22,7,9
-	.half	.L400-.L399
-	.byte	3,1,1,5,11,9
-	.half	.L35-.L400
-	.byte	3,3,1,5,19,9
-	.half	.L241-.L35
-	.byte	1,5,13,9
-	.half	.L33-.L241
-	.byte	3,3,1,5,11,9
-	.half	.L243-.L33
-	.byte	3,1,1,5,2,9
-	.half	.L37-.L243
-	.byte	3,2,1,5,1,9
-	.half	.L38-.L37
-	.byte	3,1,1,7,9
-	.half	.L98-.L38
-	.byte	0,1,1
-.L393:
-	.sdecl	'.debug_ranges',debug,cluster('doip_poll')
-	.sect	'.debug_ranges'
-.L97:
-	.word	-1,.L63,0,.L98-.L63,0,0
-	.sdecl	'.debug_pubnames',debug
-	.sect	'.debug_pubnames'
-	.word	28
-	.half	2
-	.word	.L94,287,169
-	.byte	'doip_poll',0
-	.word	0
-	.sdecl	'.debug_info',debug,cluster('doip_sent')
-	.sect	'.debug_info'
-.L99:
-	.word	279
-	.half	3
-	.word	.L100
-	.byte	4,1
-	.byte	'../examples/DoIP.c',0
-	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'C:\\NGV\\TC375LK_NGV_2\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L102,.L101
-	.byte	2
-	.word	.L70
-	.byte	3
-	.byte	'doip_sent',0,1,234,1,7
-	.word	.L118
-	.byte	1,1,1
-	.word	.L65,.L159,.L64
-	.byte	4
-	.byte	'arg',0,1,234,1,23
-	.word	.L121,.L160
-	.byte	4
-	.byte	'tpcb',0,1,234,1,44
-	.word	.L123,.L161
-	.byte	4
-	.byte	'len',0,1,234,1,56
-	.word	.L145,.L162
-	.byte	5
-	.word	.L65,.L159
-	.byte	6
-	.byte	'es',0,1,236,1,21
-	.word	.L127,.L163
-	.byte	0,0,0
-	.sdecl	'.debug_abbrev',debug,cluster('doip_sent')
-	.sect	'.debug_abbrev'
-.L100:
-	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
-	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
-	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
-	.sdecl	'.debug_line',debug,cluster('doip_sent')
-	.sect	'.debug_line'
-.L101:
-	.word	.L402-.L401
-.L401:
-	.half	3
-	.word	.L404-.L403
-.L403:
-	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
-	.byte	'../examples/DoIP.c',0,0,0,0,0
-.L404:
-	.byte	5,7,7,0,5,2
-	.word	.L65
-	.byte	3,233,1,1,5,16,9
-	.half	.L248-.L65
-	.byte	3,8,1,5,14,9
-	.half	.L405-.L248
-	.byte	1,5,8,9
-	.half	.L406-.L405
-	.byte	3,2,1,5,2,9
-	.half	.L407-.L406
-	.byte	1,5,18,7,9
-	.half	.L408-.L407
-	.byte	3,2,1,5,19,9
-	.half	.L245-.L408
-	.byte	3,1,1,5,28,9
-	.half	.L250-.L245
-	.byte	3,127,1,5,9,9
-	.half	.L39-.L250
-	.byte	3,4,1,5,3,9
-	.half	.L409-.L39
-	.byte	1,5,21,7,9
-	.half	.L410-.L409
-	.byte	3,1,1,5,9,9
-	.half	.L40-.L410
-	.byte	3,3,1,5,2,9
-	.half	.L411-.L40
-	.byte	1,5,1,9
-	.half	.L42-.L411
-	.byte	3,1,1,7,9
-	.half	.L103-.L42
-	.byte	0,1,1
-.L402:
-	.sdecl	'.debug_ranges',debug,cluster('doip_sent')
-	.sect	'.debug_ranges'
-.L102:
-	.word	-1,.L65,0,.L103-.L65,0,0
-	.sdecl	'.debug_pubnames',debug
-	.sect	'.debug_pubnames'
-	.word	28
-	.half	2
-	.word	.L99,283,169
-	.byte	'doip_sent',0
-	.word	0
-	.sdecl	'.debug_info',debug,cluster('doip_send')
-	.sect	'.debug_info'
-.L104:
-	.word	325
-	.half	3
-	.word	.L105
-	.byte	4,1
-	.byte	'../examples/DoIP.c',0
-	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'C:\\NGV\\TC375LK_NGV_2\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L107,.L106
-	.byte	2
-	.word	.L70
-	.byte	3
-	.byte	'doip_send',0,1,129,2,6,1,1,1
-	.word	.L67,.L164,.L66
-	.byte	4
-	.byte	'tpcb',0,1,129,2,32
-	.word	.L123,.L165
-	.byte	4
-	.byte	'es',0,1,129,2,57
-	.word	.L127,.L166
-	.byte	5
-	.word	.L67,.L164
-	.byte	6
-	.byte	'ptr',0,1,131,2,15
-	.word	.L132,.L167
-	.byte	6
-	.byte	'wr_err',0,1,132,2,8
-	.word	.L118,.L168
-	.byte	5
-	.word	.L169,.L170
-	.byte	6
-	.byte	'plen',0,1,142,2,10
-	.word	.L145,.L171
-	.byte	6
-	.byte	'freed',0,1,143,2,9
-	.word	.L172,.L173
-	.byte	0,0,0,0
-	.sdecl	'.debug_abbrev',debug,cluster('doip_send')
-	.sect	'.debug_abbrev'
-.L105:
-	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
-	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6,52,0,3
-	.byte	8,58,15,59,15,57,15,73,16,2,6,0,0,0
-	.sdecl	'.debug_line',debug,cluster('doip_send')
-	.sect	'.debug_line'
-.L106:
-	.word	.L413-.L412
-.L412:
-	.half	3
-	.word	.L415-.L414
-.L414:
-	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
-	.byte	'../examples/DoIP.c',0,0,0,0,0
-.L415:
-	.byte	5,6,7,0,5,2
-	.word	.L67
-	.byte	3,128,2,1,5,15,9
-	.half	.L255-.L67
-	.byte	3,3,1,5,39,9
-	.half	.L256-.L255
-	.byte	3,4,1,5,11,9
-	.half	.L44-.L256
-	.byte	3,1,1,5,31,9
-	.half	.L257-.L44
-	.byte	3,3,1,5,45,9
-	.half	.L416-.L257
-	.byte	1,5,52,9
-	.half	.L417-.L416
-	.byte	1,5,10,9
-	.half	.L259-.L417
-	.byte	1,5,3,9
-	.half	.L260-.L259
-	.byte	3,1,1,5,14,7,9
-	.half	.L169-.L260
-	.byte	3,4,1,5,15,9
-	.half	.L262-.L169
-	.byte	3,2,1,5,10,9
-	.half	.L418-.L262
-	.byte	1,9
-	.half	.L419-.L418
-	.byte	3,1,1,5,4,9
-	.half	.L420-.L419
-	.byte	1,5,16,7,9
-	.half	.L421-.L420
-	.byte	3,2,1,5,23,9
-	.half	.L47-.L421
-	.byte	3,5,1,5,24,9
-	.half	.L264-.L47
-	.byte	3,1,1,5,21,7,9
-	.half	.L422-.L264
-	.byte	3,2,1,5,26,9
-	.half	.L170-.L422
-	.byte	1,5,10,9
-	.half	.L45-.L170
-	.byte	3,1,1,7,9
-	.half	.L423-.L45
-	.byte	3,2,1,5,15,9
-	.half	.L424-.L423
-	.byte	1,5,9,9
-	.half	.L43-.L424
-	.byte	3,102,1,5,34,7,9
-	.half	.L425-.L43
-	.byte	1,5,38,9
-	.half	.L261-.L425
-	.byte	1,5,10,7,9
-	.half	.L426-.L261
-	.byte	3,1,1,5,13,9
-	.half	.L427-.L426
-	.byte	1,5,22,9
-	.half	.L428-.L427
-	.byte	1,5,19,9
-	.half	.L429-.L428
-	.byte	1,5,1,7,9
-	.half	.L51-.L429
-	.byte	3,30,1,7,9
-	.half	.L108-.L51
-	.byte	0,1,1
-.L413:
-	.sdecl	'.debug_ranges',debug,cluster('doip_send')
-	.sect	'.debug_ranges'
-.L107:
-	.word	-1,.L67,0,.L108-.L67,0,0
-	.sdecl	'.debug_pubnames',debug
-	.sect	'.debug_pubnames'
-	.word	28
-	.half	2
-	.word	.L104,329,169
-	.byte	'doip_send',0
-	.word	0
-	.sdecl	'.debug_info',debug,cluster('doip_close')
-	.sect	'.debug_info'
-.L109:
-	.word	241
-	.half	3
-	.word	.L110
-	.byte	4,1
-	.byte	'../examples/DoIP.c',0
-	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'C:\\NGV\\TC375LK_NGV_2\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L112,.L111
-	.byte	2
-	.word	.L70
-	.byte	3
-	.byte	'doip_close',0,1,168,2,6,1,1,1
-	.word	.L69,.L174,.L68
-	.byte	4
-	.byte	'tpcb',0,1,168,2,33
-	.word	.L123,.L175
-	.byte	4
-	.byte	'es',0,1,168,2,58
-	.word	.L127,.L176
-	.byte	5
-	.word	.L69,.L174
-	.byte	0,0
-	.sdecl	'.debug_abbrev',debug,cluster('doip_close')
-	.sect	'.debug_abbrev'
-.L110:
-	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
-	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
-	.sdecl	'.debug_line',debug,cluster('doip_close')
-	.sect	'.debug_line'
-.L111:
-	.word	.L431-.L430
-.L430:
-	.half	3
-	.word	.L433-.L432
-.L432:
-	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
-	.byte	'../examples/DoIP.c',0,0,0,0,0
-.L433:
-	.byte	5,6,7,0,5,2
-	.word	.L69
-	.byte	3,167,2,1,5,16,9
-	.half	.L270-.L69
-	.byte	3,2,1,5,17,9
-	.half	.L268-.L270
-	.byte	3,1,1,9
-	.half	.L272-.L268
-	.byte	3,1,1,5,16,9
-	.half	.L274-.L272
-	.byte	3,1,1,5,17,9
-	.half	.L276-.L274
-	.byte	3,1,1,5,23,9
-	.half	.L434-.L276
-	.byte	1,5,2,9
-	.half	.L278-.L434
-	.byte	3,3,1,5,12,7,9
-	.half	.L435-.L278
-	.byte	3,1,1,9
-	.half	.L53-.L435
-	.byte	3,2,1,5,1,9
-	.half	.L281-.L53
-	.byte	3,1,1,7,9
-	.half	.L113-.L281
-	.byte	0,1,1
-.L431:
-	.sdecl	'.debug_ranges',debug,cluster('doip_close')
-	.sect	'.debug_ranges'
-.L112:
-	.word	-1,.L69,0,.L113-.L69,0,0
-	.sdecl	'.debug_pubnames',debug
-	.sect	'.debug_pubnames'
-	.word	29
-	.half	2
-	.word	.L109,245,169
-	.byte	'doip_close',0
-	.word	0
-	.sdecl	'.debug_info',debug,cluster('doip_pcb')
-	.sect	'.debug_info'
-.L114:
-	.word	181
-	.half	3
-	.word	.L115
-	.byte	4,1
-	.byte	'../examples/DoIP.c',0
-	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'C:\\NGV\\TC375LK_NGV_2\\TriCore Debug (TASKING)\\',0,12,1,2
-	.word	.L70
-	.byte	3
-	.byte	'doip_pcb',0,9,12,24
-	.word	.L123
-	.byte	5,3
-	.word	doip_pcb
-	.byte	0
-	.sdecl	'.debug_abbrev',debug,cluster('doip_pcb')
-	.sect	'.debug_abbrev'
-.L115:
-	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
 	.sdecl	'.debug_loc',debug,cluster('DoIP_Init')
 	.sect	'.debug_loc'
-.L54:
-	.word	-1,.L55,0,.L116-.L55
+.L34:
+	.word	-1,.L35,0,.L66-.L35
 	.half	2
 	.byte	138,0
 	.word	0,0
-.L119:
-	.word	-1,.L55,.L177-.L55,.L178-.L55
+.L71:
+	.word	-1,.L35,.L113-.L35,.L112-.L35
 	.half	1
 	.byte	82
+	.word	.L3-.L35,.L2-.L35
+	.half	1
+	.byte	82
+	.word	0,0
+.L68:
+	.word	-1,.L35,.L109-.L35,.L110-.L35
+	.half	1
+	.byte	98
+	.word	.L111-.L35,.L112-.L35
+	.half	1
+	.byte	111
+	.word	.L110-.L35,.L113-.L35
+	.half	1
+	.byte	100
+	.word	.L114-.L35,.L112-.L35
+	.half	1
+	.byte	100
+	.word	.L112-.L35,.L115-.L35
+	.half	1
+	.byte	98
+	.word	.L116-.L35,.L115-.L35
+	.half	1
+	.byte	100
+	.word	.L3-.L35,.L2-.L35
+	.half	1
+	.byte	111
+	.word	.L117-.L35,.L2-.L35
+	.half	1
+	.byte	100
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('doip_accept')
 	.sect	'.debug_loc'
-.L122:
-	.word	-1,.L57,0,.L179-.L57
+.L74:
+	.word	-1,.L37,0,.L118-.L37
 	.half	1
 	.byte	100
 	.word	0,0
-.L56:
-	.word	-1,.L57,0,.L120-.L57
+.L36:
+	.word	-1,.L37,0,.L72-.L37
 	.half	2
 	.byte	138,0
 	.word	0,0
-.L125:
-	.word	-1,.L57,0,.L180-.L57
+.L76:
+	.word	-1,.L37,0,.L119-.L37
 	.half	1
 	.byte	84
 	.word	0,0
-.L128:
-	.word	-1,.L57,.L183-.L57,.L184-.L57
+.L75:
+	.word	-1,.L37,0,.L120-.L37
 	.half	1
-	.byte	98
-	.word	.L185-.L57,.L120-.L57
+	.byte	101
+	.word	.L121-.L37,.L72-.L37
 	.half	1
 	.byte	111
-	.word	.L188-.L57,.L187-.L57
-	.half	1
-	.byte	101
-	.word	.L6-.L57,.L7-.L57
-	.half	1
-	.byte	98
-	.word	0,0
-.L124:
-	.word	-1,.L57,0,.L179-.L57
-	.half	1
-	.byte	101
-	.word	.L181-.L57,.L120-.L57
-	.half	1
-	.byte	108
-	.word	.L179-.L57,.L182-.L57
+	.word	.L118-.L37,.L119-.L37
 	.half	1
 	.byte	100
-	.word	.L186-.L57,.L187-.L57
-	.half	1
-	.byte	100
-	.word	.L189-.L57,.L190-.L57
-	.half	1
-	.byte	100
-	.word	.L191-.L57,.L192-.L57
-	.half	1
-	.byte	100
-	.word	.L193-.L57,.L194-.L57
-	.half	1
-	.byte	100
-	.word	0,0
-.L126:
-	.word	-1,.L57,.L195-.L57,.L6-.L57
-	.half	1
-	.byte	82
-	.word	.L7-.L57,.L120-.L57
-	.half	1
-	.byte	82
-	.word	0,0
-	.sdecl	'.debug_loc',debug,cluster('doip_close')
-	.sect	'.debug_loc'
-.L68:
-	.word	-1,.L69,0,.L174-.L69
-	.half	2
-	.byte	138,0
-	.word	0,0
-.L176:
-	.word	-1,.L69,0,.L267-.L69
-	.half	1
-	.byte	101
-	.word	.L270-.L69,.L174-.L69
-	.half	1
-	.byte	108
-	.word	.L279-.L69,.L53-.L69
-	.half	1
-	.byte	100
-	.word	0,0
-.L175:
-	.word	-1,.L69,0,.L268-.L69
-	.half	1
-	.byte	100
-	.word	.L269-.L69,.L174-.L69
-	.half	1
-	.byte	111
-	.word	.L271-.L69,.L272-.L69
-	.half	1
-	.byte	100
-	.word	.L273-.L69,.L274-.L69
-	.half	1
-	.byte	100
-	.word	.L275-.L69,.L276-.L69
-	.half	1
-	.byte	100
-	.word	.L277-.L69,.L278-.L69
-	.half	1
-	.byte	100
-	.word	.L280-.L69,.L281-.L69
+	.word	.L122-.L37,.L123-.L37
 	.half	1
 	.byte	100
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('doip_error')
 	.sect	'.debug_loc'
-.L151:
-	.word	-1,.L61,0,.L32-.L61
+.L107:
+	.word	-1,.L41,0,.L106-.L41
 	.half	1
 	.byte	100
 	.word	0,0
-.L60:
-	.word	-1,.L61,0,.L150-.L61
+.L40:
+	.word	-1,.L41,0,.L106-.L41
 	.half	2
 	.byte	138,0
 	.word	0,0
-.L152:
-	.word	-1,.L61,0,.L32-.L61
+.L108:
+	.word	-1,.L41,0,.L106-.L41
 	.half	1
 	.byte	84
-	.word	0,0
-.L153:
-	.word	0,0
-	.sdecl	'.debug_loc',debug,cluster('doip_poll')
-	.sect	'.debug_loc'
-.L155:
-	.word	-1,.L63,0,.L231-.L63
-	.half	1
-	.byte	100
-	.word	.L233-.L63,.L154-.L63
-	.half	1
-	.byte	111
-	.word	.L238-.L63,.L237-.L63
-	.half	1
-	.byte	101
-	.word	.L34-.L63,.L239-.L63
-	.half	1
-	.byte	100
-	.word	.L240-.L63,.L35-.L63
-	.half	1
-	.byte	101
-	.word	.L33-.L63,.L242-.L63
-	.half	1
-	.byte	100
-	.word	0,0
-.L62:
-	.word	-1,.L63,0,.L154-.L63
-	.half	2
-	.byte	138,0
-	.word	0,0
-.L158:
-	.word	0,0
-.L157:
-	.word	-1,.L63,.L241-.L63,.L33-.L63
-	.half	1
-	.byte	82
-	.word	.L37-.L63,.L154-.L63
-	.half	1
-	.byte	82
-	.word	0,0
-.L156:
-	.word	-1,.L63,0,.L232-.L63
-	.half	1
-	.byte	101
-	.word	.L234-.L63,.L154-.L63
-	.half	1
-	.byte	108
-	.word	.L231-.L63,.L235-.L63
-	.half	1
-	.byte	100
-	.word	.L236-.L63,.L237-.L63
-	.half	1
-	.byte	100
-	.word	.L34-.L63,.L239-.L63
-	.half	1
-	.byte	101
-	.word	.L239-.L63,.L35-.L63
-	.half	1
-	.byte	100
-	.word	.L33-.L63,.L242-.L63
-	.half	1
-	.byte	101
-	.word	.L242-.L63,.L243-.L63
-	.half	1
-	.byte	100
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('doip_recv')
 	.sect	'.debug_loc'
-.L146:
-	.word	-1,.L59,.L214-.L59,.L24-.L59
-	.half	1
-	.byte	95
-	.word	0,0
-.L148:
-	.word	-1,.L59,.L215-.L59,.L23-.L59
-	.half	1
-	.byte	95
-	.word	0,0
-.L130:
-	.word	-1,.L59,0,.L197-.L59
+.L78:
+	.word	-1,.L39,0,.L125-.L39
 	.half	1
 	.byte	100
-	.word	.L198-.L59,.L129-.L59
+	.word	.L6-.L39,.L131-.L39
 	.half	1
-	.byte	111
-	.word	.L203-.L59,.L202-.L59
+	.byte	100
+	.word	.L8-.L39,.L134-.L39
 	.half	1
-	.byte	101
-	.word	.L207-.L59,.L13-.L59
+	.byte	100
+	.word	.L10-.L39,.L140-.L39
 	.half	1
-	.byte	101
-	.word	.L213-.L59,.L212-.L59
+	.byte	100
+	.word	.L15-.L39,.L148-.L39
 	.half	1
-	.byte	101
-	.word	.L219-.L59,.L138-.L59
+	.byte	100
+	.word	.L21-.L39,.L154-.L39
 	.half	1
-	.byte	101
+	.byte	100
+	.word	.L23-.L39,.L24-.L39
+	.half	1
+	.byte	100
+	.word	.L16-.L39,.L12-.L39
+	.half	1
+	.byte	100
 	.word	0,0
-.L142:
-	.word	-1,.L59,0,.L129-.L59
-	.half	2
-	.byte	145,102
-	.word	0,0
-.L58:
-	.word	-1,.L59,0,.L196-.L59
-	.half	2
-	.byte	138,0
-	.word	.L196-.L59,.L129-.L59
-	.half	2
-	.byte	138,40
-	.word	.L129-.L59,.L129-.L59
-	.half	2
-	.byte	138,0
-	.word	0,0
-.L134:
-	.word	-1,.L59,0,.L10-.L59
+.L97:
+	.word	-1,.L39,.L151-.L39,.L28-.L39
 	.half	1
-	.byte	84
-	.word	.L9-.L59,.L129-.L59
+	.byte	95
+	.word	0,0
+.L92:
+	.word	-1,.L39,.L143-.L39,.L12-.L39
 	.half	1
 	.byte	88
-	.word	.L230-.L59,.L129-.L59
+	.word	0,0
+.L94:
+	.word	-1,.L39,.L144-.L39,.L145-.L39
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+.L38:
+	.word	-1,.L39,0,.L124-.L39
+	.half	2
+	.byte	138,0
+	.word	.L124-.L39,.L77-.L39
+	.half	2
+	.byte	138,24
+	.word	.L77-.L39,.L77-.L39
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L82:
+	.word	-1,.L39,0,.L126-.L39
+	.half	1
+	.byte	84
+	.word	.L129-.L39,.L130-.L39
+	.half	1
+	.byte	95
+	.word	.L6-.L39,.L132-.L39
+	.half	1
+	.byte	84
+	.word	.L133-.L39,.L8-.L39
 	.half	1
 	.byte	82
+	.word	.L8-.L39,.L135-.L39
+	.half	1
+	.byte	84
+	.word	.L10-.L39,.L140-.L39
+	.half	1
+	.byte	84
+	.word	.L15-.L39,.L149-.L39
+	.half	1
+	.byte	84
+	.word	.L21-.L39,.L154-.L39
+	.half	1
+	.byte	84
+	.word	.L23-.L39,.L24-.L39
+	.half	1
+	.byte	84
+	.word	.L16-.L39,.L12-.L39
+	.half	1
+	.byte	84
 	.word	0,0
-.L135:
+.L100:
+	.word	-1,.L39,.L153-.L39,.L148-.L39
+	.half	1
+	.byte	85
 	.word	0,0
-.L133:
-	.word	-1,.L59,0,.L10-.L59
+.L101:
+	.word	-1,.L39,.L149-.L39,.L148-.L39
+	.half	1
+	.byte	84
+	.word	0,0
+.L81:
+	.word	-1,.L39,0,.L126-.L39
 	.half	1
 	.byte	102
-	.word	.L200-.L59,.L129-.L59
+	.word	.L128-.L39,.L77-.L39
 	.half	1
-	.byte	109
-	.word	.L208-.L59,.L16-.L59
+	.byte	111
+	.word	.L6-.L39,.L131-.L39
 	.half	1
-	.byte	100
-	.word	.L221-.L59,.L27-.L59
-	.half	1
-	.byte	101
-	.word	.L224-.L59,.L225-.L59
+	.byte	102
+	.word	.L131-.L39,.L132-.L39
 	.half	1
 	.byte	100
-	.word	.L228-.L59,.L229-.L59
+	.word	.L8-.L39,.L136-.L39
+	.half	1
+	.byte	102
+	.word	.L10-.L39,.L140-.L39
+	.half	1
+	.byte	102
+	.word	.L15-.L39,.L148-.L39
+	.half	1
+	.byte	102
+	.word	.L21-.L39,.L154-.L39
+	.half	1
+	.byte	102
+	.word	.L23-.L39,.L24-.L39
+	.half	1
+	.byte	102
+	.word	.L16-.L39,.L12-.L39
+	.half	1
+	.byte	102
+	.word	.L160-.L39,.L161-.L39
 	.half	1
 	.byte	100
 	.word	0,0
-.L149:
-	.word	-1,.L59,.L220-.L59,.L27-.L59
-	.half	1
-	.byte	100
+.L84:
+	.word	-1,.L39,.L137-.L39,.L136-.L39
+	.half	5
+	.byte	144,32,157,32,0
+	.word	.L10-.L39,.L141-.L39
+	.half	5
+	.byte	144,32,157,32,0
 	.word	0,0
-.L144:
-	.word	-1,.L59,0,.L129-.L59
+.L88:
+	.word	-1,.L39,0,.L77-.L39
 	.half	2
 	.byte	145,104
 	.word	0,0
-.L136:
-	.word	0,0
-.L140:
-	.word	-1,.L59,0,.L129-.L59
+.L95:
+	.word	-1,.L39,0,.L77-.L39
 	.half	2
-	.byte	145,100
+	.byte	145,104
 	.word	0,0
-.L131:
-	.word	-1,.L59,0,.L10-.L59
+.L105:
+	.word	-1,.L39,0,.L77-.L39
+	.half	2
+	.byte	145,104
+	.word	0,0
+.L91:
+	.word	-1,.L39,.L141-.L39,.L142-.L39
+	.half	5
+	.byte	144,32,157,32,0
+	.word	.L15-.L39,.L150-.L39
+	.half	5
+	.byte	144,32,157,32,0
+	.word	.L16-.L39,.L12-.L39
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+.L99:
+	.word	-1,.L39,.L152-.L39,.L30-.L39
+	.half	1
+	.byte	89
+	.word	0,0
+.L79:
+	.word	-1,.L39,0,.L125-.L39
 	.half	1
 	.byte	101
-	.word	.L199-.L59,.L129-.L59
+	.word	.L127-.L39,.L77-.L39
 	.half	1
 	.byte	108
-	.word	.L201-.L59,.L202-.L59
+	.word	.L125-.L39,.L126-.L39
 	.half	1
 	.byte	100
-	.word	.L204-.L59,.L205-.L59
-	.half	1
-	.byte	100
-	.word	.L206-.L59,.L13-.L59
-	.half	1
-	.byte	100
-	.word	.L209-.L59,.L210-.L59
-	.half	1
-	.byte	100
-	.word	.L211-.L59,.L212-.L59
-	.half	1
-	.byte	100
-	.word	.L216-.L59,.L217-.L59
-	.half	1
-	.byte	100
-	.word	.L218-.L59,.L138-.L59
-	.half	1
-	.byte	100
-	.word	.L222-.L59,.L223-.L59
-	.half	1
-	.byte	100
-	.word	.L226-.L59,.L227-.L59
-	.half	1
-	.byte	100
-	.word	0,0
-	.sdecl	'.debug_loc',debug,cluster('doip_send')
-	.sect	'.debug_loc'
-.L66:
-	.word	-1,.L67,0,.L164-.L67
-	.half	2
-	.byte	138,0
-	.word	0,0
-.L166:
-	.word	-1,.L67,0,.L44-.L67
+	.word	.L6-.L39,.L132-.L39
 	.half	1
 	.byte	101
-	.word	.L255-.L67,.L164-.L67
-	.half	1
-	.byte	111
-	.word	0,0
-.L173:
-	.word	-1,.L67,.L264-.L67,.L170-.L67
-	.half	1
-	.byte	82
-	.word	0,0
-.L171:
-	.word	-1,.L67,.L262-.L67,.L45-.L67
-	.half	1
-	.byte	88
-	.word	.L266-.L67,.L170-.L67
-	.half	1
-	.byte	84
-	.word	0,0
-.L167:
-	.word	-1,.L67,.L257-.L67,.L43-.L67
-	.half	1
-	.byte	108
-	.word	.L263-.L67,.L264-.L67
-	.half	1
-	.byte	100
-	.word	0,0
-.L165:
-	.word	-1,.L67,0,.L44-.L67
-	.half	1
-	.byte	100
-	.word	.L254-.L67,.L164-.L67
-	.half	1
-	.byte	109
-	.word	.L258-.L67,.L259-.L67
-	.half	1
-	.byte	100
-	.word	.L265-.L67,.L170-.L67
-	.half	1
-	.byte	100
-	.word	0,0
-.L168:
-	.word	-1,.L67,.L256-.L67,.L44-.L67
-	.half	1
-	.byte	95
-	.word	.L259-.L67,.L47-.L67
-	.half	1
-	.byte	82
-	.word	.L260-.L67,.L261-.L67
-	.half	1
-	.byte	95
-	.word	.L45-.L67,.L43-.L67
-	.half	1
-	.byte	82
-	.word	0,0
-	.sdecl	'.debug_loc',debug,cluster('doip_sent')
-	.sect	'.debug_loc'
-.L160:
-	.word	-1,.L65,0,.L244-.L65
-	.half	1
-	.byte	100
-	.word	.L247-.L65,.L159-.L65
-	.half	1
-	.byte	111
-	.word	.L251-.L65,.L250-.L65
+	.word	.L8-.L39,.L11-.L39
 	.half	1
 	.byte	101
-	.word	.L39-.L65,.L252-.L65
+	.word	.L138-.L39,.L136-.L39
 	.half	1
 	.byte	100
-	.word	.L253-.L65,.L40-.L65
-	.half	1
-	.byte	101
-	.word	0,0
-.L64:
-	.word	-1,.L65,0,.L159-.L65
-	.half	2
-	.byte	138,0
-	.word	0,0
-.L163:
-	.word	0,0
-.L162:
-	.word	-1,.L65,0,.L245-.L65
-	.half	1
-	.byte	84
-	.word	.L39-.L65,.L40-.L65
-	.half	1
-	.byte	84
-	.word	0,0
-.L161:
-	.word	-1,.L65,0,.L246-.L65
-	.half	1
-	.byte	101
-	.word	.L248-.L65,.L159-.L65
-	.half	1
-	.byte	108
-	.word	.L244-.L65,.L245-.L65
+	.word	.L139-.L39,.L86-.L39
 	.half	1
 	.byte	100
-	.word	.L249-.L65,.L250-.L65
-	.half	1
-	.byte	100
-	.word	.L39-.L65,.L252-.L65
+	.word	.L10-.L39,.L140-.L39
 	.half	1
 	.byte	101
-	.word	.L252-.L65,.L40-.L65
+	.word	.L146-.L39,.L145-.L39
+	.half	1
+	.byte	100
+	.word	.L147-.L39,.L17-.L39
+	.half	1
+	.byte	100
+	.word	.L15-.L39,.L148-.L39
+	.half	1
+	.byte	101
+	.word	.L21-.L39,.L154-.L39
+	.half	1
+	.byte	101
+	.word	.L23-.L39,.L24-.L39
+	.half	1
+	.byte	101
+	.word	.L155-.L39,.L156-.L39
+	.half	1
+	.byte	100
+	.word	.L157-.L39,.L103-.L39
+	.half	1
+	.byte	100
+	.word	.L16-.L39,.L12-.L39
+	.half	1
+	.byte	101
+	.word	.L158-.L39,.L159-.L39
 	.half	1
 	.byte	100
 	.word	0,0
 	.sdecl	'.debug_frame',debug
 	.sect	'.debug_frame'
-.L436:
+.L260:
 	.word	48
 	.word	-1
 	.byte	3,0,2,1,27,12,26,0,8,26,8,27,8,30,8,29,8,28,8,16,8,17,8,24,8,25,8,31,8,32,8,33,8,34,8,35,8,36,8,37,8,38
@@ -3264,38 +2247,23 @@ doip_pcb:	.type	object
 	.sdecl	'.debug_frame',debug,cluster('DoIP_Init')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L436,.L55,.L116-.L55
+	.word	.L260,.L35,.L66-.L35
 	.sdecl	'.debug_frame',debug,cluster('doip_accept')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L436,.L57,.L120-.L57
+	.word	.L260,.L37,.L72-.L37
 	.sdecl	'.debug_frame',debug,cluster('doip_recv')
 	.sect	'.debug_frame'
 	.word	36
-	.word	.L436,.L59,.L129-.L59
+	.word	.L260,.L39,.L77-.L39
 	.byte	4
-	.word	(.L196-.L59)/2
-	.byte	19,40,22,26,3,19,138,40,4
-	.word	(.L129-.L196)/2
+	.word	(.L124-.L39)/2
+	.byte	19,24,22,26,3,19,138,24,4
+	.word	(.L77-.L124)/2
 	.byte	19,0,8,26,0,0
 	.sdecl	'.debug_frame',debug,cluster('doip_error')
 	.sect	'.debug_frame'
-	.word	12
-	.word	.L436,.L61,.L150-.L61
-	.sdecl	'.debug_frame',debug,cluster('doip_poll')
-	.sect	'.debug_frame'
-	.word	12
-	.word	.L436,.L63,.L154-.L63
-	.sdecl	'.debug_frame',debug,cluster('doip_sent')
-	.sect	'.debug_frame'
-	.word	12
-	.word	.L436,.L65,.L159-.L65
-	.sdecl	'.debug_frame',debug,cluster('doip_send')
-	.sect	'.debug_frame'
-	.word	12
-	.word	.L436,.L67,.L164-.L67
-	.sdecl	'.debug_frame',debug,cluster('doip_close')
-	.sect	'.debug_frame'
-	.word	12
-	.word	.L436,.L69,.L174-.L69
+	.word	24
+	.word	.L260,.L41,.L106-.L41
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
 	; Module end

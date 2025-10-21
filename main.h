@@ -22,6 +22,8 @@
 #include "eru.h"
 #include "ToF.h"
 #include "geth_lwip.h"
+#include "UdsOnCan.h"
+#include "Headlight.h"
 
 /* Includes ETH, TCP/IP examples */
 #include "IfxGeth_Eth.h"

@@ -52,8 +52,17 @@ typedef enum {
 void Can_Init(CAN_BAUDRATES ls_baudrate, CAN_NODE CAN_Node);
 void Can_SetFilterRange(uint32 start, uint32 end);
 void Can_SetFilterMask(uint32 id, uint32 mask);
+void Can_SetFilter(uint32 id);
 
 void Can_SendMsg(unsigned int id, const char *txData, int len);
 int Can_RecvMsg(unsigned int *id, char *rxData, int *len);
+
+
+//// --- 함수 프로토타입 ---
+//void Can_Init(sint32 baudrate); // 💡 인자 추가
+//sint32 Can_SendMsg(unsigned int id, const char *data, int len);
+//int Can_RecvMsg(unsigned int *id, char *data, int *len);
+//void Can_SetFilter(unsigned int id);
+//void Can_SetFilterRange(unsigned int id_from, unsigned int id_to);
 
 #endif /* CAN_H_ */

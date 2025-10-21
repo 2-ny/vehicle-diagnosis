@@ -7,6 +7,7 @@ C_SRCS += \
 ../BSW/IO/Bluetooth.c \
 ../BSW/IO/Buzzer.c \
 ../BSW/IO/GPIO.c \
+../BSW/IO/Headlight.c \
 ../BSW/IO/Motor.c \
 ../BSW/IO/ToF.c \
 ../BSW/IO/Ultrasonic.c 
@@ -15,6 +16,7 @@ COMPILED_SRCS += \
 BSW/IO/Bluetooth.src \
 BSW/IO/Buzzer.src \
 BSW/IO/GPIO.src \
+BSW/IO/Headlight.src \
 BSW/IO/Motor.src \
 BSW/IO/ToF.src \
 BSW/IO/Ultrasonic.src 
@@ -23,6 +25,7 @@ C_DEPS += \
 BSW/IO/Bluetooth.d \
 BSW/IO/Buzzer.d \
 BSW/IO/GPIO.d \
+BSW/IO/Headlight.d \
 BSW/IO/Motor.d \
 BSW/IO/ToF.d \
 BSW/IO/Ultrasonic.d 
@@ -31,6 +34,7 @@ OBJS += \
 BSW/IO/Bluetooth.o \
 BSW/IO/Buzzer.o \
 BSW/IO/GPIO.o \
+BSW/IO/Headlight.o \
 BSW/IO/Motor.o \
 BSW/IO/ToF.o \
 BSW/IO/Ultrasonic.o 
@@ -49,6 +53,10 @@ BSW/IO/GPIO.src: ../BSW/IO/GPIO.c BSW/IO/subdir.mk
 	cctc -cs --misrac-version=2004 -D__CPU__=tc37x "-fC:/NGV/TC375LK_NGV_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -Wc-g3 -Wc-w544 -Wc-w557 -Ctc37x -Y0 -N0 -Z0 -o "$@" "$<"
 BSW/IO/GPIO.o: BSW/IO/GPIO.src BSW/IO/subdir.mk
 	astc -Og -Os --no-warnings= --error-limit=42 -o  "$@" "$<"
+BSW/IO/Headlight.src: ../BSW/IO/Headlight.c BSW/IO/subdir.mk
+	cctc -cs --misrac-version=2004 -D__CPU__=tc37x "-fC:/NGV/TC375LK_NGV_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -Wc-g3 -Wc-w544 -Wc-w557 -Ctc37x -Y0 -N0 -Z0 -o "$@" "$<"
+BSW/IO/Headlight.o: BSW/IO/Headlight.src BSW/IO/subdir.mk
+	astc -Og -Os --no-warnings= --error-limit=42 -o  "$@" "$<"
 BSW/IO/Motor.src: ../BSW/IO/Motor.c BSW/IO/subdir.mk
 	cctc -cs --misrac-version=2004 -D__CPU__=tc37x "-fC:/NGV/TC375LK_NGV_2/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -Wc-g3 -Wc-w544 -Wc-w557 -Ctc37x -Y0 -N0 -Z0 -o "$@" "$<"
 BSW/IO/Motor.o: BSW/IO/Motor.src BSW/IO/subdir.mk
@@ -65,7 +73,7 @@ BSW/IO/Ultrasonic.o: BSW/IO/Ultrasonic.src BSW/IO/subdir.mk
 clean: clean-BSW-2f-IO
 
 clean-BSW-2f-IO:
-	-$(RM) BSW/IO/Bluetooth.d BSW/IO/Bluetooth.o BSW/IO/Bluetooth.src BSW/IO/Buzzer.d BSW/IO/Buzzer.o BSW/IO/Buzzer.src BSW/IO/GPIO.d BSW/IO/GPIO.o BSW/IO/GPIO.src BSW/IO/Motor.d BSW/IO/Motor.o BSW/IO/Motor.src BSW/IO/ToF.d BSW/IO/ToF.o BSW/IO/ToF.src BSW/IO/Ultrasonic.d BSW/IO/Ultrasonic.o BSW/IO/Ultrasonic.src
+	-$(RM) BSW/IO/Bluetooth.d BSW/IO/Bluetooth.o BSW/IO/Bluetooth.src BSW/IO/Buzzer.d BSW/IO/Buzzer.o BSW/IO/Buzzer.src BSW/IO/GPIO.d BSW/IO/GPIO.o BSW/IO/GPIO.src BSW/IO/Headlight.d BSW/IO/Headlight.o BSW/IO/Headlight.src BSW/IO/Motor.d BSW/IO/Motor.o BSW/IO/Motor.src BSW/IO/ToF.d BSW/IO/ToF.o BSW/IO/ToF.src BSW/IO/Ultrasonic.d BSW/IO/Ultrasonic.o BSW/IO/Ultrasonic.src
 
 .PHONY: clean-BSW-2f-IO
 

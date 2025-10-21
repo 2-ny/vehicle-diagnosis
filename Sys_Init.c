@@ -20,7 +20,8 @@ void module_Init(void)
     Buzzer_Init();
 //    Bluetooth_Init();
     Ultrasonics_Init();
-    Motor_Init();
+//    Motor_Init();
+    UdsOnCan_Init();
 
     /* Module Init */
     Asclin0_InitUart();
@@ -28,4 +29,5 @@ void module_Init(void)
     Evadc_Init();
     Can_Init(BD_500K, CAN_NODE0);
     CanFd_Init(BD_500K, HS_BD_2M, CANFD_NODE2);
+    HBA_Init();
 }

@@ -70,7 +70,7 @@ void Evadc_Init(void)
 
 }
 
-unsigned int Evadc_readVR(void)
+unsigned int Evadc_readVR(void) // P40.1 조도 센서
 {
     Ifx_EVADC_G_RES conversionResult;
 
@@ -80,7 +80,7 @@ unsigned int Evadc_readVR(void)
         conversionResult = IfxEvadc_Adc_getResult(&g_adcChannel_VR); /* Read the result of the channel */
     } while(!conversionResult.B.VF);
 
-    return conversionResult.B.RESULT;
+    return 4095 - conversionResult.B.RESULT;
 }
 
 unsigned int Evadc_readPR(void)
@@ -95,7 +95,6 @@ unsigned int Evadc_readPR(void)
 
     return conversionResult.B.RESULT;
 }
-
 
 #if 0
 #include "evadc.h"

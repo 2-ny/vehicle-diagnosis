@@ -50,3 +50,8 @@ void set_headlight_threshold(uint16_t new_threshold)
 {
     g_headlight_threshold = new_threshold;
 }
+
+uint16_t get_headlight_threshold(void)
+{
+    return g_headlight_threshold;
+}

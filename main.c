@@ -17,7 +17,7 @@ void main (void)
     while (1)
     {
         unsigned int brightness = Evadc_readVR();
-        my_printf("조도 센서: %d\n", brightness);
+        //my_printf("조도 센서: %d\n", brightness);
         delay_ms(1000);
         // LwIP 타이머 처리 (ARP 타임아웃, TCP 재전송 등)
         Ifx_Lwip_pollTimerFlags();

@@ -14,5 +14,6 @@ void HBA_ON_ADC (void);
 
 void set_headlight_threshold(uint16_t new_threshold);
 extern volatile uint16_t g_headlight_threshold;
+uint16_t get_headlight_threshold(void);
 
 #endif /* BSW_DRIVER_HEADLIGHT_H_ */

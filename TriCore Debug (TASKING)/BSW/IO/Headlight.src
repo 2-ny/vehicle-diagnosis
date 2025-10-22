@@ -1,6 +1,6 @@
 	; Module start
 	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
-	.compiler_invocation	"ctc -f cc22080a -c99 --fp-model=3cflnrSTz -D__CPU__=tc37x -D__CPU_TC37X__ --core=tc1.6.2 --fp-model=+float -D__CPU__=tc37x -IC:\\\\NGV\\\\TC375LK_NGV_2 -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\examples -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\BSW -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\BSW\\\\Driver -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\BSW\\\\IO -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\BSW\\\\etc -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Configurations -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Infra -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Infra\\\\Sfr\\\\TC37A -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Infra\\\\Sfr\\\\TC37A\\\\_Reg -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Infra\\\\Ssw -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Infra\\\\Ssw\\\\TC37A -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Infra\\\\Ssw\\\\TC37A\\\\Tricore -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Service -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Service\\\\CpuGeneric\\\\StdIf -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin\\\\Asc -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin\\\\Std -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can\\\\Can -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can\\\\Std -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Irq -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc\\\\Adc -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc\\\\Std -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Geth -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Geth\\\\Eth -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Geth\\\\Std -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gpt12 -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gpt12\\\\Std -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Atom -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Atom\\\\Pwm -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms\\\\Std -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port\\\\Std -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu\\\\Std -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src\\\\Std -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Stm -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Stm\\\\Std -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Impl -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Lib -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Lib\\\\DataHandling -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_PinMap -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Ethernet\\\\lwip\\\\port\\\\include -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Ethernet\\\\Phy_Dp83825i -g3 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o BSW/IO/Headlight.src ../BSW/IO/Headlight.c"
+	.compiler_invocation	"ctc -f cc26684a -c99 --fp-model=3cflnrSTz -D__CPU__=tc37x -D__CPU_TC37X__ --core=tc1.6.2 --fp-model=+float -D__CPU__=tc37x -IC:\\\\NGV\\\\TC375LK_NGV_2 -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\examples -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\BSW -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\BSW\\\\Driver -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\BSW\\\\IO -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\BSW\\\\etc -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Configurations -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Infra -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Infra\\\\Sfr\\\\TC37A -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Infra\\\\Sfr\\\\TC37A\\\\_Reg -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Infra\\\\Ssw -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Infra\\\\Ssw\\\\TC37A -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Infra\\\\Ssw\\\\TC37A\\\\Tricore -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Service -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Service\\\\CpuGeneric\\\\StdIf -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin\\\\Asc -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin\\\\Std -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can\\\\Can -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Can\\\\Std -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Irq -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc\\\\Adc -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc\\\\Std -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Geth -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Geth\\\\Eth -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Geth\\\\Std -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gpt12 -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gpt12\\\\Std -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Atom -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Atom\\\\Pwm -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms\\\\Std -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port\\\\Std -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu\\\\Std -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src\\\\Std -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Stm -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Stm\\\\Std -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Impl -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Lib -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Lib\\\\DataHandling -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_PinMap -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Ethernet\\\\lwip\\\\port\\\\include -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include -IC:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Ethernet\\\\Phy_Dp83825i -g3 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o BSW/IO/Headlight.src ../BSW/IO/Headlight.c"
 	.compiler_name		"ctc"
 	;source	'../BSW/IO/Headlight.c'
 
@@ -13,37 +13,37 @@ $TC162
 	
 	.global	HBA_Init
 ; Function HBA_Init
-.L5:
+.L6:
 HBA_Init:	.type	func
 	call	IfxScuWdt_getCpuWatchdogPassword
-.L56:
+.L65:
 	mov	d8,d2
-.L58:
+.L67:
 	mov	d4,d8
-.L57:
+.L66:
 	call	IfxScuWdt_clearCpuEndinit
-.L59:
+.L68:
 	movh.a	a15,#61444
 	ld.bu	d0,[a15]@los(0xf003a214)
-.L93:
+.L102:
 	mov	d15,#16
-.L94:
+.L103:
 	insert	d15,d0,d15,#3,#5
 	movh.a	a15,#61444
 	st.b	[a15]@los(0xf003a214),d15
-.L95:
+.L104:
 	mov	d4,d8
-.L60:
+.L69:
 	call	IfxScuWdt_setCpuEndinit
-.L61:
+.L70:
 	call	HBA_OFF
-.L96:
+.L105:
 	ret
-.L47:
+.L55:
 	
 __HBA_Init_function_end:
 	.size	HBA_Init,__HBA_Init_function_end-HBA_Init
-.L32:
+.L35:
 	; End of function
 	
 	.sdecl	'.text.Headlight.HBA_ON_ADC',code,cluster('HBA_ON_ADC')
@@ -52,38 +52,38 @@ __HBA_Init_function_end:
 	
 	.global	HBA_ON_ADC
 ; Function HBA_ON_ADC
-.L7:
+.L8:
 HBA_ON_ADC:	.type	func
 	call	Evadc_readVR
-.L62:
+.L71:
 	movh.a	a15,#@his(g_headlight_threshold)
 	lea	a15,[a15]@los(g_headlight_threshold)
 	ld.hu	d15,[a15]0
-.L101:
+.L110:
 	jge	d15,d2,.L2
-.L102:
+.L111:
 	movh.a	a15,#61444
 	ld.bu	d15,[a15]@los(0xf003a200)
-.L103:
+.L112:
 	or	d15,#16
 	movh.a	a15,#61444
 	st.b	[a15]@los(0xf003a200),d15
-.L104:
+.L113:
 	j	.L3
 .L2:
 	movh.a	a15,#61444
 	ld.bu	d15,[a15]@los(0xf003a200)
-.L105:
+.L114:
 	insert	d15,d15,#0,#4,#1
 	movh.a	a15,#61444
 	st.b	[a15]@los(0xf003a200),d15
 .L3:
 	ret
-.L50:
+.L58:
 	
 __HBA_ON_ADC_function_end:
 	.size	HBA_ON_ADC,__HBA_ON_ADC_function_end-HBA_ON_ADC
-.L37:
+.L40:
 	; End of function
 	
 	.sdecl	'.text.Headlight.HBA_ON',code,cluster('HBA_ON')
@@ -92,21 +92,21 @@ __HBA_ON_ADC_function_end:
 	
 	.global	HBA_ON
 ; Function HBA_ON
-.L9:
+.L10:
 HBA_ON:	.type	func
 	movh.a	a15,#61444
 	ld.bu	d15,[a15]@los(0xf003a200)
-.L81:
+.L90:
 	or	d15,#16
 	movh.a	a15,#61444
 	st.b	[a15]@los(0xf003a200),d15
-.L82:
+.L91:
 	ret
-.L45:
+.L53:
 	
 __HBA_ON_function_end:
 	.size	HBA_ON,__HBA_ON_function_end-HBA_ON
-.L22:
+.L25:
 	; End of function
 	
 	.sdecl	'.text.Headlight.HBA_OFF',code,cluster('HBA_OFF')
@@ -115,21 +115,21 @@ __HBA_ON_function_end:
 	
 	.global	HBA_OFF
 ; Function HBA_OFF
-.L11:
+.L12:
 HBA_OFF:	.type	func
 	movh.a	a15,#61444
 	ld.bu	d15,[a15]@los(0xf003a200)
-.L87:
+.L96:
 	insert	d15,d15,#0,#4,#1
 	movh.a	a15,#61444
 	st.b	[a15]@los(0xf003a200),d15
-.L88:
+.L97:
 	ret
-.L46:
+.L54:
 	
 __HBA_OFF_function_end:
 	.size	HBA_OFF,__HBA_OFF_function_end-HBA_OFF
-.L27:
+.L30:
 	; End of function
 	
 	.sdecl	'.text.Headlight.set_headlight_threshold',code,cluster('set_headlight_threshold')
@@ -138,19 +138,41 @@ __HBA_OFF_function_end:
 	
 	.global	set_headlight_threshold
 ; Function set_headlight_threshold
-.L13:
+.L14:
 set_headlight_threshold:	.type	func
 	movh.a	a15,#@his(g_headlight_threshold)
 	lea	a15,[a15]@los(g_headlight_threshold)
-.L110:
+.L119:
 	st.h	[a15],d4
-.L111:
+.L120:
 	ret
-.L53:
+.L61:
 	
 __set_headlight_threshold_function_end:
 	.size	set_headlight_threshold,__set_headlight_threshold_function_end-set_headlight_threshold
-.L42:
+.L45:
+	; End of function
+	
+	.sdecl	'.text.Headlight.get_headlight_threshold',code,cluster('get_headlight_threshold')
+	.sect	'.text.Headlight.get_headlight_threshold'
+	.align	2
+	
+	.global	get_headlight_threshold
+; Function get_headlight_threshold
+.L16:
+get_headlight_threshold:	.type	func
+	movh.a	a15,#@his(g_headlight_threshold)
+	lea	a15,[a15]@los(g_headlight_threshold)
+	ld.hu	d2,[a15]0
+.L125:
+	j	.L4
+.L4:
+	ret
+.L63:
+	
+__get_headlight_threshold_function_end:
+	.size	get_headlight_threshold,__get_headlight_threshold_function_end-get_headlight_threshold
+.L50:
 	; End of function
 	
 	.sdecl	'.data.Headlight.g_headlight_threshold',data,cluster('g_headlight_threshold')
@@ -169,24 +191,25 @@ g_headlight_threshold:	.type	object
 	.calls	'HBA_ON_ADC','',0
 	.calls	'HBA_ON','',0
 	.calls	'HBA_OFF','',0
+	.calls	'set_headlight_threshold','',0
 	.extern	Evadc_readVR
 	.extern	IfxScuWdt_clearCpuEndinit
 	.extern	IfxScuWdt_setCpuEndinit
 	.extern	IfxScuWdt_getCpuWatchdogPassword
-	.calls	'set_headlight_threshold','',0
+	.calls	'get_headlight_threshold','',0
 	.sdecl	'.debug_info',debug
 	.sect	'.debug_info'
-.L15:
+.L18:
 	.word	291886
 	.half	3
-	.word	.L16
+	.word	.L19
 	.byte	4
-.L14:
+.L17:
 	.byte	1
 	.byte	'../BSW/IO/Headlight.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\NGV\\TC375LK_NGV_2\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L17
+	.word	.L20
 	.byte	2,1,1,3
 	.word	163
 	.byte	4
@@ -221,7 +244,7 @@ g_headlight_threshold:	.type	object
 	.word	309
 	.byte	6,0,7
 	.byte	'unsigned int',0,4,7
-.L51:
+.L59:
 	.byte	7
 	.byte	'int',0,4,5,7
 	.byte	'unsigned int',0,4,7,10
@@ -248,7 +271,7 @@ g_headlight_threshold:	.type	object
 	.word	466
 	.byte	4,2,35,0,0,7
 	.byte	'unsigned char',0,1,8
-.L48:
+.L56:
 	.byte	7
 	.byte	'unsigned short int',0,2,7,10
 	.byte	'_Ifx_SCU_WDTCPU_CON1_Bits',0,4,217,9,16,4,11
@@ -36678,7 +36701,7 @@ g_headlight_threshold:	.type	object
 	.byte	10
 	.byte	'pbuf',0,45,186,1,8,16,13
 	.byte	'next',0
-	.word	.L63-.L15
+	.word	.L72-.L18
 	.byte	4,2,35,0,13
 	.byte	'payload',0
 	.word	341
@@ -36701,7 +36724,7 @@ g_headlight_threshold:	.type	object
 	.byte	'if_idx',0
 	.word	602
 	.byte	1,2,35,15,0
-.L63:
+.L72:
 	.byte	3
 	.word	260365
 	.byte	34,1,1,33
@@ -36728,7 +36751,7 @@ g_headlight_threshold:	.type	object
 	.byte	32
 	.word	99467
 	.byte	1,1,33
-	.word	.L64-.L15
+	.word	.L73-.L18
 	.byte	33
 	.word	260505
 	.byte	33
@@ -36741,7 +36764,7 @@ g_headlight_threshold:	.type	object
 	.byte	32
 	.word	99467
 	.byte	1,1,33
-	.word	.L64-.L15
+	.word	.L73-.L18
 	.byte	33
 	.word	260505
 	.byte	0,3
@@ -36757,7 +36780,7 @@ g_headlight_threshold:	.type	object
 	.byte	19,1,0,10
 	.byte	'netif',0,48,132,2,8,48,13
 	.byte	'next',0
-	.word	.L64-.L15
+	.word	.L73-.L18
 	.byte	4,2,35,0,13
 	.byte	'ip_addr',0
 	.word	260553
@@ -36769,7 +36792,7 @@ g_headlight_threshold:	.type	object
 	.word	260553
 	.byte	4,2,35,12,13
 	.byte	'input',0
-	.word	.L65-.L15
+	.word	.L74-.L18
 	.byte	4,2,35,16,13
 	.byte	'output',0
 	.word	260658
@@ -36801,7 +36824,7 @@ g_headlight_threshold:	.type	object
 	.byte	'rs_count',0
 	.word	602
 	.byte	1,2,35,45,0
-.L64:
+.L73:
 	.byte	3
 	.word	260761
 	.byte	32
@@ -36812,7 +36835,7 @@ g_headlight_threshold:	.type	object
 	.word	261009
 	.byte	0,3
 	.word	261014
-.L65:
+.L74:
 	.byte	29
 	.byte	'netif_input_fn',0,48,178,1,17
 	.word	261032
@@ -36919,7 +36942,7 @@ g_headlight_threshold:	.type	object
 	.word	602
 	.byte	1,2,35,11,13
 	.byte	'next',0
-	.word	.L66-.L15
+	.word	.L75-.L18
 	.byte	4,2,35,12,13
 	.byte	'flags',0
 	.word	602
@@ -36931,12 +36954,12 @@ g_headlight_threshold:	.type	object
 	.word	619
 	.byte	2,2,35,20,13
 	.byte	'recv',0
-	.word	.L67-.L15
+	.word	.L76-.L18
 	.byte	4,2,35,24,13
 	.byte	'recv_arg',0
 	.word	341
 	.byte	4,2,35,28,0
-.L66:
+.L75:
 	.byte	3
 	.word	261638
 	.byte	34,1,1,33
@@ -36951,7 +36974,7 @@ g_headlight_threshold:	.type	object
 	.word	619
 	.byte	0,3
 	.word	261861
-.L67:
+.L76:
 	.byte	29
 	.byte	'udp_recv_fn',0,50,77,16
 	.word	261890
@@ -37002,7 +37025,7 @@ g_headlight_threshold:	.type	object
 	.byte	10
 	.byte	'tcp_seg',0,53,253,1,8,20,13
 	.byte	'next',0
-	.word	.L68-.L15
+	.word	.L77-.L18
 	.byte	4,2,35,0,13
 	.byte	'p',0
 	.word	260505
@@ -37019,7 +37042,7 @@ g_headlight_threshold:	.type	object
 	.byte	'tcphdr',0
 	.word	262226
 	.byte	4,2,35,16,0
-.L68:
+.L77:
 	.byte	3
 	.word	262231
 	.byte	10
@@ -37043,7 +37066,7 @@ g_headlight_threshold:	.type	object
 	.word	602
 	.byte	1,2,35,11,13
 	.byte	'next',0
-	.word	.L69-.L15
+	.word	.L78-.L18
 	.byte	4,2,35,12,13
 	.byte	'callback_arg',0
 	.word	341
@@ -37058,9 +37081,9 @@ g_headlight_threshold:	.type	object
 	.word	619
 	.byte	2,2,35,22,13
 	.byte	'accept',0
-	.word	.L70-.L15
+	.word	.L79-.L18
 	.byte	4,2,35,24,0
-.L69:
+.L78:
 	.byte	3
 	.word	262343
 	.byte	32
@@ -37068,7 +37091,7 @@ g_headlight_threshold:	.type	object
 	.byte	1,1,33
 	.word	341
 	.byte	33
-	.word	.L71-.L15
+	.word	.L80-.L18
 	.byte	33
 	.word	619
 	.byte	0,3
@@ -37081,7 +37104,7 @@ g_headlight_threshold:	.type	object
 	.byte	1,1,33
 	.word	341
 	.byte	33
-	.word	.L71-.L15
+	.word	.L80-.L18
 	.byte	33
 	.word	260505
 	.byte	33
@@ -37093,13 +37116,13 @@ g_headlight_threshold:	.type	object
 	.word	262649
 	.byte	29
 	.byte	'tcp_connected_fn',0,52,134,1,17
-	.word	.L72-.L15
+	.word	.L81-.L18
 	.byte	32
 	.word	99467
 	.byte	1,1,33
 	.word	341
 	.byte	33
-	.word	.L71-.L15
+	.word	.L80-.L18
 	.byte	0,3
 	.word	262700
 	.byte	29
@@ -37135,7 +37158,7 @@ g_headlight_threshold:	.type	object
 	.word	602
 	.byte	1,2,35,11,13
 	.byte	'next',0
-	.word	.L71-.L15
+	.word	.L80-.L18
 	.byte	4,2,35,12,13
 	.byte	'callback_arg',0
 	.word	341
@@ -37293,7 +37316,7 @@ g_headlight_threshold:	.type	object
 	.byte	'keep_cnt_sent',0
 	.word	602
 	.byte	1,3,35,155,1,0
-.L71:
+.L80:
 	.byte	3
 	.word	262781
 	.byte	32
@@ -37305,10 +37328,10 @@ g_headlight_threshold:	.type	object
 	.byte	33
 	.word	99467
 	.byte	0
-.L72:
+.L81:
 	.byte	3
 	.word	263848
-.L70:
+.L79:
 	.byte	29
 	.byte	'tcp_accept_fn',0,52,70,17
 	.word	263871
@@ -39639,13 +39662,13 @@ g_headlight_threshold:	.type	object
 	.byte	6,2,35,0,0,29
 	.byte	'eth_addr_t',0,56,86,25
 	.word	291836
-.L55:
+.L64:
 	.byte	14
 	.word	619
 	.byte	0
 	.sdecl	'.debug_abbrev',debug
 	.sect	'.debug_abbrev'
-.L16:
+.L19:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,21,0,54,15,39,12,0,0,3,15,0,73,19,0,0,4,46,1,3,8,32,13
 	.byte	58,15,59,15,57,15,54,15,39,12,0,0,5,5,0,3,8,58,15,59,15,57,15,73,19,0,0,6,11,0,0,0,7,36,0,3,8,11,15,62
 	.byte	15,0,0,8,46,1,3,8,32,13,58,15,59,15,57,15,73,19,54,15,39,12,0,0,9,59,0,3,8,0,0,10,19,1,3,8,58,15,59,15
@@ -39659,12 +39682,12 @@ g_headlight_threshold:	.type	object
 	.byte	0,0
 	.sdecl	'.debug_line',debug
 	.sect	'.debug_line'
-.L17:
-	.word	.L74-.L73
-.L73:
+.L20:
+	.word	.L83-.L82
+.L82:
 	.half	3
-	.word	.L76-.L75
-.L75:
+	.word	.L85-.L84
+.L84:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
 	.byte	'C:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Infra\\\\Sfr\\\\TC37A\\\\_Reg',0
 	.byte	'C:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Geth\\\\Eth',0
@@ -39745,13 +39768,13 @@ g_headlight_threshold:	.type	object
 	.byte	'Ifx_Lwip.h',0,8,0,0
 	.byte	'C:\\\\NGV\\\\TC375LK_NGV_2\\\\Libraries\\\\Ethernet\\\\lwip\\\\src\\\\include\\lwip\\prot\\ethernet.h',0
 	.byte	0,0,0,0
-.L76:
-.L74:
+.L85:
+.L83:
 	.sdecl	'.debug_pubnames',debug
 	.sect	'.debug_pubnames'
 	.word	126
 	.half	2
-	.word	.L15,291890,98286
+	.word	.L18,291890,98286
 	.byte	'Evadc_readVR',0
 	.word	98429
 	.byte	'IfxScuWdt_clearCpuEndinit',0
@@ -39762,288 +39785,217 @@ g_headlight_threshold:	.type	object
 	.word	0
 	.sdecl	'.debug_info',debug,cluster('HBA_ON')
 	.sect	'.debug_info'
-.L18:
+.L21:
 	.word	205
 	.half	3
-	.word	.L19
+	.word	.L22
 	.byte	4,1
 	.byte	'../BSW/IO/Headlight.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\NGV\\TC375LK_NGV_2\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L21,.L20
+	.word	.L24,.L23
 	.byte	2
-	.word	.L14
+	.word	.L17
 	.byte	3
 	.byte	'HBA_ON',0,1,38,6,1,1,1
-	.word	.L9,.L45,.L8
+	.word	.L10,.L53,.L9
 	.byte	4
-	.word	.L9,.L45
+	.word	.L10,.L53
 	.byte	0,0
 	.sdecl	'.debug_abbrev',debug,cluster('HBA_ON')
 	.sect	'.debug_abbrev'
-.L19:
+.L22:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
 	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
 	.sdecl	'.debug_line',debug,cluster('HBA_ON')
 	.sect	'.debug_line'
-.L20:
-	.word	.L78-.L77
-.L77:
+.L23:
+	.word	.L87-.L86
+.L86:
 	.half	3
-	.word	.L80-.L79
-.L79:
+	.word	.L89-.L88
+.L88:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../BSW/IO/Headlight.c',0,0,0,0,0
-.L80:
+.L89:
 	.byte	5,21,7,0,5,2
-	.word	.L9
+	.word	.L10
 	.byte	3,39,1,5,25,9
-	.half	.L81-.L9
+	.half	.L90-.L10
 	.byte	1,5,1,9
-	.half	.L82-.L81
+	.half	.L91-.L90
 	.byte	3,1,1,7,9
-	.half	.L22-.L82
+	.half	.L25-.L91
 	.byte	0,1,1
-.L78:
+.L87:
 	.sdecl	'.debug_ranges',debug,cluster('HBA_ON')
 	.sect	'.debug_ranges'
-.L21:
-	.word	-1,.L9,0,.L22-.L9,0,0
+.L24:
+	.word	-1,.L10,0,.L25-.L10,0,0
 	.sdecl	'.debug_pubnames',debug
 	.sect	'.debug_pubnames'
 	.word	25
 	.half	2
-	.word	.L18,209,172
+	.word	.L21,209,172
 	.byte	'HBA_ON',0
 	.word	0
 	.sdecl	'.debug_info',debug,cluster('HBA_OFF')
 	.sect	'.debug_info'
-.L23:
+.L26:
 	.word	206
 	.half	3
-	.word	.L24
+	.word	.L27
 	.byte	4,1
 	.byte	'../BSW/IO/Headlight.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\NGV\\TC375LK_NGV_2\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L26,.L25
+	.word	.L29,.L28
 	.byte	2
-	.word	.L14
+	.word	.L17
 	.byte	3
 	.byte	'HBA_OFF',0,1,43,6,1,1,1
-	.word	.L11,.L46,.L10
+	.word	.L12,.L54,.L11
 	.byte	4
-	.word	.L11,.L46
+	.word	.L12,.L54
 	.byte	0,0
 	.sdecl	'.debug_abbrev',debug,cluster('HBA_OFF')
 	.sect	'.debug_abbrev'
-.L24:
+.L27:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
 	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
 	.sdecl	'.debug_line',debug,cluster('HBA_OFF')
 	.sect	'.debug_line'
-.L25:
-	.word	.L84-.L83
-.L83:
+.L28:
+	.word	.L93-.L92
+.L92:
 	.half	3
-	.word	.L86-.L85
-.L85:
+	.word	.L95-.L94
+.L94:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../BSW/IO/Headlight.c',0,0,0,0,0
-.L86:
+.L95:
 	.byte	5,21,7,0,5,2
-	.word	.L11
+	.word	.L12
 	.byte	3,44,1,5,25,9
-	.half	.L87-.L11
+	.half	.L96-.L12
 	.byte	1,5,1,9
-	.half	.L88-.L87
+	.half	.L97-.L96
 	.byte	3,1,1,7,9
-	.half	.L27-.L88
+	.half	.L30-.L97
 	.byte	0,1,1
-.L84:
+.L93:
 	.sdecl	'.debug_ranges',debug,cluster('HBA_OFF')
 	.sect	'.debug_ranges'
-.L26:
-	.word	-1,.L11,0,.L27-.L11,0,0
+.L29:
+	.word	-1,.L12,0,.L30-.L12,0,0
 	.sdecl	'.debug_pubnames',debug
 	.sect	'.debug_pubnames'
 	.word	26
 	.half	2
-	.word	.L23,210,172
+	.word	.L26,210,172
 	.byte	'HBA_OFF',0
 	.word	0
 	.sdecl	'.debug_info',debug,cluster('HBA_Init')
 	.sect	'.debug_info'
-.L28:
+.L31:
 	.word	224
 	.half	3
-	.word	.L29
+	.word	.L32
 	.byte	4,1
 	.byte	'../BSW/IO/Headlight.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\NGV\\TC375LK_NGV_2\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L31,.L30
+	.word	.L34,.L33
 	.byte	2
-	.word	.L14
+	.word	.L17
 	.byte	3
 	.byte	'HBA_Init',0,1,15,6,1,1,1
-	.word	.L5,.L47,.L4
+	.word	.L6,.L55,.L5
 	.byte	4
-	.word	.L5,.L47
+	.word	.L6,.L55
 	.byte	5
 	.byte	'psw',0,1,18,12
-	.word	.L48,.L49
+	.word	.L56,.L57
 	.byte	0,0,0
 	.sdecl	'.debug_abbrev',debug,cluster('HBA_Init')
 	.sect	'.debug_abbrev'
-.L29:
+.L32:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
 	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,1,17,1,18,1,0,0,5,52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
 	.sdecl	'.debug_line',debug,cluster('HBA_Init')
 	.sect	'.debug_line'
-.L30:
-	.word	.L90-.L89
-.L89:
+.L33:
+	.word	.L99-.L98
+.L98:
 	.half	3
-	.word	.L92-.L91
-.L91:
+	.word	.L101-.L100
+.L100:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../BSW/IO/Headlight.c',0,0,0,0,0
-.L92:
+.L101:
 	.byte	5,50,7,0,5,2
-	.word	.L5
+	.word	.L6
 	.byte	3,17,1,5,16,9
-	.half	.L56-.L5
+	.half	.L65-.L6
 	.byte	1,5,31,9
-	.half	.L58-.L56
+	.half	.L67-.L65
 	.byte	3,1,1,5,23,9
-	.half	.L59-.L58
+	.half	.L68-.L67
 	.byte	3,1,1,5,30,9
-	.half	.L93-.L59
+	.half	.L102-.L68
 	.byte	1,5,28,9
-	.half	.L94-.L93
+	.half	.L103-.L102
 	.byte	1,5,29,9
-	.half	.L95-.L94
+	.half	.L104-.L103
 	.byte	3,1,1,5,12,9
-	.half	.L61-.L95
+	.half	.L70-.L104
 	.byte	3,2,1,5,1,9
-	.half	.L96-.L61
+	.half	.L105-.L70
 	.byte	3,1,1,7,9
-	.half	.L32-.L96
+	.half	.L35-.L105
 	.byte	0,1,1
-.L90:
+.L99:
 	.sdecl	'.debug_ranges',debug,cluster('HBA_Init')
 	.sect	'.debug_ranges'
-.L31:
-	.word	-1,.L5,0,.L32-.L5,0,0
+.L34:
+	.word	-1,.L6,0,.L35-.L6,0,0
 	.sdecl	'.debug_pubnames',debug
 	.sect	'.debug_pubnames'
 	.word	27
 	.half	2
-	.word	.L28,228,172
+	.word	.L31,228,172
 	.byte	'HBA_Init',0
 	.word	0
 	.sdecl	'.debug_info',debug,cluster('HBA_ON_ADC')
 	.sect	'.debug_info'
-.L33:
+.L36:
 	.word	232
 	.half	3
-	.word	.L34
+	.word	.L37
 	.byte	4,1
 	.byte	'../BSW/IO/Headlight.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\NGV\\TC375LK_NGV_2\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L36,.L35
+	.word	.L39,.L38
 	.byte	2
-	.word	.L14
+	.word	.L17
 	.byte	3
 	.byte	'HBA_ON_ADC',0,1,26,6,1,1,1
-	.word	.L7,.L50,.L6
+	.word	.L8,.L58,.L7
 	.byte	4
-	.word	.L7,.L50
+	.word	.L8,.L58
 	.byte	5
 	.byte	'adcResult',0,1,28,9
-	.word	.L51,.L52
+	.word	.L59,.L60
 	.byte	0,0,0
 	.sdecl	'.debug_abbrev',debug,cluster('HBA_ON_ADC')
 	.sect	'.debug_abbrev'
-.L34:
+.L37:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
 	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,1,17,1,18,1,0,0,5,52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
 	.sdecl	'.debug_line',debug,cluster('HBA_ON_ADC')
 	.sect	'.debug_line'
-.L35:
-	.word	.L98-.L97
-.L97:
-	.half	3
-	.word	.L100-.L99
-.L99:
-	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
-	.byte	'../BSW/IO/Headlight.c',0,0,0,0,0
-.L100:
-	.byte	5,33,7,0,5,2
-	.word	.L7
-	.byte	3,27,1,5,20,9
-	.half	.L62-.L7
-	.byte	3,2,1,5,5,9
-	.half	.L101-.L62
-	.byte	1,5,25,7,9
-	.half	.L102-.L101
-	.byte	3,1,1,5,29,9
-	.half	.L103-.L102
-	.byte	1,5,32,9
-	.half	.L104-.L103
-	.byte	1,5,25,9
-	.half	.L2-.L104
-	.byte	3,3,1,5,29,9
-	.half	.L105-.L2
-	.byte	1,5,1,9
-	.half	.L3-.L105
-	.byte	3,2,1,7,9
-	.half	.L37-.L3
-	.byte	0,1,1
-.L98:
-	.sdecl	'.debug_ranges',debug,cluster('HBA_ON_ADC')
-	.sect	'.debug_ranges'
-.L36:
-	.word	-1,.L7,0,.L37-.L7,0,0
-	.sdecl	'.debug_pubnames',debug
-	.sect	'.debug_pubnames'
-	.word	29
-	.half	2
-	.word	.L33,236,172
-	.byte	'HBA_ON_ADC',0
-	.word	0
-	.sdecl	'.debug_info',debug,cluster('set_headlight_threshold')
-	.sect	'.debug_info'
 .L38:
-	.word	248
-	.half	3
-	.word	.L39
-	.byte	4,1
-	.byte	'../BSW/IO/Headlight.c',0
-	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'C:\\NGV\\TC375LK_NGV_2\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L41,.L40
-	.byte	2
-	.word	.L14
-	.byte	3
-	.byte	'set_headlight_threshold',0,1,49,6,1,1,1
-	.word	.L13,.L53,.L12
-	.byte	4
-	.byte	'new_threshold',0,1,49,39
-	.word	.L48,.L54
-	.byte	5
-	.word	.L13,.L53
-	.byte	0,0
-	.sdecl	'.debug_abbrev',debug,cluster('set_headlight_threshold')
-	.sect	'.debug_abbrev'
-.L39:
-	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
-	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
-	.sdecl	'.debug_line',debug,cluster('set_headlight_threshold')
-	.sect	'.debug_line'
-.L40:
 	.word	.L107-.L106
 .L106:
 	.half	3
@@ -40052,111 +40004,247 @@ g_headlight_threshold:	.type	object
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../BSW/IO/Headlight.c',0,0,0,0,0
 .L109:
-	.byte	5,5,7,0,5,2
-	.word	.L13
-	.byte	3,50,1,5,27,9
-	.half	.L110-.L13
-	.byte	1,5,1,9
+	.byte	5,33,7,0,5,2
+	.word	.L8
+	.byte	3,27,1,5,20,9
+	.half	.L71-.L8
+	.byte	3,2,1,5,5,9
+	.half	.L110-.L71
+	.byte	1,5,25,7,9
 	.half	.L111-.L110
-	.byte	3,1,1,7,9
-	.half	.L42-.L111
+	.byte	3,1,1,5,29,9
+	.half	.L112-.L111
+	.byte	1,5,32,9
+	.half	.L113-.L112
+	.byte	1,5,25,9
+	.half	.L2-.L113
+	.byte	3,3,1,5,29,9
+	.half	.L114-.L2
+	.byte	1,5,1,9
+	.half	.L3-.L114
+	.byte	3,2,1,7,9
+	.half	.L40-.L3
 	.byte	0,1,1
 .L107:
+	.sdecl	'.debug_ranges',debug,cluster('HBA_ON_ADC')
+	.sect	'.debug_ranges'
+.L39:
+	.word	-1,.L8,0,.L40-.L8,0,0
+	.sdecl	'.debug_pubnames',debug
+	.sect	'.debug_pubnames'
+	.word	29
+	.half	2
+	.word	.L36,236,172
+	.byte	'HBA_ON_ADC',0
+	.word	0
+	.sdecl	'.debug_info',debug,cluster('set_headlight_threshold')
+	.sect	'.debug_info'
+.L41:
+	.word	248
+	.half	3
+	.word	.L42
+	.byte	4,1
+	.byte	'../BSW/IO/Headlight.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\NGV\\TC375LK_NGV_2\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L44,.L43
+	.byte	2
+	.word	.L17
+	.byte	3
+	.byte	'set_headlight_threshold',0,1,49,6,1,1,1
+	.word	.L14,.L61,.L13
+	.byte	4
+	.byte	'new_threshold',0,1,49,39
+	.word	.L56,.L62
+	.byte	5
+	.word	.L14,.L61
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('set_headlight_threshold')
+	.sect	'.debug_abbrev'
+.L42:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('set_headlight_threshold')
+	.sect	'.debug_line'
+.L43:
+	.word	.L116-.L115
+.L115:
+	.half	3
+	.word	.L118-.L117
+.L117:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../BSW/IO/Headlight.c',0,0,0,0,0
+.L118:
+	.byte	5,5,7,0,5,2
+	.word	.L14
+	.byte	3,50,1,5,27,9
+	.half	.L119-.L14
+	.byte	1,5,1,9
+	.half	.L120-.L119
+	.byte	3,1,1,7,9
+	.half	.L45-.L120
+	.byte	0,1,1
+.L116:
 	.sdecl	'.debug_ranges',debug,cluster('set_headlight_threshold')
 	.sect	'.debug_ranges'
-.L41:
-	.word	-1,.L13,0,.L42-.L13,0,0
+.L44:
+	.word	-1,.L14,0,.L45-.L14,0,0
 	.sdecl	'.debug_pubnames',debug
 	.sect	'.debug_pubnames'
 	.word	42
 	.half	2
-	.word	.L38,252,172
+	.word	.L41,252,172
 	.byte	'set_headlight_threshold',0
+	.word	0
+	.sdecl	'.debug_info',debug,cluster('get_headlight_threshold')
+	.sect	'.debug_info'
+.L46:
+	.word	226
+	.half	3
+	.word	.L47
+	.byte	4,1
+	.byte	'../BSW/IO/Headlight.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\NGV\\TC375LK_NGV_2\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L49,.L48
+	.byte	2
+	.word	.L17
+	.byte	3
+	.byte	'get_headlight_threshold',0,1,54,10
+	.word	.L56
+	.byte	1,1,1
+	.word	.L16,.L63,.L15
+	.byte	4
+	.word	.L16,.L63
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('get_headlight_threshold')
+	.sect	'.debug_abbrev'
+.L47:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('get_headlight_threshold')
+	.sect	'.debug_line'
+.L48:
+	.word	.L122-.L121
+.L121:
+	.half	3
+	.word	.L124-.L123
+.L123:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../BSW/IO/Headlight.c',0,0,0,0,0
+.L124:
+	.byte	5,12,7,0,5,2
+	.word	.L16
+	.byte	3,55,1,5,5,9
+	.half	.L125-.L16
+	.byte	1,5,1,9
+	.half	.L4-.L125
+	.byte	3,1,1,7,9
+	.half	.L50-.L4
+	.byte	0,1,1
+.L122:
+	.sdecl	'.debug_ranges',debug,cluster('get_headlight_threshold')
+	.sect	'.debug_ranges'
+.L49:
+	.word	-1,.L16,0,.L50-.L16,0,0
+	.sdecl	'.debug_pubnames',debug
+	.sect	'.debug_pubnames'
+	.word	42
+	.half	2
+	.word	.L46,230,172
+	.byte	'get_headlight_threshold',0
 	.word	0
 	.sdecl	'.debug_info',debug,cluster('g_headlight_threshold')
 	.sect	'.debug_info'
-.L43:
+.L51:
 	.word	198
 	.half	3
-	.word	.L44
+	.word	.L52
 	.byte	4,1
 	.byte	'../BSW/IO/Headlight.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\NGV\\TC375LK_NGV_2\\TriCore Debug (TASKING)\\',0,12,1,2
-	.word	.L14
+	.word	.L17
 	.byte	3
 	.byte	'g_headlight_threshold',0,23,13,19
-	.word	.L55
+	.word	.L64
 	.byte	1,5,3
 	.word	g_headlight_threshold
 	.byte	0
 	.sdecl	'.debug_abbrev',debug,cluster('g_headlight_threshold')
 	.sect	'.debug_abbrev'
-.L44:
+.L52:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
 	.byte	0,0,0
 	.sdecl	'.debug_loc',debug,cluster('HBA_Init')
 	.sect	'.debug_loc'
-.L4:
-	.word	-1,.L5,0,.L47-.L5
+.L5:
+	.word	-1,.L6,0,.L55-.L6
 	.half	2
 	.byte	138,0
 	.word	0,0
-.L49:
-	.word	-1,.L5,.L56-.L5,.L57-.L5
+.L57:
+	.word	-1,.L6,.L65-.L6,.L66-.L6
 	.half	1
 	.byte	82
-	.word	.L58-.L5,.L47-.L5
+	.word	.L67-.L6,.L55-.L6
 	.half	1
 	.byte	88
-	.word	.L57-.L5,.L59-.L5
+	.word	.L66-.L6,.L68-.L6
 	.half	1
 	.byte	84
-	.word	.L60-.L5,.L61-.L5
+	.word	.L69-.L6,.L70-.L6
 	.half	1
 	.byte	84
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('HBA_OFF')
 	.sect	'.debug_loc'
-.L10:
-	.word	-1,.L11,0,.L46-.L11
+.L11:
+	.word	-1,.L12,0,.L54-.L12
 	.half	2
 	.byte	138,0
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('HBA_ON')
 	.sect	'.debug_loc'
-.L8:
-	.word	-1,.L9,0,.L45-.L9
+.L9:
+	.word	-1,.L10,0,.L53-.L10
 	.half	2
 	.byte	138,0
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('HBA_ON_ADC')
 	.sect	'.debug_loc'
-.L6:
-	.word	-1,.L7,0,.L50-.L7
+.L7:
+	.word	-1,.L8,0,.L58-.L8
 	.half	2
 	.byte	138,0
 	.word	0,0
-.L52:
-	.word	-1,.L7,.L62-.L7,.L50-.L7
+.L60:
+	.word	-1,.L8,.L71-.L8,.L58-.L8
 	.half	1
 	.byte	82
 	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('get_headlight_threshold')
+	.sect	'.debug_loc'
+.L15:
+	.word	-1,.L16,0,.L63-.L16
+	.half	2
+	.byte	138,0
+	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('set_headlight_threshold')
 	.sect	'.debug_loc'
-.L54:
-	.word	-1,.L13,0,.L53-.L13
+.L62:
+	.word	-1,.L14,0,.L61-.L14
 	.half	1
 	.byte	84
 	.word	0,0
-.L12:
-	.word	-1,.L13,0,.L53-.L13
+.L13:
+	.word	-1,.L14,0,.L61-.L14
 	.half	2
 	.byte	138,0
 	.word	0,0
 	.sdecl	'.debug_frame',debug
 	.sect	'.debug_frame'
-.L112:
+.L126:
 	.word	48
 	.word	-1
 	.byte	3,0,2,1,27,12,26,0,8,26,8,27,8,30,8,29,8,28,8,16,8,17,8,24,8,25,8,31,8,32,8,33,8,34,8,35,8,36,8,37,8,38
@@ -40164,24 +40252,29 @@ g_headlight_threshold:	.type	object
 	.sdecl	'.debug_frame',debug,cluster('HBA_Init')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L112,.L5,.L47-.L5
+	.word	.L126,.L6,.L55-.L6
 	.sdecl	'.debug_frame',debug,cluster('HBA_ON_ADC')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L112,.L7,.L50-.L7
+	.word	.L126,.L8,.L58-.L8
 	.sdecl	'.debug_frame',debug,cluster('HBA_ON')
 	.sect	'.debug_frame'
 	.word	24
-	.word	.L112,.L9,.L45-.L9
+	.word	.L126,.L10,.L53-.L10
 	.byte	8,18,8,19,8,20,8,21,8,22,8,23
 	.sdecl	'.debug_frame',debug,cluster('HBA_OFF')
 	.sect	'.debug_frame'
 	.word	24
-	.word	.L112,.L11,.L46-.L11
+	.word	.L126,.L12,.L54-.L12
 	.byte	8,18,8,19,8,20,8,21,8,22,8,23
 	.sdecl	'.debug_frame',debug,cluster('set_headlight_threshold')
 	.sect	'.debug_frame'
 	.word	24
-	.word	.L112,.L13,.L53-.L13
+	.word	.L126,.L14,.L61-.L14
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+	.sdecl	'.debug_frame',debug,cluster('get_headlight_threshold')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L126,.L16,.L63-.L16
 	.byte	8,18,8,19,8,20,8,21,8,22,8,23
 	; Module end

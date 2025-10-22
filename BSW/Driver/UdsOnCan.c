@@ -28,6 +28,18 @@ static void uds_on_can_callback (uint32 id, uint8 *data, uint16 len)
                         (uint8) (adc_val >> 8), (uint8) (adc_val)};
                 IsoTp_Send(UDS_CAN_ID_RESPONSE, response_data, sizeof(response_data));
             }
+            else if (data_id == DID_HEADLIGHT_THRESHOLD)
+            {
+                // Headlight.c에 있는 함수를 호출하여 현재 임계값을 가져옵니다.
+                uint16 threshold_val = get_headlight_threshold();
+
+                // 긍정 응답 생성: [SID+0x40][DID][Value]
+                uint8 response_data[] = {(SID_READ_DATA_BY_ID + 0x40), // 0x62
+                        (uint8) (data_id >> 8), (uint8) (data_id), (uint8) (threshold_val >> 8),   // 임계값 상위 바이트
+                        (uint8) (threshold_val)         // 임계값 하위 바이트
+                        };
+                IsoTp_Send(UDS_CAN_ID_RESPONSE, response_data, sizeof(response_data));
+            }
             break;
         }
 
